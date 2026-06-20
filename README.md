@@ -8,21 +8,22 @@ Virtual machines (VMs) are a powerful tool for software development, testing, an
 
 ## Contents
 
-- [How to visit [Innopolis VM](https://vm.innopolis.university)](#how-to-visit-innopolis-vmhttpsvminnopolisuniversity)
-- [How to create a new virtual machine](#how-to-create-a-new-virtual-machine)
-- [How to create a subscription](#how-to-create-a-subscription)
-- [How to create a new virtual machine from gallery](#how-to-create-a-new-virtual-machine-from-gallery)
-- [How to create a new virtual machine from quick start](#how-to-create-a-new-virtual-machine-from-quick-start)
-- [How to create a subscription](#how-to-create-a-subscription)
-- [Where to find your subscriptions](#where-to-find-your-subscriptions)
-- [How to connect to your virtual machine](#how-to-connect-to-your-virtual-machine)
-- [How to see the IP of the virtual machine](#how-to-see-the-ip-of-the-virtual-machine)
-- [How to create a virtual machine with an explicit IP (will be updated soon)](#how-to-create-a-virtual-machine-with-an-explicit-ip-will-be-updated-soon)
-- [How to connect to your virtual machine from the browser](#how-to-connect-to-your-virtual-machine-from-the-browser)
-- [How to see details of the created virtual machine](#how-to-see-details-of-the-created-virtual-machine)
-- [What is my virtual machine login](#what-is-my-virtual-machine-login)
-- [Password requirements](#password-requirements)
-- [Troubleshooting](#troubleshooting)
+- [TC\_Saraev\_Assignment\_1](#tc_saraev_assignment_1)
+  - [Contents](#contents)
+  - [How to visit Innopolis VM](#how-to-visit-innopolis-vm)
+  - [How to create a new virtual machine](#how-to-create-a-new-virtual-machine)
+  - [How to create a new virtual machine from gallery](#how-to-create-a-new-virtual-machine-from-gallery)
+  - [How to create a new virtual machine from quick start](#how-to-create-a-new-virtual-machine-from-quick-start)
+  - [How to create a subscription](#how-to-create-a-subscription)
+  - [Where to find your subscriptions](#where-to-find-your-subscriptions)
+  - [How to connect to your virtual machine](#how-to-connect-to-your-virtual-machine)
+  - [How to see the IP of the virtual machine](#how-to-see-the-ip-of-the-virtual-machine)
+  - [How to create a virtual machine with an explicit IP (will be updated soon)](#how-to-create-a-virtual-machine-with-an-explicit-ip-will-be-updated-soon)
+  - [How to connect to your virtual machine from the browser](#how-to-connect-to-your-virtual-machine-from-the-browser)
+  - [How to see details of the created virtual machine](#how-to-see-details-of-the-created-virtual-machine)
+  - [What is my virtual machine login](#what-is-my-virtual-machine-login)
+  - [Password requirements](#password-requirements)
+  - [Troubleshooting](#troubleshooting)
 
 ## How to visit [Innopolis VM](https://vm.innopolis.university)
 
@@ -59,7 +60,7 @@ Virtual machines (VMs) are a powerful tool for software development, testing, an
 8. If you see the red exclamation mark in the "CONFIRM" field then the password and confirm password are not equal. Just try again to write the same password in both fields.
 9. If all fields are filled correctly (you don't see any red exclamation marks) - click the "CREATE VM INSTANCE" button ![Create vm instance](images/Create_VM_instance.png)
 10. "ADMNISTRATOR ACCOUNT" may be fullfilled by default and can't be changed. But in some cases you are required to write your own name inside the field ![Administrator account](images/Gallery_administrator_account_marked.png)
-11. Also you can write your ssh key into the "SSH KEY" field or product key into the "PRODUCT KEY" field. This is not required, but if you want - see in the Internet hot to cinfigure out ssh key or product key.
+11. Also you can write your ssh key into the "SSH KEY" field or product key into the "PRODUCT KEY" field. This is not required, but if you want - see how to configure out ssh key [How to configure and setup SSH public keys, the right way](https://dev.to/gvelrajan/how-to-configure-and-setup-ssh-public-keys-the-right-way-23be) or product key [ProductKey (microsoft-windows-setup-userdata-productkey)](https://learn.microsoft.com/en-us/windows-hardware/customize/desktop/unattend/microsoft-windows-setup-userdata-productkey).
 12. Save your password, administrator account and ssh key or product key, because you will not be able to see them again.
 13. When you have filled all fields, click the right arrow button ![Create vm instance](images/Vm_settings_set.png)
 14. Then you can set your virtual machine network adapter - where your vm be available ![Network adapter](images/VM_adapters.png)
@@ -104,7 +105,7 @@ Virtual machines (VMs) are a powerful tool for software development, testing, an
 
 You have several options to connect to your virtual machine:
 
-- You can use the clients or applications for ssh connection. For example, PuTTY for Windows, or MobaXterm for Windows, Linux and Mac. You can download them from the internet. But for this option you need to configure the "SSH KEY" during creating virtual vachine.
+- You can use the clients or applications for ssh connection. For example, PuTTY for Windows, or MobaXterm for Windows, Linux and Mac. You can download them from the internet. But for this option you need to configure the "SSH KEY" during creating virtual vachine (see [How to configure and setup SSH public keys, the right way](https://dev.to/gvelrajan/how-to-configure-and-setup-ssh-public-keys-the-right-way-23be)).
 - You can use the connect to your virtual machine from the browser (see [How to connect to your virtual machine from the browser](#how-to-connect-to-your-virtual-machine-from-the-browser) section).
 - Connect to your virtual machine using its IP by another software (see [How to see the IP of the virtual machine](#how-to-see-the-ip-of-the-virtual-machine) section).
 

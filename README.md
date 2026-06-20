@@ -4,7 +4,7 @@ The goal of this document is to guide students, instructors, and workers of Inno
 
 [Innopolis VM](https://vm.innopolis.university) is a website for students, instructors, and workers of Innopolis University to create their own virtual machines. The website is hosted by Innopolis University and is available to all students, instructors, and workers of the university.
 
-Virtual machines (VMs) are a powerful tool for software development, testing, and deployment. They allow you to create isolated environments for your projects, which can help you to avoid conflicts between different software packages and to ensure that your code runs correctly in different environments, and would be accessible not only from your local machinne.
+Virtual machines (VMs) are a powerful tool for software development, testing, and deployment. They allow you to create isolated environments for your projects, which can help you to avoid conflicts between different software packages and to ensure that your code runs correctly in different environments, and would be accessible not only from your local machine.
 
 ## Contents
 
@@ -27,9 +27,9 @@ Virtual machines (VMs) are a powerful tool for software development, testing, an
 
 ## How to visit [Innopolis VM](https://vm.innopolis.university)
 
-1. Open your web browser and type [Innopolis VM](https://vm.innopolis.university) in the address bar. If it the first time
+1. Open your web browser and type [Innopolis VM](https://vm.innopolis.university) in the address bar. If it is the first time
 2. Then you will be redirected to the SSO Innopolis University [Innopolis VM](https://sso.university.innopolis.ru/adfs/ls/?wa=wsignin1.0&wtrealm=http%3a%2f%2fazureservices%2fTenantSite&wctx=rm%3d0%26id%3dpassive%26ru%3d%252f%26cx%3d0&wct=2026-06-20T09%3a03%3a51Z). ![https://sso.university.innopolis.ru/adfs/ls/?wa=wsignin1.0&wtrealm=http%3a%2f%2fazureservices%2fTenantSite&wctx=rm%3d0%26id%3dpassive%26ru%3d%252f%26cx%3d0&wct=2026-06-20T09%3a03%3a51Z](images/sso.png)
-   - If you are immediately redirected to [Innopolis VM](https://vm.innopolis.university), don't worry, more likely you are already logged in.
+   - If you are immediately redirected to [Innopolis VM](https://vm.innopolis.university), don't worry, most likely you are already logged in.
    - If you are not logged in, you will be prompted to enter your Innopolis University credentials (username and password). Then click on the "Login" button.
 3. You will be redirected to the main page of the website ![main page of https://vm.innopolis.university](images/main_page.png)
 
@@ -37,14 +37,14 @@ Virtual machines (VMs) are a powerful tool for software development, testing, an
 
 1. At first, you need to have a subscription to the service (see [How to create a subscription](#how-to-create-a-subscription)).
 2. From the main page of the website, click on the "VIRTUAL MACHINES" button in the left bar ![Main virtual Machines](images/Main_virtual_machines.png)
-3. - On the page with virtual machines, click on the right arrow button ![New virtual machine](images/Virtual_machines_empty_new.png)
+3. - On the Virtual Machines page, click on the right arrow button ![New virtual machine](images/Virtual_machines_empty_new.png)
    - If you have already created some virtual machines, you need to click on the "New" button in the left bottom corner ![New virtual machine](images/New_main.png) And then click on the "STANDALONE VIRTUAL MACHINE" in the left bar ![New virtual machine](images/Standalone_virtual_machines.png)
-4. In opened menu you can choose a template for creating a virtual machine: quick start or from gallery ![Choose template](images/VM_choose_template.png)
+4. In the opened menu you can choose a template for creating a virtual machine: quick start or from gallery ![Choose template](images/VM_choose_template.png)
 5. - If you choose "FROM GALLERY" click the button and see [How to create a new virtual machine from gallery]     (#how-to-create-a-new-virtual-machine-from-gallery)
-   - If you choose "QUICK START" click the button and see [How to create a new virtual machine from quick start](#how-to-create-a-new-virtual-machine-from-quick-start). Then you can see the massage that your virtual machine is starting to create ![VM instance start creation](images/Started_creating_vm.png)
+   - If you choose "QUICK START" click the button and see [How to create a new virtual machine from quick start](#how-to-create-a-new-virtual-machine-from-quick-start). Then you can see the message that your virtual machine is starting to create ![VM instance start creation](images/Started_creating_vm.png)
 6. To see the details of creation - click on the "DETAILS" button ![VM instance details](images/Started_creating_vm_details.png)
 7. You can see the progress of creation of your virtual machine here ![VM instance creation progress](images/Creation_details_status.png)
-8. On the page with virtual machines you can see your virtual machine ![Your vm](images/VMs_vm_creating.png)
+8. On the Virtual Machines page you can see your virtual machine ![Your vm](images/VMs_vm_creating.png)
 9. For some time its status will be "Creating"
 10. After a while its status will change to "Running" ![Your vm](images/Vm_running.png)
 
@@ -59,7 +59,7 @@ Virtual machines (VMs) are a powerful tool for software development, testing, an
 7. If you see the red exclamation mark in the "PASSWORD" field then the condition on the password is not satisfied [Password requirements](#password-requirements). Just try another password to follow the requirements.
 8. If you see the red exclamation mark in the "CONFIRM" field then the password and confirm password are not equal. Just try again to write the same password in both fields.
 9. If all fields are filled correctly (you don't see any red exclamation marks) - click the "CREATE VM INSTANCE" button ![Create vm instance](images/Create_VM_instance.png)
-10. "ADMNISTRATOR ACCOUNT" may be fullfilled by default and can't be changed. But in some cases you are required to write your own name inside the field ![Administrator account](images/Gallery_administrator_account_marked.png)
+10. "ADMINISTRATOR ACCOUNT" may be filled by default and can't be changed. But in some cases you are required to write your own name inside the field ![Administrator account](images/Gallery_administrator_account_marked.png)
 11. Also you can write your ssh key into the "SSH KEY" field or product key into the "PRODUCT KEY" field. This is not required, but if you want - see how to configure out ssh key [How to configure and setup SSH public keys, the right way](https://dev.to/gvelrajan/how-to-configure-and-setup-ssh-public-keys-the-right-way-23be) or product key [ProductKey (microsoft-windows-setup-userdata-productkey)](https://learn.microsoft.com/en-us/windows-hardware/customize/desktop/unattend/microsoft-windows-setup-userdata-productkey).
 12. Save your password, administrator account and ssh key or product key, because you will not be able to see them again.
 13. When you have filled all fields, click the right arrow button ![Create vm instance](images/Vm_settings_set.png)
@@ -71,12 +71,12 @@ Virtual machines (VMs) are a powerful tool for software development, testing, an
 
 1. Menu with quick start creating will open ![Quick start form](images/Quick_start_form.png)
 2. Here you need to write the name of your virtual machine into "NAME" field. Name is required.
-3. Also choose the subscribtion type - depending on it you can choose different templates (operating systems) for virtual michine ![Choose subscription](images/Choose_subscription_quick.png)
+3. Also choose the subscription type - depending on it you can choose different templates (operating systems) for virtual machine ![Choose subscription](images/Choose_subscription_quick.png)
 4. Then choose the template (operating system) for your virtual machine ![Quick start vm template](images/Template_quick_start.png)
 5. Write and confirm the new password for your virtual machine.
 6. If you see the red exclamation mark in the "PASSWORD" field then the condition on the password is not satisfied [Password requirements](#password-requirements). Just try another password to follow the requirements.
 7. If you see the red exclamation mark in the "CONFIRM" field then the password and confirm password are not equal. Just try again to write the same password in both fields.
-8. "ADMNISTRATOR ACCOUNT" may be fullfilled by default and can't be changed. But in some cases you are required to write your own name inside the field ![Fill the admin account](images/Quick_start_admin_account.png).
+8. "ADMNISTRATOR ACCOUNT" may be filled by default and can't be changed. But in some cases you are required to write your own name inside the field ![Fill the admin account](images/Quick_start_admin_account.png).
 9. Save your password, administrator account and ssh key or product key, because you will not be able to see them again.
 10. If all fields are filled correctly (you don't see any red exclamation marks) - click the "CREATE VM INSTANCE" button ![Create vm instance](images/Create_VM_instance.png)
 
@@ -86,7 +86,7 @@ Virtual machines (VMs) are a powerful tool for software development, testing, an
 2. The new menu will open ![New page](images/New_page.png) - click "MY ACCOUNT".
 3. Click on the "ADD SUBSCRIPTION" button ![Add subscription](images/My_account_subscr.png)
 4. Modal with subscription creation form will open ![Subscription creation form](images/Subscription_creation_form.png)
-5. Depending on what who are you (student, instructor, worker), you will have different options for subscription creation. For example, for students, you can create a subscription for a specific course or general StudentPublic subscription. If you want a specific subscription, you need to contact IT department of Innopolis University.
+5. Depending on who you are (student, instructor, worker), you will have different options for subscription creation. For example, for students, you can create a subscription for a specific course or general StudentPublic subscription. If you want a specific subscription, you need to contact IT department of Innopolis University.
 6. The details of the concrete subscription type will appear on the right side of the form when you click it ![Create subscription](images/Subscription_creation_form.png)
 7. When you choose the subscription type - click it and then click a tick button on the right bottom corner ![Create subscription](images/Subscription_creation_form_chosen.png)
 8. Then you need to wait while the subscription is being created ![Subscription creation](images/Subscription_loading.png)
@@ -105,7 +105,7 @@ Virtual machines (VMs) are a powerful tool for software development, testing, an
 
 You have several options to connect to your virtual machine:
 
-- You can use the clients or applications for ssh connection. For example, PuTTY for Windows, or MobaXterm for Windows, Linux and Mac. You can download them from the internet. But for this option you need to configure the "SSH KEY" during creating virtual vachine (see [How to configure and setup SSH public keys, the right way](https://dev.to/gvelrajan/how-to-configure-and-setup-ssh-public-keys-the-right-way-23be)).
+- You can use the clients or applications for ssh connection. For example, PuTTY for Windows, or MobaXterm for Windows, Linux and Mac. You can download them from the internet. But for this option you need to configure the "SSH KEY" during creating virtual machine (see [How to configure and setup SSH public keys, the right way](https://dev.to/gvelrajan/how-to-configure-and-setup-ssh-public-keys-the-right-way-23be)).
 - You can use the connect to your virtual machine from the browser (see [How to connect to your virtual machine from the browser](#how-to-connect-to-your-virtual-machine-from-the-browser) section).
 - Connect to your virtual machine using its IP by another software (see [How to see the IP of the virtual machine](#how-to-see-the-ip-of-the-virtual-machine) section).
 
@@ -128,7 +128,7 @@ You have several options to connect to your virtual machine:
 4. You need to write your vm login (see [What is my virtual machine login](#what-is-my-virtual-machine-login)) and type enter
 5. And then you need to write your vm password and type enter
 6. If you see the message like "Login is incorrect" [Incorrect login or password](images/Login_is_incorrect.png). It means that you wrote incorrect login or password. Try again with correct login and password.
-7. If you succesfully connected to your virtual machine, you can see the message "Welcome to Ubuntu 20.04.3 LTS (GNU/Linux 5.4.0-80-generic x86_64)" or something else depending on your virtual machine operating system ![Welcome message](images/Succesfull_login.png)
+7. If you successfully connected to your virtual machine, you can see the message "Welcome to Ubuntu 20.04.3 LTS (GNU/Linux 5.4.0-80-generic x86_64)" or something else depending on your virtual machine operating system ![Welcome message](images/Succesfull_login.png)
 8. Now you can use your virtual machine as you want.
 
 ## How to see details of the created virtual machine
@@ -159,7 +159,7 @@ Example: MyP@ssw0rd123!
 
 ## Troubleshooting
 
-If your screen became gray and you can't click anything, on the bottom you can see a message "Your session timed out. Cllick OK to log again". Don't worry, click "OK". You either need to log in again or just be redirected to main page.
+If your screen became gray and you can't click anything, on the bottom you can see a message "Your session timed out. Click OK to log again". Don't worry, click "OK". You either need to log in again or just be redirected to main page.
 
 Subscription is syncing too long: If your subscription is syncing too long - don't worry, more likely it is active right now and you can use it. If it is not, contact IT department of Innopolis University.
 
@@ -167,4 +167,4 @@ Virtual machine is creating too long: If your virtual machine is creating too lo
 
 Virtual machine is failed to create: If you got such a message during creating a vm ![Failed to create message](images/Failed_to_create_message.png) you can see the details by clicking "i" button. Try to recreate virtual machine. If you tried to do it several times, contact IT department of Innopolis University.
 
-If you have forgoten your password: contact IT department of Innopolis University.
+If you have forgotten your password: contact IT department of Innopolis University.

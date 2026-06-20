@@ -1,16 +1,34 @@
 # TC_Saraev_Assignment_1
 
-The goal of this document is to guide students, instructors, and workers of Innopolis University how to use [VM](https://vm.innopolis.university) and create your own virtual machine within Innnopolis network.
+The goal of this document is to guide students, instructors, and workers of Innopolis University how to use [Innopolis VM](https://vm.innopolis.university) and create your own virtual machine within Innopolis network.
 
-[VM](https://vm.innopolis.university) is a website for students, instructors, and workers of Innopolis University to create their own virtual machines. The website is hosted by Innopolis University and is available to all students, instructors, and workers of the university.
+[Innopolis VM](https://vm.innopolis.university) is a website for students, instructors, and workers of Innopolis University to create their own virtual machines. The website is hosted by Innopolis University and is available to all students, instructors, and workers of the university.
 
 Virtual machines (VMs) are a powerful tool for software development, testing, and deployment. They allow you to create isolated environments for your projects, which can help you to avoid conflicts between different software packages and to ensure that your code runs correctly in different environments, and would be accessible not only from your local machinne.
 
-## How to visit [VM](https://vm.innopolis.university)
+## Contents
 
-1. Open your web browser and type [VM](https://vm.innopolis.university) in the address bar. If it the first time
-2. Then you will be redirected to the SSO Innopolis University [VM](https://sso.university.innopolis.ru/adfs/ls/?wa=wsignin1.0&wtrealm=http%3a%2f%2fazureservices%2fTenantSite&wctx=rm%3d0%26id%3dpassive%26ru%3d%252f%26cx%3d0&wct=2026-06-20T09%3a03%3a51Z). ![https://sso.university.innopolis.ru/adfs/ls/?wa=wsignin1.0&wtrealm=http%3a%2f%2fazureservices%2fTenantSite&wctx=rm%3d0%26id%3dpassive%26ru%3d%252f%26cx%3d0&wct=2026-06-20T09%3a03%3a51Z](images/sso.png)
-   - If you are immediately redirected to [VM](https://vm.innopolis.university), don't worry, more likely you are already logged in.
+- [How to visit [Innopolis VM](https://vm.innopolis.university)](#how-to-visit-innopolis-vmhttpsvminnopolisuniversity)
+- [How to create a new virtual machine](#how-to-create-a-new-virtual-machine)
+- [How to create a subscription](#how-to-create-a-subscription)
+- [How to create a new virtual machine from gallery](#how-to-create-a-new-virtual-machine-from-gallery)
+- [How to create a new virtual machine from quick start](#how-to-create-a-new-virtual-machine-from-quick-start)
+- [How to create a subscription](#how-to-create-a-subscription)
+- [Where to find your subscriptions](#where-to-find-your-subscriptions)
+- [How to connect to your virtual machine](#how-to-connect-to-your-virtual-machine)
+- [How to see the IP of the virtual machine](#how-to-see-the-ip-of-the-virtual-machine)
+- [How to create a virtual machine with an explicit IP (will be updated soon)](#how-to-create-a-virtual-machine-with-an-explicit-ip-will-be-updated-soon)
+- [How to connect to your virtual machine from the browser](#how-to-connect-to-your-virtual-machine-from-the-browser)
+- [How to see details of the created virtual machine](#how-to-see-details-of-the-created-virtual-machine)
+- [What is my virtual machine login](#what-is-my-virtual-machine-login)
+- [Password requirements](#password-requirements)
+- [Troubleshooting](#troubleshooting)
+
+## How to visit [Innopolis VM](https://vm.innopolis.university)
+
+1. Open your web browser and type [Innopolis VM](https://vm.innopolis.university) in the address bar. If it the first time
+2. Then you will be redirected to the SSO Innopolis University [Innopolis VM](https://sso.university.innopolis.ru/adfs/ls/?wa=wsignin1.0&wtrealm=http%3a%2f%2fazureservices%2fTenantSite&wctx=rm%3d0%26id%3dpassive%26ru%3d%252f%26cx%3d0&wct=2026-06-20T09%3a03%3a51Z). ![https://sso.university.innopolis.ru/adfs/ls/?wa=wsignin1.0&wtrealm=http%3a%2f%2fazureservices%2fTenantSite&wctx=rm%3d0%26id%3dpassive%26ru%3d%252f%26cx%3d0&wct=2026-06-20T09%3a03%3a51Z](images/sso.png)
+   - If you are immediately redirected to [Innopolis VM](https://vm.innopolis.university), don't worry, more likely you are already logged in.
    - If you are not logged in, you will be prompted to enter your Innopolis University credentials (username and password). Then click on the "Login" button.
 3. You will be redirected to the main page of the website ![main page of https://vm.innopolis.university](images/main_page.png)
 
@@ -42,10 +60,11 @@ Virtual machines (VMs) are a powerful tool for software development, testing, an
 9. If all fields are filled correctly (you don't see any red exclamation marks) - click the "CREATE VM INSTANCE" button ![Create vm instance](images/Create_VM_instance.png)
 10. "ADMNISTRATOR ACCOUNT" may be fullfilled by default and can't be changed. But in some cases you are required to write your own name inside the field ![Administrator account](images/Gallery_administrator_account_marked.png)
 11. Also you can write your ssh key into the "SSH KEY" field or product key into the "PRODUCT KEY" field. This is not required, but if you want - see in the Internet hot to cinfigure out ssh key or product key.
-12. When you have filled all fields, click the right arrow button ![Create vm instance](images/Vm_settings_set.png)
-13. Then you can set your virtual machine network adapter - where your vm be available ![Network adapter](images/VM_adapters.png)
-14. Now you can click tick button to save your settings and create virtual machine ![Save settings](images/VM_adapters_finish.png)
-15. If you want to return to the previous step - click the left arrow button
+12. Save your password, administrator account and ssh key or product key, because you will not be able to see them again.
+13. When you have filled all fields, click the right arrow button ![Create vm instance](images/Vm_settings_set.png)
+14. Then you can set your virtual machine network adapter - where your vm be available ![Network adapter](images/VM_adapters.png)
+15. Now you can click tick button to save your settings and create virtual machine ![Save settings](images/VM_adapters_finish.png)
+16. If you want to return to the previous step - click the left arrow button
 
 ## How to create a new virtual machine from quick start
 
@@ -57,7 +76,8 @@ Virtual machines (VMs) are a powerful tool for software development, testing, an
 6. If you see the red exclamation mark in the "PASSWORD" field then the condition on the password is not satisfied [Password requirements](#password-requirements). Just try another password to follow the requirements.
 7. If you see the red exclamation mark in the "CONFIRM" field then the password and confirm password are not equal. Just try again to write the same password in both fields.
 8. "ADMNISTRATOR ACCOUNT" may be fullfilled by default and can't be changed. But in some cases you are required to write your own name inside the field ![Fill the admin account](images/Quick_start_admin_account.png).
-9. If all fields are filled correctly (you don't see any red exclamation marks) - click the "CREATE VM INSTANCE" button ![Create vm instance](images/Create_VM_instance.png)
+9. Save your password, administrator account and ssh key or product key, because you will not be able to see them again.
+10. If all fields are filled correctly (you don't see any red exclamation marks) - click the "CREATE VM INSTANCE" button ![Create vm instance](images/Create_VM_instance.png)
 
 ## How to create a subscription
 
@@ -85,10 +105,10 @@ Virtual machines (VMs) are a powerful tool for software development, testing, an
 You have several options to connect to your virtual machine:
 
 - You can use the clients or applications for ssh connection. For example, PuTTY for Windows, or MobaXterm for Windows, Linux and Mac. You can download them from the internet. But for this option you need to configure the "SSH KEY" during creating virtual vachine.
-- You can use the connect to your virtual machine from the browser (see [Connect to your virtual machine from the browser](#connect-to-your-virtual-machine-from-the-browser) section).
-- Connect to your virtual machine using its IP by another software (see [How to see the IP of virtual machine](#how-to-see-the-ip-of-virtual-machine) section).
+- You can use the connect to your virtual machine from the browser (see [How to connect to your virtual machine from the browser](#how-to-connect-to-your-virtual-machine-from-the-browser) section).
+- Connect to your virtual machine using its IP by another software (see [How to see the IP of the virtual machine](#how-to-see-the-ip-of-the-virtual-machine) section).
 
-## How to see the IP of virtual machine
+## How to see the IP of the virtual machine
 
 1. On the page of your virtual machine dashboard on the right side you can see the IP of your virtual machine ![IP](images/Your_Virtual_machine_dashboard_IP.png)
 2. The IP looks like this: 10.13.127.89 ![IP](images/IP_mini.jpg)
@@ -99,18 +119,18 @@ You have several options to connect to your virtual machine:
 1. Create a Network
 2. Create a Virtual Machine with the Network you created
 
-## Connect to your virtual machine from the browser
+## How to connect to your virtual machine from the browser
 
 1. From the page of your virtual machine dashboard, click on the "CONNECT" button on the bottom![Connect button](images/Vm_connect_button.png)
 2. Then you can choose two options to connect to your virtual machine, to connect from the browser, click "WebConsole" ![Connect options web](images/Connect_choose_web.png)
 3. The new browser window will open with your virtual machine console ![Web console](images/Vm_web_console.png)
-4. You need to write your vm login (see [What is my vm login](#what-is-my-vm-login)) and type enter
+4. You need to write your vm login (see [What is my virtual machine login](#what-is-my-virtual-machine-login)) and type enter
 5. And then you need to write your vm password and type enter
 6. If you see the message like "Login is incorrect" [Incorrect login or password](images/Login_is_incorrect.png). It means that you wrote incorrect login or password. Try again with correct login and password.
 7. If you succesfully connected to your virtual machine, you can see the message "Welcome to Ubuntu 20.04.3 LTS (GNU/Linux 5.4.0-80-generic x86_64)" or something else depending on your virtual machine operating system ![Welcome message](images/Succesfull_login.png)
 8. Now you can use your virtual machine as you want.
 
-## How to see details about created virtual machine
+## How to see details of the created virtual machine
 
 1. From the main page of the website, click on the "VIRTUAL MACHINES" button in the left bar ![Main virtual Machines](images/Main_virtual_machines.png)
 2. Choose the virtual machine you want to see the details of and click on its name ![Virtual Machine details](images/Vm_details.png)
@@ -118,12 +138,12 @@ You have several options to connect to your virtual machine:
 4. If you want to see details, click "DASHBOARD" button ![Virtual Machine Dashboard button](images/Your_Virtual_machine_dashboard_button.png)
 5. Then you can see the page with your virtual machine dashboard ![Your virtual machine dashboard one](images/Dashboard_1.png) ![Your virtual machine dashboard two](images/Dashboard_2.png)
 
-## What is my vm login
+## What is my virtual machine login
 
 - At first, you can't see the login of your virtual machine when you have already created it. But more likely it is "root", "admin", or "administrator"
 - You can see the login of your virtual machine during vm creation.
 - For "QUICK START" option, you can see the login in the "ADMINISTRATOR ACCOUNT" section ![Quick start login](images/Quick_start_modal_login.png). The login is most likely lower-case instead of upper-case. Or you are required to fulfill it ![Fill the admin account](images/Quick_start_admin_account.png).
-- For "FROM GALLERY" option, you can see the login in the "ADMINISTRATOR ACCOUNT" section ![From gallery login](images/From_gallery_modal_login.png). The login is most likely lower-case instead of upper-case. Or you are required to fulfill it ![Fill the admin account](images/Gallery_administrator_account_marked.png).
+- For "FROM GALLERY" option, you can see the login in the "ADMINISTRATOR ACCOUNT" section ![From gallery login](images/Gallery_administrator_account_marked.png). The login is most likely lower-case instead of upper-case. Or you are required to fulfill it ![Fill the admin account](images/Gallery_administrator_account_marked.png).
 
 ## Password requirements
 
@@ -133,6 +153,8 @@ The password must contain 3 of the following:
 - an uppercase character
 - a number
 - a special character
+
+Example: MyP@ssw0rd123!
 
 ## Troubleshooting
 

@@ -40,7 +40,7 @@ Virtual machines (VMs) are a powerful tool for software development, testing, an
 3. - On the Virtual Machines page, click on the right arrow button ![New virtual machine](images/Virtual_machines_empty_new.png)
    - If you have already created some virtual machines, you need to click on the "New" button in the left bottom corner ![New virtual machine](images/New_main.png) And then click on the "STANDALONE VIRTUAL MACHINE" in the left bar ![New virtual machine](images/Standalone_virtual_machines.png)
 4. In the opened menu you can choose a template for creating a virtual machine: quick start or from gallery ![Choose template](images/VM_choose_template.png)
-5. - If you choose "FROM GALLERY" click the button and see[How to create a new virtual machine from gallery](#how-to-create-a-new-virtual-machine-from-gallery)
+5. - If you choose "FROM GALLERY" click the button and see [How to create a new virtual machine from gallery](#how-to-create-a-new-virtual-machine-from-gallery)
    - If you choose "QUICK START" click the button and see [How to create a new virtual machine from quick start](#how-to-create-a-new-virtual-machine-from-quick-start). Then you can see the message that your virtual machine is starting to create ![VM instance start creation](images/Started_creating_vm.png)
 6. To see the details of creation - click on the "DETAILS" button ![VM instance details](images/Started_creating_vm_details.png)
 7. You can see the progress of creation of your virtual machine here ![VM instance creation progress](images/Creation_details_status.png)

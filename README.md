@@ -1,4 +1,4 @@
-# TC_Saraev_Assignment_1
+# Innopolis VM User Guide
 
 The goal of this document is to guide students, instructors, and workers of Innopolis University how to use [Innopolis VM](https://vm.innopolis.university) and create your own virtual machine within Innopolis network.
 

@@ -1,7 +1,9 @@
-baseURL = "https://ваш-username.github.io/ваш-repo/staging/"
+baseURL = "https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/"
 
 buildDrafts = true
 
 buildFuture = true
 
 enableRobotsTXT = true
+
+canonicalURL = "https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/"

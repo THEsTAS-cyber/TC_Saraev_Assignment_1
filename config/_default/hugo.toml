@@ -11,3 +11,4 @@ pygmentsUseClasses = true
 [params]
   description = "User Manuals Innopolis VM"
   author = "Stanislav Saraev"
+  BookSection = "docs"

@@ -64,7 +64,7 @@ jobs:
     needs: build
     if: github.ref_name == 'main' || github.ref_name == 'stage'
     environment:
-      name: github-pages
+      name: ${{ github.ref_name == 'main' || 'stage' }}
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Deploy to GitHub Pages

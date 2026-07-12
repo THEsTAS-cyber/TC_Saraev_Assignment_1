@@ -1,6 +1,6 @@
 # Настройки для production-окружения
 
-baseURL = "https://ваш-username.github.io/ваш-repo/"
+baseURL = "https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/"
 
 # minify = true
 

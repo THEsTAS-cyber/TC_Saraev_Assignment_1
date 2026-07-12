@@ -6,7 +6,4 @@ buildFuture = true
 
 enableRobotsTXT = true
 
-relativeURLs = true
-canonifyURLs = true
-
 canonicalURL = "https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/"

@@ -1,0 +1,54 @@
+name: User Story
+description: Create a user story
+title: "[US-XXX] Short title"
+labels: ["user-story"]
+body:
+  - type: input
+    id: stable_id
+    attributes:
+      label: Stable User Story ID
+      placeholder: US-001
+    validations:
+      required: true
+
+  - type: textarea
+    id: story
+    attributes:
+      label: User Story Statement
+      placeholder: "As a ..., I want ..., so that ..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: MoSCoW Priority
+      options:
+        - Must Have
+        - Should Have
+        - Could Have
+        - Won't Have
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes / Constraints / Assumptions / Open Questions
+    validations:
+      required: false
+
+  - type: input
+    id: story_points
+    attributes:
+      label: Story Points
+      placeholder: "e.g. 3"
+    validations:
+      required: false
+
+  - type: textarea
+    id: ac
+    attributes:
+      label: Acceptance Criteria
+    validations:
+      required: false

@@ -54,10 +54,11 @@ jobs:
             --baseURL "${{ env.BASE_URL }}" \
             --minify
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./public
+      - name: Prepare stage directory
+        if: github.ref_name == 'stage'
+        run: |
+          mkdir -p public/stage
+          cp -r public/* public/stage/
 
   deploy:
     runs-on: ubuntu-latest

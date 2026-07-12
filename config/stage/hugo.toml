@@ -1,0 +1,7 @@
+baseURL = "https://ваш-username.github.io/ваш-repo/staging/"
+
+buildDrafts = true
+
+buildFuture = true
+
+enableRobotsTXT = true

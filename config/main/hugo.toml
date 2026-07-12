@@ -1,0 +1,7 @@
+# Настройки для production-окружения
+
+baseURL = "https://ваш-username.github.io/ваш-repo/"
+
+# minify = true
+
+buildDrafts = false

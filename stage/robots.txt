@@ -1,0 +1,12 @@
+Innopolis VM User Guide
+
+- Innopolis VM User Guide: https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/
+- How to visit Innopolis VM: https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/01-access/
+- Subscriptions: https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/02-subscription/
+- Create Virtual Machine: https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/03-create-vm/
+- Create VM from Gallery: https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/04-gallery-vm/
+- Connect to VM: https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/05-connect/
+- Details & Credentials: https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/06-details-login/
+- Troubleshooting: https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/07-troubleshooting/
+
+

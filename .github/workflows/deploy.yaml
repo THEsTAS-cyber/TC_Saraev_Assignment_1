@@ -8,8 +8,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write  # 👈 Важно: нужно право на запись в репозиторий
-
+  contents: write
 jobs:
   build:
     runs-on: ubuntu-latest

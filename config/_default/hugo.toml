@@ -1,6 +1,6 @@
 title = "Innopolis VM User Guide"
 languageCode = "en-en"
-theme = "ananke"
+theme = "book"
 
 enableRobotsTXT = true
 enableGitInfo = true

@@ -55,8 +55,9 @@ jobs:
               continue
             fi
             
-            # Пропускаем merge commits (они создаются автоматически GitHub)
-            if echo "$MSG" | grep -qE "^Merge (pull request|branch)"; then
+            # Пропускаем ВСЕ merge commits (они создаются автоматически GitHub)
+            # Это покрывает все форматы: "Merge pull request...", "Merge branch...", "Merge <hash> into..."
+            if echo "$MSG" | grep -qE "^Merge "; then
               echo "⏭️  Пропущен merge commit: $MSG"
               continue
             fi

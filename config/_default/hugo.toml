@@ -1,15 +1,12 @@
 title = "Innopolis VM User Guide"
-languageCode = "en-en"
+languageCode = "en-us"
 theme = "book"
 
 enableRobotsTXT = true
 enableGitInfo = true
 
-pygmentsCodeFences = true
-pygmentsUseClasses = true
-canonifyURLs = true
-
 [params]
   description = "User Manuals Innopolis VM"
   author = "Stanislav Saraev"
   BookSection = "docs"
+  BookSearch = true

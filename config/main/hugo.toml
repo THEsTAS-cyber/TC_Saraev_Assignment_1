@@ -1,7 +1,2 @@
-# Настройки для production-окружения
-
 baseURL = "https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/"
-
-# minify = true
-
 buildDrafts = false

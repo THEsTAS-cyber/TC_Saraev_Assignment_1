@@ -1,0 +1,12 @@
+{
+  "version": "0.2",
+  "language": "en,ru",
+  "words": [
+    "Innopolis",
+    "Saraev",
+    "submodules",
+    "baseURL",
+    "canonify"
+  ],
+  "ignorePaths": ["node_modules", "public", "resources"]
+}

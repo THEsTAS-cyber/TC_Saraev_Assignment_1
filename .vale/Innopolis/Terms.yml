@@ -1,0 +1,76 @@
+# .vale/Innopolis/Terms.yml
+
+extends: substitution
+message: "Согласно STYLEGUIDE.md (%s), используйте '%s' вместо '%s'."
+level: error
+ignorecase: true
+swap:
+  # --- Section 3: Terminology (Approved vs Forbidden) ---
+  "virtual machine(?! \\(VM\\))": "virtual machine (VM)"
+  "utiliz(e|ed|ing|es)": "use"
+  "utilise": "use"
+  "perform configuration": "configure"
+  "appropriate permissions": "Owner permission"
+  
+  # --- Section 6: Principle 1 (Remove Verbal Noise) ---
+  "in order to": "to"
+  "due to the fact that": "because"
+  "functionality for report management": "create, filter, and export reports"
+  
+  # --- Section 6: Principle 2 (Actions Over Nouns) ---
+  "configuration of parameters must be performed": "Configure the parameters"
+  "account connection is available": "To connect your account, go to"
+  "selection of the template": "Choose a template"
+  
+  # --- Russian Specific Rules (Section 8 & General Infostyle) ---
+  "виртуалка": "VM"
+  "виртуальная машина(?! \\(VM\\))": "virtual machine (VM) или ВМ"
+  "осуществить": "выполнить (или используйте прямой глагол)"
+  "произвести настройку": "настроить"
+  "произвести создание": "создать"
+  "является": "— (используйте тире или перестройте фразу)"
+
+---
+extends: existence
+message: "Согласно STYLEGUIDE.md (Principle 3: Be Specific), избегайте неопределенности. Вместо '%s' назовите конкретные опции, числа или роли."
+level: error
+ignorecase: true
+tokens:
+  - various options
+  - various settings
+  - some settings
+  - proper configuration
+  - as soon as possible
+  - различные опции
+  - некоторые настройки
+  - должным образом
+
+---
+extends: existence
+message: "Согласно STYLEGUIDE.md (Principle 4: Be Honest), удалите маркетинговый шум. Вместо '%s' опишите, что функция делает на самом деле."
+level: error
+ignorecase: true
+tokens:
+  - easy
+  - simple
+  - powerful
+  - seamless
+  - innovative
+  - удобный
+  - простой
+  - мощный
+  - инновационный
+  - бесшовный
+
+---
+extends: existence
+message: "Согласно STYLEGUIDE.md (Section 3: Interface Labels), используйте точные названия кнопок и разделов интерфейса в **жирном шрифте** (например, '**Create VM Instance**'), а не общие описания."
+level: warning
+ignorecase: true
+tokens:
+  - click the button
+  - press the button
+  - gallery option
+  - create button
+  - нажмите кнопку
+  - опция галереи

@@ -1,7 +1,11 @@
-name: Build and Deploy Hugo Site
+name: Build, Validate and Deploy Hugo Site
 
 on:
   push:
+    branches:
+      - main
+      - stage
+  pull_request:
     branches:
       - main
       - stage
@@ -9,9 +13,46 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
+
 jobs:
-  build:
+  validate:
+    name: Lint, Style & Spell Check
     runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Vale Style Check
+        uses: errata-ai/vale-action@reviewdog
+        with:
+          files: 'content/**/*.md'
+          reporter: github-pr-check
+          fail_on_error: true
+        
+      - name: Spell Check
+        uses: streetsidesoftware/cspell-action@v5
+        with:
+          files: 'content/**/*.md'
+          config: 'cspell.json'
+          strict: true
+
+      - name: Check Commit Message Format
+        run: |
+          COMMIT_MSG=$(git log -1 --pretty=%B)
+          if ! echo "$COMMIT_MSG" | grep -qE "^(docs|fix|feat|chore|ci|style):\s.+" ; then
+            echo "❌ Ошибка: Сообщение коммита должно соответствовать формату Conventional Commits."
+            echo "Пример: 'docs: add SSH connection guide'"
+            exit 1
+          fi
+          echo "✅ Сообщение коммита корректно."
+
+  build-and-check:
+    name: Build & Link Check
+    runs-on: ubuntu-latest
+    needs: validate
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -43,7 +84,42 @@ jobs:
           hugo \
             --environment "${{ env.ENVIRONMENT }}" \
             --baseURL "${{ env.BASE_URL }}" \
-            --minify
+            --minify \
+            --printPathWarnings
+
+      - name: Link Checker (Lychee)
+        uses: lycheeverse/lychee-action@v1.10.0
+        with:
+          args: >-
+            --verbose 
+            --no-progress 
+            --exclude 'localhost' 
+            --exclude 'vm\.innopolis\.university' 
+            --exclude 'sso\.university\.innopolis\.ru'
+            'public/**/*.html'
+          fail: true
+
+      - name: Upload Hugo build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: hugo-public
+          path: ./public
+          retention-days: 1
+
+  deploy:
+    name: Deploy to GitHub Pages
+    runs-on: ubuntu-latest
+    needs: build-and-check
+    if: github.event_name == 'push'
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Download Hugo build artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: hugo-public
+          path: ./public
 
       - name: Deploy to GitHub Pages (Production)
         if: github.ref_name == 'main'
@@ -52,7 +128,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: gh-pages
-          keep_files: false  # Очищает перед публикацией main
+          keep_files: false
 
       - name: Deploy to GitHub Pages (Stage)
         if: github.ref_name == 'stage'
@@ -61,5 +137,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: gh-pages
-          destination_dir: stage  # Публикует в /stage/
-          keep_files: true  # Сохраняет main версию!
+          destination_dir: stage
+          keep_files: true

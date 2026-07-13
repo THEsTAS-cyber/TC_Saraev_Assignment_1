@@ -14,7 +14,7 @@ You have several options to connect to your virtual machine:
 ## How to see the IP of the virtual machine
 
 1. On the page of your virtual machine dashboard on the right side you can see the IP of your virtual machine.
-   ![IP Address](../../images/Your_Virtual_machine_dashboard_IP.png)
+   ![IP Address](../../images/IP.jpg)
 2. The IP looks like this: `10.13.127.89`.
    ![IP Mini](../../images/IP_mini.jpg)
 3. If there is no IP - see section "How to create a virtual machine with an explicit IP" (will be updated soon).

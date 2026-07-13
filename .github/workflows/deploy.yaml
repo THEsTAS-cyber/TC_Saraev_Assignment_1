@@ -43,9 +43,8 @@ jobs:
         run: |
           echo "Проверяем сообщения коммитов..."
           
-          # Получаем список заголовков последних 5 коммитов (исключая merge commits)
-          # -n 5 безопасно работает даже в shallow clone
-          COMMITS=$(git log --format="%s" --no-merges -n 5 2>/dev/null)
+          # Получаем список заголовков последних коммитов
+          COMMITS=$(git log --format="%s" -n 5 2>/dev/null)
           
           echo "Найдены коммиты:"
           echo "$COMMITS"
@@ -55,7 +54,14 @@ jobs:
             if [ -z "$MSG" ]; then
               continue
             fi
-            # Проверяем только заголовок коммита (%s) через регулярное выражение
+            
+            # Пропускаем merge commits (они создаются автоматически GitHub)
+            if echo "$MSG" | grep -qE "^Merge (pull request|branch)"; then
+              echo "⏭️  Пропущен merge commit: $MSG"
+              continue
+            fi
+            
+            # Проверяем формат Conventional Commits
             if ! echo "$MSG" | grep -qE "^(docs|fix|feat|chore|ci|style|test|refactor|perf):\s.+" ; then
               echo "❌ Несоответствующий коммит: $MSG"
               FAILED=1

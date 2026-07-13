@@ -77,3 +77,12 @@ tokens:
   - create button
   - нажмите кнопку
   - опция галереи
+
+---
+extends: substitution
+message: "Согласно STYLEGUIDE.md (Section 3: Terminology), аббревиатура VM должна писаться заглавными буквами. Используйте 'VM' вместо '%s'."
+level: error
+ignorecase: false
+swap:
+  "\\bvm\\b": "VM"
+  "\\bVm\\b": "VM"

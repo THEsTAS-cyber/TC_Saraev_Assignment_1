@@ -4,9 +4,21 @@
   "words": [
     "Innopolis",
     "Saraev",
-    "submodules",
-    "baseURL",
-    "canonify"
+    "Stanislav",
+    "Infostyle",
+    "Ozon",
+    "Ilyakhov",
+    "onboarding",
+    "shortcodes",
+    "parentheticals",
+    "Vercel",
+    "Netlify",
+    "MobaXterm" 
   ],
-  "ignorePaths": ["node_modules", "public", "resources"]
+  "ignorePaths": [
+    "node_modules",
+    "public",
+    "resources",
+    ".vale"
+  ]
 }

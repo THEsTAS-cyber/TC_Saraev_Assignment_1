@@ -2,7 +2,6 @@
 title: "Connect to VM"
 weight: 50
 ---
-
 ## How to connect to your virtual machine
 
 You have several options to connect to your virtual machine:

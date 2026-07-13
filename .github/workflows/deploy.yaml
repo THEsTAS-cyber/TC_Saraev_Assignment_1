@@ -41,34 +41,32 @@ jobs:
 
       - name: Check Commit Message Format
         run: |
-          # Проверяем все коммиты ветки, кроме merge commits
           echo "Проверяем сообщения коммитов..."
           
-          # Получаем список коммитов текущей ветки (не merge commits)
-          COMMITS=$(git log --oneline --no-merges origin/main..HEAD 2>/dev/null || git log --oneline --no-merges HEAD~5..HEAD)
+          # Получаем список заголовков последних 5 коммитов (исключая merge commits)
+          # -n 5 безопасно работает даже в shallow clone
+          COMMITS=$(git log --format="%s" --no-merges -n 5 2>/dev/null)
           
           echo "Найдены коммиты:"
           echo "$COMMITS"
           
-          # Проверяем каждый коммит
           FAILED=0
-          while IFS= read -r line; do
-            if [ -z "$line" ]; then
+          while IFS= read -r MSG; do
+            if [ -z "$MSG" ]; then
               continue
             fi
-            MSG=$(echo "$line" | sed 's/^[a-f0-9]* //')
+            # Проверяем только заголовок коммита (%s) через регулярное выражение
             if ! echo "$MSG" | grep -qE "^(docs|fix|feat|chore|ci|style|test|refactor|perf):\s.+" ; then
-              echo "❌ Несоответствующий коммит: $line"
+              echo "❌ Несоответствующий коммит: $MSG"
               FAILED=1
             else
-              echo "✅ Корректный коммит: $line"
+              echo "✅ Корректный коммит: $MSG"
             fi
           done <<< "$COMMITS"
           
           if [ $FAILED -eq 1 ]; then
             echo ""
             echo "❌ Ошибка: Некоторые коммиты не соответствуют формату Conventional Commits."
-            echo "Пример: 'docs: add SSH connection guide'"
             echo "Разрешенные префиксы: docs, fix, feat, chore, ci, style, test, refactor, perf"
             exit 1
           fi

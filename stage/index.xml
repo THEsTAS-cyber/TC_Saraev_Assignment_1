@@ -103,7 +103,7 @@
 &lt;h2 id="how-to-see-the-ip-of-the-virtual-machine"&gt;How to see the IP of the virtual machine&lt;a class="anchor" href="#how-to-see-the-ip-of-the-virtual-machine"&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;On the page of your virtual machine dashboard on the right side you can see the IP of your virtual machine.
-&lt;img src="../../images/Your_Virtual_machine_dashboard_IP.png" alt="IP Address" /&gt;&lt;/li&gt;
+&lt;img src="../../images/IP.jpg" alt="IP Address" /&gt;&lt;/li&gt;
 &lt;li&gt;The IP looks like this: &lt;code&gt;10.13.127.89&lt;/code&gt;.
 &lt;img src="../../images/IP_mini.jpg" alt="IP Mini" /&gt;&lt;/li&gt;
 &lt;li&gt;If there is no IP - see section &amp;ldquo;How to create a virtual machine with an explicit IP&amp;rdquo; (will be updated soon).&lt;/li&gt;

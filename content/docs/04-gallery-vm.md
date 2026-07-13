@@ -14,7 +14,7 @@ weight: 40
    ![Gallery Settings](../../images/Gallery_VM_settings.png)
 5. Now you need to write the name of your virtual machine into "NAME" field. Name is required.
 6. Write and confirm the new password for your virtual machine.
-7. If you see the red exclamation mark in the "PASSWORD" field then the condition on the password is not satisfied (see [Password requirements](06-details-login.md)).
+7. If you see the red exclamation mark in the "PASSWORD" field then the condition on the password is not satisfied (see [Password requirements](06-details-login/)).
 8. If you see the red exclamation mark in the "CONFIRM" field then the password and confirm password are not equal.
 9. "ADMINISTRATOR ACCOUNT" may be filled by default and can't be changed. But in some cases you are required to write your own name inside the field.
    ![Administrator Account](../../images/Gallery_administrator_account_marked.png)

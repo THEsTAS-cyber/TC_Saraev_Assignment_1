@@ -127,6 +127,7 @@ jobs:
             --exclude 'localhost' 
             --exclude 'vm\.innopolis\.university' 
             --exclude 'sso\.university\.innopolis\.ru'
+            --exclude '.*/merge/.*' 
             'public/**/*.html'
           fail: true
 

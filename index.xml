@@ -40,7 +40,7 @@
 &lt;img src="../../images/My_subs.png" alt="My Subscriptions" /&gt;&lt;/li&gt;
 &lt;/ol&gt;</description></item><item><title>Create Virtual Machine</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/docs/03-create-vm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/docs/03-create-vm/</guid><description>&lt;h2 id="how-to-create-a-new-virtual-machine"&gt;How to create a new virtual machine&lt;a class="anchor" href="#how-to-create-a-new-virtual-machine"&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;At first, you need to have a subscription to the service (see &lt;a href="02-subscription.md"&gt;Subscriptions&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;At first, you need to have a subscription to the service (see &lt;a href="../02-subscription/"&gt;Subscriptions&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;From the main page of the website, click on the &amp;ldquo;VIRTUAL MACHINES&amp;rdquo; button in the left bar.
 &lt;img src="../../images/Main_virtual_machines.png" alt="Main Virtual Machines" /&gt;&lt;/li&gt;
 &lt;li&gt;On the Virtual Machines page, click on the right arrow button OR if you have already created some virtual machines, click on the &amp;ldquo;New&amp;rdquo; button in the left bottom corner and then &amp;ldquo;STANDALONE VIRTUAL MACHINE&amp;rdquo;.
@@ -58,7 +58,7 @@
 &lt;li&gt;Then choose the template (operating system) for your virtual machine.
 &lt;img src="../../images/Template_quick_start.png" alt="VM Template" /&gt;&lt;/li&gt;
 &lt;li&gt;Write and confirm the new password for your virtual machine.&lt;/li&gt;
-&lt;li&gt;If you see the red exclamation mark in the &amp;ldquo;PASSWORD&amp;rdquo; field then the condition on the password is not satisfied (see &lt;a href="06-details-login.md"&gt;Password requirements&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;If you see the red exclamation mark in the &amp;ldquo;PASSWORD&amp;rdquo; field then the condition on the password is not satisfied (see &lt;a href="../06-details-login/"&gt;Password requirements&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&amp;ldquo;ADMINISTRATOR ACCOUNT&amp;rdquo; may be filled by default and can&amp;rsquo;t be changed. But in some cases you are required to write your own name inside the field.
 &lt;img src="../../images/Quick_start_admin_account.png" alt="Admin Account" /&gt;&lt;/li&gt;
 &lt;li&gt;Save your password, administrator account and ssh key or product key, because you will not be able to see them again.&lt;/li&gt;
@@ -81,7 +81,7 @@
 &lt;img src="../../images/Gallery_VM_settings.png" alt="Gallery Settings" /&gt;&lt;/li&gt;
 &lt;li&gt;Now you need to write the name of your virtual machine into &amp;ldquo;NAME&amp;rdquo; field. Name is required.&lt;/li&gt;
 &lt;li&gt;Write and confirm the new password for your virtual machine.&lt;/li&gt;
-&lt;li&gt;If you see the red exclamation mark in the &amp;ldquo;PASSWORD&amp;rdquo; field then the condition on the password is not satisfied (see &lt;a href="06-details-login.md"&gt;Password requirements&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;If you see the red exclamation mark in the &amp;ldquo;PASSWORD&amp;rdquo; field then the condition on the password is not satisfied (see &lt;a href="../06-details-login/"&gt;Password requirements&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;If you see the red exclamation mark in the &amp;ldquo;CONFIRM&amp;rdquo; field then the password and confirm password are not equal.&lt;/li&gt;
 &lt;li&gt;&amp;ldquo;ADMINISTRATOR ACCOUNT&amp;rdquo; may be filled by default and can&amp;rsquo;t be changed. But in some cases you are required to write your own name inside the field.
 &lt;img src="../../images/Gallery_administrator_account_marked.png" alt="Administrator Account" /&gt;&lt;/li&gt;
@@ -89,7 +89,7 @@
 &lt;li&gt;Save your password, administrator account and ssh key or product key, because you will not be able to see them again.&lt;/li&gt;
 &lt;li&gt;When you have filled all fields, click the right arrow button.
 &lt;img src="../../images/Vm_settings_set.png" alt="VM Settings Set" /&gt;&lt;/li&gt;
-&lt;li&gt;Then you can set your virtual machine network adapter - where your vm be available.
+&lt;li&gt;Then you can set your virtual machine network adapter - where your VM be available.
 &lt;img src="../../images/VM_adapters.png" alt="Network Adapter" /&gt;&lt;/li&gt;
 &lt;li&gt;Now you can click tick button to save your settings and create virtual machine.
 &lt;img src="../../images/VM_adapters_finish.png" alt="Save Settings" /&gt;&lt;/li&gt;
@@ -116,8 +116,8 @@
 &lt;img src="../../images/Connect_choose_web.png" alt="Connect Options" /&gt;&lt;/li&gt;
 &lt;li&gt;The new browser window will open with your virtual machine console.
 &lt;img src="../../images/Vm_web_console.png" alt="Web Console" /&gt;&lt;/li&gt;
-&lt;li&gt;You need to write your vm login (see &lt;a href="06-details-login.md"&gt;What is my virtual machine login&lt;/a&gt;) and type enter.&lt;/li&gt;
-&lt;li&gt;And then you need to write your vm password and type enter.&lt;/li&gt;
+&lt;li&gt;You need to write your VM login (see &lt;a href="../06-details-login/"&gt;What is my virtual machine login&lt;/a&gt;) and type enter.&lt;/li&gt;
+&lt;li&gt;And then you need to write your VM password and type enter.&lt;/li&gt;
 &lt;li&gt;If you see the message like &amp;ldquo;Login is incorrect&amp;rdquo;. It means that you wrote incorrect login or password. Try again with correct login and password.
 &lt;img src="../../images/Login_is_incorrect.png" alt="Login Incorrect" /&gt;&lt;/li&gt;
 &lt;li&gt;If you successfully connected to your virtual machine, you can see the message &amp;ldquo;Welcome to Ubuntu&amp;hellip;&amp;rdquo; or something else depending on your virtual machine operating system.
@@ -137,7 +137,7 @@
 &lt;h2 id="what-is-my-virtual-machine-login"&gt;What is my virtual machine login&lt;a class="anchor" href="#what-is-my-virtual-machine-login"&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;At first, you can&amp;rsquo;t see the login of your virtual machine when you have already created it. But more likely it is &amp;ldquo;root&amp;rdquo;, &amp;ldquo;admin&amp;rdquo;, or &amp;ldquo;administrator&amp;rdquo;.&lt;/li&gt;
-&lt;li&gt;You can see the login of your virtual machine during vm creation.&lt;/li&gt;
+&lt;li&gt;You can see the login of your virtual machine during VM creation.&lt;/li&gt;
 &lt;li&gt;For &amp;ldquo;QUICK START&amp;rdquo; option, you can see the login in the &amp;ldquo;ADMINISTRATOR ACCOUNT&amp;rdquo; section. The login is most likely lower-case instead of upper-case. Or you are required to fulfill it.
 &lt;img src="../../images/Quick_start_modal_login.png" alt="Quick Start Login" /&gt;&lt;/li&gt;
 &lt;li&gt;For &amp;ldquo;FROM GALLERY&amp;rdquo; option, you can see the login in the &amp;ldquo;ADMINISTRATOR ACCOUNT&amp;rdquo; section.

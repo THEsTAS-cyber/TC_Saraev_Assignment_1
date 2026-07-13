@@ -1,0 +1,12 @@
+title = "Innopolis VM User Guide"
+languageCode = "en-us"
+theme = "book"
+
+enableRobotsTXT = true
+enableGitInfo = true
+
+[params]
+  description = "User Manuals Innopolis VM"
+  author = "Stanislav Saraev"
+  BookSection = "docs"
+  BookSearch = true

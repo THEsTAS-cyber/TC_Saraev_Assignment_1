@@ -1,0 +1,65 @@
+name: Build and Deploy Hugo Site
+
+on:
+  push:
+    branches:
+      - main
+      - stage
+  workflow_dispatch:
+
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.160.0'
+          extended: true
+
+      - name: Determine Base URL
+        id: vars
+        run: |
+          if [[ ${{ github.ref_name }} == 'main' ]]; then
+            BASE_URL="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
+            ENVIRONMENT="production"
+          else
+            BASE_URL="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/${{ github.ref_name }}/"
+            ENVIRONMENT=${{ github.ref_name }}
+          fi
+          echo "BASE_URL=${BASE_URL}" >> $GITHUB_ENV
+          echo "ENVIRONMENT=${ENVIRONMENT}" >> $GITHUB_ENV
+
+      - name: Build with Hugo
+        run: |
+          hugo \
+            --environment "${{ env.ENVIRONMENT }}" \
+            --baseURL "${{ env.BASE_URL }}" \
+            --minify
+
+      - name: Deploy to GitHub Pages (Production)
+        if: github.ref_name == 'main'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: gh-pages
+          keep_files: false  # Очищает перед публикацией main
+
+      - name: Deploy to GitHub Pages (Stage)
+        if: github.ref_name == 'stage'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: gh-pages
+          destination_dir: stage  # Публикует в /stage/
+          keep_files: true  # Сохраняет main версию!

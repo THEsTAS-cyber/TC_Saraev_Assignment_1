@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docs on Innopolis VM User Guide</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/</link><description>Recent content in Docs on Innopolis VM User Guide</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>How to visit Innopolis VM</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/01-access/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/01-access/</guid><description>&lt;h2 id="how-to-visit-innopolis-vm"&gt;How to visit Innopolis VM&lt;a class="anchor" href="#how-to-visit-innopolis-vm"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Open your web browser and type &lt;a href="https://vm.innopolis.university"&gt;Innopolis VM&lt;/a&gt; in the address bar.&lt;/li&gt;
+&lt;li&gt;Then you will be redirected to the SSO Innopolis University login page.
+&lt;img src="../../images/sso.png" alt="SSO Login" /&gt;
+&lt;ul&gt;
+&lt;li&gt;If you are immediately redirected to Innopolis VM, don&amp;rsquo;t worry, most likely you are already logged in.&lt;/li&gt;
+&lt;li&gt;If you are not logged in, you will be prompted to enter your Innopolis University credentials (username and password). Then click on the &amp;ldquo;Login&amp;rdquo; button.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;You will be redirected to the main page of the website.
+&lt;img src="../../images/main_page.png" alt="Main Page" /&gt;&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>Subscriptions</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/02-subscription/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/02-subscription/</guid><description>&lt;h2 id="how-to-create-a-subscription"&gt;How to create a subscription&lt;a class="anchor" href="#how-to-create-a-subscription"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;From the main page of the website, click on the &amp;ldquo;New&amp;rdquo; button in the left bottom corner.
+&lt;img src="../../images/New_main.png" alt="New Button" /&gt;&lt;/li&gt;
+&lt;li&gt;The new menu will open - click &amp;ldquo;MY ACCOUNT&amp;rdquo;.
+&lt;img src="../../images/New_page.png" alt="New Page" /&gt;&lt;/li&gt;
+&lt;li&gt;Click on the &amp;ldquo;ADD SUBSCRIPTION&amp;rdquo; button.
+&lt;img src="../../images/My_account_subscr.png" alt="Add Subscription" /&gt;&lt;/li&gt;
+&lt;li&gt;Modal with subscription creation form will open.
+&lt;img src="../../images/Subscription_creation_form.png" alt="Subscription Form" /&gt;&lt;/li&gt;
+&lt;li&gt;Depending on who you are (student, instructor, worker), you will have different options for subscription creation. For example, for students, you can create a subscription for a specific course or general StudentPublic subscription. If you want a specific subscription, you need to contact IT department of Innopolis University.&lt;/li&gt;
+&lt;li&gt;The details of the concrete subscription type will appear on the right side of the form when you click it.&lt;/li&gt;
+&lt;li&gt;When you choose the subscription type - click it and then click a tick button on the right bottom corner.
+&lt;img src="../../images/Subscription_creation_form_chosen.png" alt="Subscription Chosen" /&gt;&lt;/li&gt;
+&lt;li&gt;Then you need to wait while the subscription is being created.
+&lt;img src="../../images/Subscription_loading.png" alt="Subscription Loading" /&gt;&lt;/li&gt;
+&lt;li&gt;Some time your subscription will have the &amp;ldquo;Syncing&amp;rdquo; status. Don&amp;rsquo;t worry, just wait until it will be &amp;ldquo;Active&amp;rdquo;.
+&lt;img src="../../images/My_sub_syncing.png" alt="Subscription Syncing" /&gt;&lt;/li&gt;
+&lt;li&gt;After a while, your subscription will change its status to &amp;ldquo;Active&amp;rdquo;.
+&lt;img src="../../images/My_sub_active.png" alt="Subscription Active" /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="where-to-find-your-subscriptions"&gt;Where to find your subscriptions&lt;a class="anchor" href="#where-to-find-your-subscriptions"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;From the main page of the website, click on the &amp;ldquo;My Account&amp;rdquo; button in the left bar.&lt;/li&gt;
+&lt;li&gt;Click on the &amp;ldquo;SUBSCRIPTIONS&amp;rdquo; section.
+&lt;img src="../../images/My_account_sub_sec.png" alt="Subscriptions Section" /&gt;&lt;/li&gt;
+&lt;li&gt;You can see all your subscriptions.
+&lt;img src="../../images/My_subs.png" alt="My Subscriptions" /&gt;&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>Create Virtual Machine</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/03-create-vm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/03-create-vm/</guid><description>&lt;h2 id="how-to-create-a-new-virtual-machine"&gt;How to create a new virtual machine&lt;a class="anchor" href="#how-to-create-a-new-virtual-machine"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;At first, you need to have a subscription to the service (see &lt;a href="02-subscription.md"&gt;Subscriptions&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;From the main page of the website, click on the &amp;ldquo;VIRTUAL MACHINES&amp;rdquo; button in the left bar.
+&lt;img src="../../images/Main_virtual_machines.png" alt="Main Virtual Machines" /&gt;&lt;/li&gt;
+&lt;li&gt;On the Virtual Machines page, click on the right arrow button OR if you have already created some virtual machines, click on the &amp;ldquo;New&amp;rdquo; button in the left bottom corner and then &amp;ldquo;STANDALONE VIRTUAL MACHINE&amp;rdquo;.
+&lt;img src="../../images/Virtual_machines_empty_new.png" alt="New VM" /&gt;&lt;/li&gt;
+&lt;li&gt;In the opened menu you can choose a template for creating a virtual machine: quick start or from gallery.
+&lt;img src="../../images/VM_choose_template.png" alt="Choose Template" /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="how-to-create-a-new-virtual-machine-from-quick-start"&gt;How to create a new virtual machine from quick start&lt;a class="anchor" href="#how-to-create-a-new-virtual-machine-from-quick-start"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Menu with quick start creating will open.
+&lt;img src="../../images/Quick_start_form.png" alt="Quick Start Form" /&gt;&lt;/li&gt;
+&lt;li&gt;Here you need to write the name of your virtual machine into &amp;ldquo;NAME&amp;rdquo; field. Name is required.&lt;/li&gt;
+&lt;li&gt;Also choose the subscription type - depending on it you can choose different templates (operating systems) for virtual machine.
+&lt;img src="../../images/Choose_subscription_quick.png" alt="Choose Subscription" /&gt;&lt;/li&gt;
+&lt;li&gt;Then choose the template (operating system) for your virtual machine.
+&lt;img src="../../images/Template_quick_start.png" alt="VM Template" /&gt;&lt;/li&gt;
+&lt;li&gt;Write and confirm the new password for your virtual machine.&lt;/li&gt;
+&lt;li&gt;If you see the red exclamation mark in the &amp;ldquo;PASSWORD&amp;rdquo; field then the condition on the password is not satisfied (see &lt;a href="06-details-login.md"&gt;Password requirements&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;ADMINISTRATOR ACCOUNT&amp;rdquo; may be filled by default and can&amp;rsquo;t be changed. But in some cases you are required to write your own name inside the field.
+&lt;img src="../../images/Quick_start_admin_account.png" alt="Admin Account" /&gt;&lt;/li&gt;
+&lt;li&gt;Save your password, administrator account and ssh key or product key, because you will not be able to see them again.&lt;/li&gt;
+&lt;li&gt;If all fields are filled correctly - click the &amp;ldquo;CREATE VM INSTANCE&amp;rdquo; button.
+&lt;img src="../../images/Create_VM_instance.png" alt="Create VM Instance" /&gt;&lt;/li&gt;
+&lt;li&gt;To see the details of creation - click on the &amp;ldquo;DETAILS&amp;rdquo; button.
+&lt;img src="../../images/Started_creating_vm_details.png" alt="VM Details" /&gt;&lt;/li&gt;
+&lt;li&gt;You can see the progress of creation of your virtual machine here.
+&lt;img src="../../images/Creation_details_status.png" alt="Creation Progress" /&gt;&lt;/li&gt;
+&lt;li&gt;On the Virtual Machines page you can see your virtual machine. For some time its status will be &amp;ldquo;Creating&amp;rdquo;, then it will change to &amp;ldquo;Running&amp;rdquo;.
+&lt;img src="../../images/Vm_running.png" alt="VM Running" /&gt;&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>Create VM from Gallery</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/04-gallery-vm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/04-gallery-vm/</guid><description>&lt;h2 id="how-to-create-a-new-virtual-machine-from-gallery"&gt;How to create a new virtual machine from gallery&lt;a class="anchor" href="#how-to-create-a-new-virtual-machine-from-gallery"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Menu with gallery creating will open.
+&lt;img src="../../images/Gallery_modal.png" alt="Gallery Modal" /&gt;&lt;/li&gt;
+&lt;li&gt;You can choose the different operating system for your virtual machine and see the details.&lt;/li&gt;
+&lt;li&gt;When you have chosen, click right arrow button.
+&lt;img src="../../images/Gallery_modal_next.png" alt="Gallery Next" /&gt;&lt;/li&gt;
+&lt;li&gt;Menu with settings of your virtual machine will open.
+&lt;img src="../../images/Gallery_VM_settings.png" alt="Gallery Settings" /&gt;&lt;/li&gt;
+&lt;li&gt;Now you need to write the name of your virtual machine into &amp;ldquo;NAME&amp;rdquo; field. Name is required.&lt;/li&gt;
+&lt;li&gt;Write and confirm the new password for your virtual machine.&lt;/li&gt;
+&lt;li&gt;If you see the red exclamation mark in the &amp;ldquo;PASSWORD&amp;rdquo; field then the condition on the password is not satisfied (see &lt;a href="06-details-login.md"&gt;Password requirements&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;If you see the red exclamation mark in the &amp;ldquo;CONFIRM&amp;rdquo; field then the password and confirm password are not equal.&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;ADMINISTRATOR ACCOUNT&amp;rdquo; may be filled by default and can&amp;rsquo;t be changed. But in some cases you are required to write your own name inside the field.
+&lt;img src="../../images/Gallery_administrator_account_marked.png" alt="Administrator Account" /&gt;&lt;/li&gt;
+&lt;li&gt;Also you can write your ssh key into the &amp;ldquo;SSH KEY&amp;rdquo; field or product key into the &amp;ldquo;PRODUCT KEY&amp;rdquo; field. This is not required.&lt;/li&gt;
+&lt;li&gt;Save your password, administrator account and ssh key or product key, because you will not be able to see them again.&lt;/li&gt;
+&lt;li&gt;When you have filled all fields, click the right arrow button.
+&lt;img src="../../images/Vm_settings_set.png" alt="VM Settings Set" /&gt;&lt;/li&gt;
+&lt;li&gt;Then you can set your virtual machine network adapter - where your vm be available.
+&lt;img src="../../images/VM_adapters.png" alt="Network Adapter" /&gt;&lt;/li&gt;
+&lt;li&gt;Now you can click tick button to save your settings and create virtual machine.
+&lt;img src="../../images/VM_adapters_finish.png" alt="Save Settings" /&gt;&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>Connect to VM</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/05-connect/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/05-connect/</guid><description>&lt;h2 id="how-to-connect-to-your-virtual-machine"&gt;How to connect to your virtual machine&lt;a class="anchor" href="#how-to-connect-to-your-virtual-machine"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;You have several options to connect to your virtual machine:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You can use the clients or applications for ssh connection. For example, PuTTY for Windows, or MobaXterm for Windows, Linux and Mac. But for this option you need to configure the &amp;ldquo;SSH KEY&amp;rdquo; during creating virtual machine.&lt;/li&gt;
+&lt;li&gt;You can use the connect to your virtual machine from the browser (see below).&lt;/li&gt;
+&lt;li&gt;Connect to your virtual machine using its IP by another software (see below).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="how-to-see-the-ip-of-the-virtual-machine"&gt;How to see the IP of the virtual machine&lt;a class="anchor" href="#how-to-see-the-ip-of-the-virtual-machine"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;On the page of your virtual machine dashboard on the right side you can see the IP of your virtual machine.
+&lt;img src="../../images/IP.jpg" alt="IP Address" /&gt;&lt;/li&gt;
+&lt;li&gt;The IP looks like this: &lt;code&gt;10.13.127.89&lt;/code&gt;.
+&lt;img src="../../images/IP_mini.jpg" alt="IP Mini" /&gt;&lt;/li&gt;
+&lt;li&gt;If there is no IP - see section &amp;ldquo;How to create a virtual machine with an explicit IP&amp;rdquo; (will be updated soon).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="how-to-connect-to-your-virtual-machine-from-the-browser"&gt;How to connect to your virtual machine from the browser&lt;a class="anchor" href="#how-to-connect-to-your-virtual-machine-from-the-browser"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;From the page of your virtual machine dashboard, click on the &amp;ldquo;CONNECT&amp;rdquo; button on the bottom.
+&lt;img src="../../images/Vm_connect_button.png" alt="Connect Button" /&gt;&lt;/li&gt;
+&lt;li&gt;Then you can choose two options to connect to your virtual machine, to connect from the browser, click &amp;ldquo;WebConsole&amp;rdquo;.
+&lt;img src="../../images/Connect_choose_web.png" alt="Connect Options" /&gt;&lt;/li&gt;
+&lt;li&gt;The new browser window will open with your virtual machine console.
+&lt;img src="../../images/Vm_web_console.png" alt="Web Console" /&gt;&lt;/li&gt;
+&lt;li&gt;You need to write your vm login (see &lt;a href="06-details-login.md"&gt;What is my virtual machine login&lt;/a&gt;) and type enter.&lt;/li&gt;
+&lt;li&gt;And then you need to write your vm password and type enter.&lt;/li&gt;
+&lt;li&gt;If you see the message like &amp;ldquo;Login is incorrect&amp;rdquo;. It means that you wrote incorrect login or password. Try again with correct login and password.
+&lt;img src="../../images/Login_is_incorrect.png" alt="Login Incorrect" /&gt;&lt;/li&gt;
+&lt;li&gt;If you successfully connected to your virtual machine, you can see the message &amp;ldquo;Welcome to Ubuntu&amp;hellip;&amp;rdquo; or something else depending on your virtual machine operating system.
+&lt;img src="../../images/Succesfull_login.png" alt="Successful Login" /&gt;&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>Details &amp; Credentials</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/06-details-login/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/06-details-login/</guid><description>&lt;h2 id="how-to-see-details-of-the-created-virtual-machine"&gt;How to see details of the created virtual machine&lt;a class="anchor" href="#how-to-see-details-of-the-created-virtual-machine"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;From the main page of the website, click on the &amp;ldquo;VIRTUAL MACHINES&amp;rdquo; button in the left bar.&lt;/li&gt;
+&lt;li&gt;Choose the virtual machine you want to see the details of and click on its name.
+&lt;img src="../../images/Vm_details.png" alt="VM Details" /&gt;&lt;/li&gt;
+&lt;li&gt;Then you can see the page with your virtual machine.
+&lt;img src="../../images/Your_Virtual_machine_details.png" alt="VM Details Page" /&gt;&lt;/li&gt;
+&lt;li&gt;If you want to see details, click &amp;ldquo;DASHBOARD&amp;rdquo; button.
+&lt;img src="../../images/Your_Virtual_machine_dashboard_button.png" alt="Dashboard Button" /&gt;&lt;/li&gt;
+&lt;li&gt;Then you can see the page with your virtual machine dashboard.
+&lt;img src="../../images/Dashboard_1.png" alt="Dashboard" /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="what-is-my-virtual-machine-login"&gt;What is my virtual machine login&lt;a class="anchor" href="#what-is-my-virtual-machine-login"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;At first, you can&amp;rsquo;t see the login of your virtual machine when you have already created it. But more likely it is &amp;ldquo;root&amp;rdquo;, &amp;ldquo;admin&amp;rdquo;, or &amp;ldquo;administrator&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;You can see the login of your virtual machine during vm creation.&lt;/li&gt;
+&lt;li&gt;For &amp;ldquo;QUICK START&amp;rdquo; option, you can see the login in the &amp;ldquo;ADMINISTRATOR ACCOUNT&amp;rdquo; section. The login is most likely lower-case instead of upper-case. Or you are required to fulfill it.
+&lt;img src="../../images/Quick_start_modal_login.png" alt="Quick Start Login" /&gt;&lt;/li&gt;
+&lt;li&gt;For &amp;ldquo;FROM GALLERY&amp;rdquo; option, you can see the login in the &amp;ldquo;ADMINISTRATOR ACCOUNT&amp;rdquo; section.
+&lt;img src="../../images/Gallery_administrator_account_marked.png" alt="Gallery Login" /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="password-requirements"&gt;Password requirements&lt;a class="anchor" href="#password-requirements"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The password must contain 3 of the following:&lt;/p&gt;</description></item><item><title>Troubleshooting</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/07-troubleshooting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/07-troubleshooting/</guid><description>&lt;h2 id="troubleshooting"&gt;Troubleshooting&lt;a class="anchor" href="#troubleshooting"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;If your screen became gray and you can&amp;rsquo;t click anything:&lt;/strong&gt;
+On the bottom you can see a message &amp;ldquo;Your session timed out. Click OK to log again&amp;rdquo;. Don&amp;rsquo;t worry, click &amp;ldquo;OK&amp;rdquo;. You either need to log in again or just be redirected to main page.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Subscription is syncing too long:&lt;/strong&gt;
+If your subscription is syncing too long - don&amp;rsquo;t worry, more likely it is active right now and you can use it. If it is not, contact IT department of Innopolis University.&lt;/p&gt;</description></item></channel></rss>

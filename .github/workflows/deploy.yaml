@@ -124,7 +124,7 @@ jobs:
           args: >-
             --verbose 
             --no-progress 
-            --base-url '${{ env.BASE_URL }}'
+            --base '${{ env.BASE_URL }}'
             --exclude 'localhost' 
             --exclude 'vm\.innopolis\.university' 
             --exclude 'sso\.university\.innopolis\.ru'

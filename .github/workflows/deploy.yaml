@@ -52,7 +52,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: gh-pages
-          force_orphan: true
+          keep_files: false  # Очищает перед публикацией main
 
       - name: Deploy to GitHub Pages (Stage)
         if: github.ref_name == 'stage'
@@ -60,6 +60,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          publish_branch: gh-pages-stage
-          destination_dir: stage
-          force_orphan: true
+          publish_branch: gh-pages
+          destination_dir: stage  # Публикует в /stage/
+          keep_files: true  # Сохраняет main версию!

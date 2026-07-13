@@ -100,15 +100,19 @@ jobs:
       - name: Determine Base URL
         id: vars
         run: |
-          if [[ ${{ github.ref_name }} == 'main' ]]; then
+          # Защита от артефактов PR (типа 13/merge). 
+          # Все PR и все ветки, кроме main, используют чистый /stage/
+          if [[ "${{ github.ref_name }}" == "main" && "${{ github.event_name }}" != "pull_request" ]]; then
             BASE_URL="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
             ENVIRONMENT="production"
           else
-            BASE_URL="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/${{ github.ref_name }}/"
-            ENVIRONMENT=${{ github.ref_name }}
+            BASE_URL="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/stage/"
+            ENVIRONMENT="stage"
           fi
+          
           echo "BASE_URL=${BASE_URL}" >> $GITHUB_ENV
           echo "ENVIRONMENT=${ENVIRONMENT}" >> $GITHUB_ENV
+          echo "✅ Using clean BASE_URL: $BASE_URL"
 
       - name: Build with Hugo
         run: |

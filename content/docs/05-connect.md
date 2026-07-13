@@ -26,8 +26,8 @@ You have several options to connect to your virtual machine:
    ![Connect Options](../../images/Connect_choose_web.png)
 3. The new browser window will open with your virtual machine console.
    ![Web Console](../../images/Vm_web_console.png)
-4. You need to write your vm login (see [What is my virtual machine login](06-details-login/)) and type enter.
-5. And then you need to write your vm password and type enter.
+4. You need to write your VM login (see [What is my virtual machine login](06-details-login/)) and type enter.
+5. And then you need to write your VM password and type enter.
 6. If you see the message like "Login is incorrect". It means that you wrote incorrect login or password. Try again with correct login and password.
    ![Login Incorrect](../../images/Login_is_incorrect.png)
 7. If you successfully connected to your virtual machine, you can see the message "Welcome to Ubuntu..." or something else depending on your virtual machine operating system.

@@ -15,7 +15,7 @@ If your subscription is syncing too long - don't worry, more likely it is active
 If your virtual machine is creating too long, try to delete and create virtual machine again. If you tried to do it several times, contact IT department of Innopolis University.
 
 **Virtual machine is failed to create:**
-If you got such a message during creating a vm you can see the details by clicking "i" button. Try to recreate virtual machine. If you tried to do it several times, contact IT department of Innopolis University.
+If you got such a message during creating a VM you can see the details by clicking "i" button. Try to recreate virtual machine. If you tried to do it several times, contact IT department of Innopolis University.
 ![Failed to create message](../../images/Failed_to_create_message.png)
 
 **If you have forgotten your password:**

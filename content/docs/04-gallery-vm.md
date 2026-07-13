@@ -22,7 +22,7 @@ weight: 40
 11. Save your password, administrator account and ssh key or product key, because you will not be able to see them again.
 12. When you have filled all fields, click the right arrow button.
     ![VM Settings Set](../../images/Vm_settings_set.png)
-13. Then you can set your virtual machine network adapter - where your vm be available.
+13. Then you can set your virtual machine network adapter - where your VM be available.
     ![Network Adapter](../../images/VM_adapters.png)
 14. Now you can click tick button to save your settings and create virtual machine.
     ![Save Settings](../../images/VM_adapters_finish.png)

@@ -18,7 +18,7 @@ weight: 60
 ## What is my virtual machine login
 
 - At first, you can't see the login of your virtual machine when you have already created it. But more likely it is "root", "admin", or "administrator".
-- You can see the login of your virtual machine during vm creation.
+- You can see the login of your virtual machine during VM creation.
 - For "QUICK START" option, you can see the login in the "ADMINISTRATOR ACCOUNT" section. The login is most likely lower-case instead of upper-case. Or you are required to fulfill it.
   ![Quick Start Login](../../images/Quick_start_modal_login.png)
 - For "FROM GALLERY" option, you can see the login in the "ADMINISTRATOR ACCOUNT" section.

@@ -41,13 +41,39 @@ jobs:
 
       - name: Check Commit Message Format
         run: |
-          COMMIT_MSG=$(git log -1 --pretty=%B)
-          if ! echo "$COMMIT_MSG" | grep -qE "^(docs|fix|feat|chore|ci|style):\s.+" ; then
-            echo "❌ Ошибка: Сообщение коммита должно соответствовать формату Conventional Commits."
+          # Проверяем все коммиты ветки, кроме merge commits
+          echo "Проверяем сообщения коммитов..."
+          
+          # Получаем список коммитов текущей ветки (не merge commits)
+          COMMITS=$(git log --oneline --no-merges origin/main..HEAD 2>/dev/null || git log --oneline --no-merges HEAD~5..HEAD)
+          
+          echo "Найдены коммиты:"
+          echo "$COMMITS"
+          
+          # Проверяем каждый коммит
+          FAILED=0
+          while IFS= read -r line; do
+            if [ -z "$line" ]; then
+              continue
+            fi
+            MSG=$(echo "$line" | sed 's/^[a-f0-9]* //')
+            if ! echo "$MSG" | grep -qE "^(docs|fix|feat|chore|ci|style|test|refactor|perf):\s.+" ; then
+              echo "❌ Несоответствующий коммит: $line"
+              FAILED=1
+            else
+              echo "✅ Корректный коммит: $line"
+            fi
+          done <<< "$COMMITS"
+          
+          if [ $FAILED -eq 1 ]; then
+            echo ""
+            echo "❌ Ошибка: Некоторые коммиты не соответствуют формату Conventional Commits."
             echo "Пример: 'docs: add SSH connection guide'"
+            echo "Разрешенные префиксы: docs, fix, feat, chore, ci, style, test, refactor, perf"
             exit 1
           fi
-          echo "✅ Сообщение коммита корректно."
+          
+          echo "✅ Все сообщения коммитов корректны."
 
   build-and-check:
     name: Build & Link Check

@@ -1,14 +1,14 @@
 {
   "name": "Innopolis VM User Guide",
   "short_name": "Innopolis VM User Guide",
-  "start_url": "/./",
-  "scope": "/./",
+  "start_url": "/TC_Saraev_Assignment_1/stage/",
+  "scope": "/TC_Saraev_Assignment_1/stage/",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
   "icons": [
     {
-      "src": "/./favicon.svg",
+      "src": "/TC_Saraev_Assignment_1/stage/favicon.svg",
       "sizes": "512x512"
     }
   ]

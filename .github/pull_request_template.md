@@ -86,3 +86,8 @@ Add more details if necessary.
 - [ ] Technical terms are consistent with the glossary
 
 ---
+
+### Reviewer Checklist
+
+- [ ] I reviewed the linked Issue (if applicable) and verified that this change fully resolves the reported problem.
+- [ ] I checked the live preview (via GitHub Pages, Vercel, or Netlify) and verified that the changes render correctly.

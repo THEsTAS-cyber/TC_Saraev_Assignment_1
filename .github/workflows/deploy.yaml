@@ -36,6 +36,7 @@ jobs:
         uses: streetsidesoftware/cspell-action@v5
         with:
           files: 'content/**/*.md'
+          dictionaries: 'ru_ru'
           config: 'cspell.json'
           strict: true
           languages: 'en,ru'

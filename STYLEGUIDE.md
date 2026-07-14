@@ -242,7 +242,14 @@ Especially for errors, warnings, and confirmations.
 
 ---
 
-## 7. Examples: Before & After
+## 7. Navigation & Next Steps
+
+- **Do not** add a formal "Next steps" heading at the end of every page. The theme provides "Next/Prev" buttons.
+- **Do** add a brief concluding sentence at the end of a major logical block (e.g., at the end of the "Setup" section) to bridge the context. 
+  - *Example:* "Now that your subscription is active, you can create your first virtual machine."
+- **Do** use explicit text links if the reader has **multiple choices** for the next step (e.g., "If you want to use a pre-configured template instead, go to [Gallery VM](...)").
+
+## 8. Examples: Before & After
 
 ### Example 1: Creating a VM
 
@@ -276,7 +283,7 @@ Especially for errors, warnings, and confirmations.
 
 ---
 
-## 8. Localization Notes (EN → RU)
+## 9. Localization Notes (EN → RU)
 
 When translating to Russian:
 
@@ -293,7 +300,7 @@ When translating to Russian:
 
 ---
 
-## 9. Review Checklist
+## 10. Review Checklist
 
 Before merging a documentation PR, check:
 
@@ -310,7 +317,7 @@ Before merging a documentation PR, check:
 
 ---
 
-## 10. How to Update This Guide
+## 11. How to Update This Guide
 
 1. **Propose changes** via Pull Request
 2. **Discuss** in the PR comments

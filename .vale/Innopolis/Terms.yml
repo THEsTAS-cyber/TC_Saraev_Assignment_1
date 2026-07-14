@@ -86,3 +86,13 @@ ignorecase: false
 swap:
   "\\bvm\\b": "VM"
   "\\bVm\\b": "VM"
+
+---
+extends: existence
+message: "Согласно STYLEGUIDE.md (Section 7: Navigation), не используйте формальный заголовок 'Next steps'. Тема предоставляет кнопки навигации. Используйте связующее предложение в конце текста."
+level: error
+scope: heading
+tokens:
+  - 'Next steps'
+  - 'Next Steps'
+  - 'Следующие шаги'

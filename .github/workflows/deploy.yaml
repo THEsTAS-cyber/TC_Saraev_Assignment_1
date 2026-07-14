@@ -132,6 +132,7 @@ jobs:
             --remap "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/stage/ ./public/"
             --remap "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/ ./public/"
             --exclude 'localhost' 
+            --exclude 'https://thestas-cyber\.github\.io/TC_Saraev_Assignment_1/.*'
             --exclude 'vm\.innopolis\.university' 
             --exclude 'sso\.university\.innopolis\.ru'
             'public/**/*.html'

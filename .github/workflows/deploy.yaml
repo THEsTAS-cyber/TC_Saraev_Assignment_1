@@ -35,9 +35,15 @@ jobs:
       - name: Spell Check
         uses: streetsidesoftware/cspell-action@v5
         with:
-          files: 'content/**/*.md'
+          files: 'content/en/**/*.md'
           config: 'cspell.json'
           strict: true
+
+      - name: Check Russian Spelling (Yandex Speller)
+        uses: yandex-cloud/yandex-speller-action@v1
+        with:
+          files: "content/ru/**/*.md"
+          ignore-words: "Innopolis,VM,SSH,WebConsole,MobaXterm,Infostyle"
 
       - name: Check Commit Message Format
         run: |

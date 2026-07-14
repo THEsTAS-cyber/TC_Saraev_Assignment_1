@@ -16,7 +16,7 @@ weight: 70
 
 **Виртуальная машина не смогла быть создана:**
 Если вы получили такое сообщение при создании VM, вы можете увидеть детали, нажав кнопку «i». Попробуйте создать виртуальную машину снова. Если вы пробовали сделать это несколько раз, обратитесь в отдел IT Innopolis University.
-![Failed to create message](/ru/images/Failed_to_create_message.png)
+![Failed to create message](../../../images/Failed_to_create_message.png)
 
 **Если вы забыли пароль:**
 Обратитесь в отдел IT Innopolis University.

@@ -58,4 +58,4 @@ A browser-based interface that lets you connect to your virtual machine without 
 ---
 
 **Did not find the term you need?**
-Check the [System requirements](../00-requirements/) page or the [Troubleshooting](../../04-troubleshoot/) section.
+Check the [System requirements](../00-requirements/) page or the [Troubleshooting](../04-troubleshoot/) section.

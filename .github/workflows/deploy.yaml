@@ -141,14 +141,7 @@ jobs:
       - name: Upload Hugo build artifact
         uses: actions/upload-artifact@v4
         with:
-          name: hugo-public
-          path: ./public
-          retention-days: 1
-
-      - name: Upload Hugo build artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: hugo-public
+          name: hugo-public-${{ github.run_id }}
           path: ./public
           retention-days: 1
 
@@ -164,7 +157,7 @@ jobs:
       - name: Download Hugo build artifact
         uses: actions/download-artifact@v4
         with:
-          name: hugo-public
+          name: hugo-public-${{ github.run_id }}
           path: ./public
 
       - name: Deploy to GitHub Pages (Production)

@@ -5,7 +5,7 @@ weight: 30
 
 ## How to create a new virtual machine
 
-1. At first, you need to have a subscription to the service (see [Subscriptions](../01-setup/02-subscription/)).
+1. At first, you need to have a subscription to the service (see [Subscriptions](../../01-setup/02-subscription/)).
 2. From the main page of the website, click on the "VIRTUAL MACHINES" button in the left bar.
    ![Main Virtual Machines](../../../images/Main_virtual_machines.png)
 3. On the Virtual Machines page, click on the right arrow button OR if you have already created some virtual machines, click on the "New" button in the left bottom corner and then "STANDALONE VIRTUAL MACHINE".
@@ -23,7 +23,7 @@ weight: 30
 4. Then choose the template (operating system) for your virtual machine.
    ![VM Template](../../../images/Template_quick_start.png)
 5. Write and confirm the new password for your virtual machine.
-6. If you see the red exclamation mark in the "PASSWORD" field then the condition on the password is not satisfied (see [Password requirements](../05-reference/01-password-policy.md/)).
+6. If you see the red exclamation mark in the "PASSWORD" field then the condition on the password is not satisfied (see [Password requirements](../../05-reference/01-password-policy.md/)).
 7. "ADMINISTRATOR ACCOUNT" may be filled by default and can't be changed. But in some cases you are required to write your own name inside the field.
    ![Admin Account](../../../images/Quick_start_admin_account.png)
 8. Save your password, administrator account and ssh key or product key, because you will not be able to see them again.

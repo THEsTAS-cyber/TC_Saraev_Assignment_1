@@ -16,7 +16,7 @@ If your virtual machine is creating too long, try to delete and create virtual m
 
 **Virtual machine is failed to create:**
 If you got such a message during creating a VM you can see the details by clicking "i" button. Try to recreate virtual machine. If you tried to do it several times, contact IT department of Innopolis University.
-![Failed to create message](../../../../images/Failed_to_create_message.png)
+![Failed to create message](../../../images/Failed_to_create_message.png)
 
 **If you have forgotten your password:**
 Contact IT department of Innopolis University.

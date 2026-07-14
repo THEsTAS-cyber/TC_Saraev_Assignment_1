@@ -35,7 +35,7 @@ jobs:
       - name: Spell Check
         uses: streetsidesoftware/cspell-action@v5
         with:
-          files: 'content/en/**/*.md'
+          files: 'content/**/*.md'
           config: 'cspell.json'
           strict: true
           languages: 'en,ru'

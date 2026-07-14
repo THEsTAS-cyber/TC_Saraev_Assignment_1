@@ -1,6 +1,14 @@
 {
   "version": "0.2",
   "language": "en,ru",
+  "dictionaryDefinitions": [
+    {
+      "name": "ru_ru",
+      "path": "./node_modules/@cspell/dict-ru_ru/cspell-ext.json",
+      "addWords": true
+    }
+  ],
+  "dictionaries": ["ru_ru", "en_US"],
   "words": [
     "Innopolis",
     "Saraev",
@@ -22,5 +30,11 @@
     "public",
     "resources",
     ".vale"
+  ],
+  "ignoreRegExpList": [
+    "https?://[^\\s]+",
+    "`[^`]+`",
+    "\\[([^\\]]+)\\]\\([^\\)]+\\)",
+    "<!--.*?-->"
   ]
 }

@@ -36,8 +36,11 @@ jobs:
         uses: streetsidesoftware/cspell-action@v5
         with:
           files: 'content/**/*.md'
+          dictionaries: 'ru_ru'
           config: 'cspell.json'
           strict: true
+          languages: 'en,ru'
+          verbose: true
 
       - name: Check Commit Message Format
         run: |
@@ -167,7 +170,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: gh-pages
-          keep_files: false
+          keep_files: true
 
       - name: Deploy to GitHub Pages (Stage)
         if: github.ref_name == 'stage'

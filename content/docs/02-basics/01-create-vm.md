@@ -23,7 +23,7 @@ weight: 30
 4. Then choose the template (operating system) for your virtual machine.
    ![VM Template](../../../images/Template_quick_start.png)
 5. Write and confirm the new password for your virtual machine.
-6. If you see the red exclamation mark in the "PASSWORD" field then the condition on the password is not satisfied (see [Password requirements](../../05-reference/01-password-policy.md)).
+6. If you see the red exclamation mark in the "PASSWORD" field then the condition on the password is not satisfied (see [Password requirements](../../05-reference/01-password-policy/)).
 7. "ADMINISTRATOR ACCOUNT" may be filled by default and can't be changed. But in some cases you are required to write your own name inside the field.
    ![Admin Account](../../../images/Quick_start_admin_account.png)
 8. Save your password, administrator account and ssh key or product key, because you will not be able to see them again.

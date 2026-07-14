@@ -83,6 +83,7 @@ Add more details if necessary.
 
 - [ ] If this content should also exist in Russian, a corresponding file is added/updated in `content/ru/`
 - [ ] UI labels in Russian translations remain in English (as they appear in the interface)
+- [ ] UI labels are exact, bold, and **not** in quotes (Section 3)
 - [ ] Technical terms are consistent with the glossary
 
 ---

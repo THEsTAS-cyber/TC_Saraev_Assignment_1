@@ -14,22 +14,22 @@ weight: 50
 ## Как увидеть IP виртуальной машины
 
 1. На странице вашей виртуальной машины справа вы можете увидеть IP вашей виртуальной машины.
-   ![IP Address](../../../images/IP.jpg)
+   ![IP Address](../../../../images/IP.jpg)
 2. IP выглядит так: `10.13.127.89`.
-   ![IP Mini](../../../images/IP_mini.jpg)
+   ![IP Mini](../../../../images/IP_mini.jpg)
 3. Если нет IP — см. раздел «Как создать виртуальную машину с явным IP» (будет обновлено скоро).
 
 ## Как подключиться к вашей виртуальной машине из браузера
 
 1. На странице панели управления вашей виртуальной машины нажмите кнопку «CONNECT» внизу.
-   ![Connect Button](../../../images/Vm_connect_button.png)
+   ![Connect Button](../../../../images/Vm_connect_button.png)
 2. Затем вы можете выбрать два варианта подключения к вашей виртуальной машине, для подключения из браузера нажмите «WebConsole».
-   ![Connect Options](../../../images/Connect_choose_web.png)
+   ![Connect Options](../../../../images/Connect_choose_web.png)
 3. Откроется новое окно браузера с консолью вашей виртуальной машины.
-   ![Web Console](../../../images/Vm_web_console.png)
+   ![Web Console](../../../../images/Vm_web_console.png)
 4. Вам нужно ввести логин вашей VM (см. [Какой логин моей виртуальной машины](../../03-functions/02-details-login/)) и нажать Enter.
 5. Затем вам нужно ввести пароль вашей VM и нажать Enter.
 6. Если вы видите сообщение «Login is incorrect». Это означает, что вы ввели неправильный логин или пароль. Попробуйте снова с правильным логином и паролем.
-   ![Login Incorrect](../../../images/Login_is_incorrect.png)
+   ![Login Incorrect](../../../../images/Login_is_incorrect.png)
 7. Если вы успешно подключились к вашей виртуальной машине, вы увидите сообщение «Welcome to Ubuntu...» или что-то подобное, в зависимости от операционной системы вашей виртуальной машины.
-   ![Successful Login](../../../images/Succesfull_login.png)
+   ![Successful Login](../../../../images/Succesfull_login.png)

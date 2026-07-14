@@ -125,6 +125,8 @@ Always use **exact labels** from the UI, in **bold**:
 
 - **Dates:** "July 13, 2026" (not "13.07.2026" or "07/13/26")
 - **Numbers:** Spell out 1–9, use digits for 10+ (except in technical contexts: "port 22", "IP 10.13.127.89")
+- **Units of measurement:** Always use a space between the number and the unit. Use standard capitalization (e.g., `5 Mbps`, `4 GB`, `220 V`).  
+- *Critical:* Use `Mbps` (Megabits per second) for network speed. Do not use `mbps` or confuse it with `MB/s` (Megabytes per second).
 
 ### Code & Commands
 

@@ -5,24 +5,24 @@
 &lt;img src="../../../en/images/sso.png" alt="SSO Login" /&gt;
 &lt;ul&gt;
 &lt;li&gt;If you are immediately redirected to Innopolis VM, don&amp;rsquo;t worry, most likely you are already logged in.&lt;/li&gt;
-&lt;li&gt;If you are not logged in, you will be prompted to enter your Innopolis University credentials (username and password). Then click on the &amp;ldquo;Login&amp;rdquo; button.&lt;/li&gt;
+&lt;li&gt;If you are not logged in, you will be prompted to enter your Innopolis University credentials (username and password). Then click on the &lt;strong&gt;Login&lt;/strong&gt; button.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;You will be redirected to the main page of the website.
 &lt;img src="../../../en/images/main_page.png" alt="Main Page" /&gt;&lt;/li&gt;
 &lt;/ol&gt;</description></item><item><title>Subscriptions</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/01-setup/02-subscription/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/01-setup/02-subscription/</guid><description>&lt;h2 id="how-to-create-a-subscription"&gt;How to create a subscription&lt;a class="anchor" href="#how-to-create-a-subscription"&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;From the main page of the website, click on the &amp;ldquo;New&amp;rdquo; button in the left bottom corner.
+&lt;li&gt;From the main page of the website, click on the &lt;strong&gt;New&lt;/strong&gt; button in the left bottom corner.
 &lt;img src="../../../en/images/New_main.png" alt="New Button" /&gt;&lt;/li&gt;
-&lt;li&gt;The new menu will open - click &amp;ldquo;MY ACCOUNT&amp;rdquo;.
+&lt;li&gt;The new menu will open - click &lt;strong&gt;MY ACCOUNT&lt;/strong&gt;.
 &lt;img src="../../../en/images/New_page.png" alt="New Page" /&gt;&lt;/li&gt;
-&lt;li&gt;Click on the &amp;ldquo;ADD SUBSCRIPTION&amp;rdquo; button.
+&lt;li&gt;Click on the &lt;strong&gt;ADD SUBSCRIPTION&lt;/strong&gt; button.
 &lt;img src="../../../en/images/My_account_subscr.png" alt="Add Subscription" /&gt;&lt;/li&gt;
 &lt;li&gt;Modal with subscription creation form will open.
 &lt;img src="../../../en/images/Subscription_creation_form.png" alt="Subscription Form" /&gt;&lt;/li&gt;
 &lt;li&gt;Depending on who you are (student, instructor, worker), you will have different options for subscription creation. For example, for students, you can create a subscription for a specific course or general StudentPublic subscription. If you want a specific subscription, you need to contact IT department of Innopolis University.&lt;/li&gt;
 &lt;li&gt;The details of the concrete subscription type will appear on the right side of the form when you click it.&lt;/li&gt;
-&lt;li&gt;When you choose the subscription type - click it and then click a tick button on the right bottom corner.
+&lt;li&gt;When you choose the subscription type - click it and then click the &lt;strong&gt;tick&lt;/strong&gt; button on the right bottom corner.
 &lt;img src="../../../en/images/Subscription_creation_form_chosen.png" alt="Subscription Chosen" /&gt;&lt;/li&gt;
 &lt;li&gt;Then you need to wait while the subscription is being created.
 &lt;img src="../../../en/images/Subscription_loading.png" alt="Subscription Loading" /&gt;&lt;/li&gt;
@@ -33,8 +33,8 @@
 &lt;/ol&gt;
 &lt;h2 id="where-to-find-your-subscriptions"&gt;Where to find your subscriptions&lt;a class="anchor" href="#where-to-find-your-subscriptions"&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;From the main page of the website, click on the &amp;ldquo;My Account&amp;rdquo; button in the left bar.&lt;/li&gt;
-&lt;li&gt;Click on the &amp;ldquo;SUBSCRIPTIONS&amp;rdquo; section.
+&lt;li&gt;From the main page of the website, click on the &lt;strong&gt;My Account&lt;/strong&gt; button in the left bar.&lt;/li&gt;
+&lt;li&gt;Click on the &lt;strong&gt;SUBSCRIPTIONS&lt;/strong&gt; section.
 &lt;img src="../../../en/images/My_account_sub_sec.png" alt="Subscriptions Section" /&gt;&lt;/li&gt;
 &lt;li&gt;You can see all your subscriptions.
 &lt;img src="../../../en/images/My_subs.png" alt="My Subscriptions" /&gt;&lt;/li&gt;

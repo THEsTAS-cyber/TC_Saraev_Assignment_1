@@ -13,7 +13,9 @@
     "parentheticals",
     "Vercel",
     "Netlify",
-    "MobaXterm" 
+    "MobaXterm",
+    "Mbps",
+    "alllowercase"
   ],
   "ignorePaths": [
     "node_modules",

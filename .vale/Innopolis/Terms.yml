@@ -1,3 +1,4 @@
+---
 extends: substitution
 message: "Согласно STYLEGUIDE.md, используйте '%s' вместо '%s'."
 level: error
@@ -17,7 +18,7 @@ swap:
   "account connection is available": "To connect your account, go to"
   "selection of the template": "Choose a template"
   
-  # --- Russian Specific Rules (Section 8 & General Infostyle) ---
+  # --- Russian Specific Rules (Section 9 & General Infostyle) ---
   "виртуалка": "VM"
   "осуществить": "выполнить"
   "произвести настройку": "настроить"
@@ -66,17 +67,51 @@ tokens:
   - бесшовный
 
 ---
-extends: existence
-message: "Согласно STYLEGUIDE.md (Section 3: Interface Labels), используйте точные названия кнопок и разделов интерфейса в **жирном шрифте** (например, '**Create VM Instance**'), а не общие описания."
+extends: substitution
+message: "Согласно STYLEGUIDE.md (Section 3: Interface Labels), не используйте кавычки для элементов интерфейса. Выделяйте их **жирным шрифтом** (например, **%s**)."
+level: error
+ignorecase: true
+swap:
+  # Русские паттерны
+  'кнопку "(.*?)"': кнопку **$1**
+  'кнопку «(.*?)»': кнопку **$1**
+  'поле "(.*?)"': поле **$1**
+  'поле «(.*?)»': поле **$1**
+  'меню "(.*?)"': меню **$1**
+  'меню «(.*?)»': меню **$1**
+  # Английские паттерны
+  'button "(.*?)"': button **$1**
+  'field "(.*?)"': field **$1**
+  'menu "(.*?)"': menu **$1**
+
+---
+extends: substitution
+message: "Согласно STYLEGUIDE.md (Section 3: Cross-references), используйте 'see' для ссылок на другие разделы (например, 'see [Subscriptions](...)')."
 level: warning
 ignorecase: true
+swap:
+  'look at': see
+  'check out': see
+  'refer to': see
+
+---
+extends: substitution
+message: "Согласно STYLEGUIDE.md (Section 3: Cross-references), используйте 'см.' для ссылок на другие разделы (например, 'см. [Подписки](...)')."
+level: warning
+ignorecase: true
+swap:
+  'смотрите': см.
+  'смотри': см.
+  'обратитесь к': см.
+
+---
+extends: existence
+message: "Согласно STYLEGUIDE.md (Section 4: Punctuation), в русском тексте используйте типографские кавычки-«ёлочки» (« ») вместо прямых (\" \") для обычного текста (кроме блоков кода)."
+level: warning
+scope: text
+# Ловит прямые кавычки, внутри которых есть русские буквы
 tokens:
-  - click the button
-  - press the button
-  - gallery option
-  - create button
-  - нажмите кнопку
-  - опция галереи
+  - '"[а-яА-ЯёЁ\s]+?"'
 
 ---
 extends: substitution

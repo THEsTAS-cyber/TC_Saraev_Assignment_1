@@ -98,6 +98,35 @@ We write from the reader's task, not the system's architecture. This means:
 
 ### Interface Labels
 
+Always use **exact labels** from the UI, in **bold**. **Never use quotation marks** for UI elements.
+
+| Language | ✅ Correct |  Wrong |
+|----------|------------|----------|
+| English | Click **Create VM Instance** | Click the "Create VM Instance" button |
+| English | Select **FROM GALLERY** | Select "FROM GALLERY" |
+| English | Enter your name in the **NAME** field | Enter your name in the "NAME" field |
+| Russian | Нажмите кнопку **Login** | Нажмите кнопку «Login» или "Login" |
+| Russian | Введите имя в поле **NAME** | Введите имя в поле «NAME» или "NAME" |
+
+**Important:** Keep UI labels in English even in Russian text, as they appear in the interface.
+
+### Cross-references (See / См.)
+
+When referring to other sections or pages:
+
+| Language | ✅ Correct |  Wrong |
+|----------|------------|----------|
+| English | (see [Subscriptions](...)) | (look at Subscriptions) |
+| English | For more information, see [Password requirements](...). | For more info, check out... |
+| Russian | (см. [Подписки](...)) | (смотрите Подписки) |
+| Russian | Подробнее см. [Требования к паролю](...). | Для большей информации смотрите... |
+
+**Rules:**
+- Use lowercase "see" / "см." in parentheses
+- Use lowercase "see" at the beginning of a sentence only if it follows a comma
+- Always include a link
+- Be specific about what to see
+
 Always use **exact labels** from the UI, in **bold**:
 
 - ✅ "Click **Create VM Instance**"
@@ -120,6 +149,26 @@ Always use **exact labels** from the UI, in **bold**:
 - **Oxford comma:** "create, filter, and export" (not "create, filter and export")
 - **Em dash** for parentheticals: "The VM — if running — shows an IP address."
 - **Period** at the end of complete sentences in lists
+
+- **Quotation Marks (Кавычки):**
+  - **Never for UI elements:** Use **bold** instead of quotes for buttons, fields, and menu items.
+    - ✅ Click **Login**
+    - ❌ Click "Login" or Click «Login»
+  
+  - **In regular text:**
+    - **Russian text:** Use typographic guillemets («ёлочки»).  
+      *Example:* Появится сообщение «Ошибка входа».
+    - **English text:** Use standard double quotes (`" "`).  
+      *Example:* You will see the "Login failed" message.
+  
+  - **In code & commands:** Always use straight quotes (`" "` or `' '`) inside inline code or code blocks, as required by syntax.  
+    *Example:* `git commit -m "fix: typo"`
+  
+  - **Nested quotes:**
+    - **Russian:** Use „лапки" inside «ёлочек».  
+      *Example:* Появится сообщение «Нажмите „Login" для продолжения».
+    - **English:** Use 'single quotes' inside "double quotes".  
+      *Example:* You will see the "Click 'Login' to continue" message.
 
 ### Dates & Numbers
 
@@ -300,6 +349,16 @@ When translating to Russian:
 - Avoid passive voice where possible
 - Keep technical terms in English when no standard Russian equivalent exists (e.g., "dashboard", "SSH key")
 
+### RU-specific formatting:
+
+- **Quotation marks:** Always use «ёлочки» for regular text, never "" or «».
+- **UI labels:** Keep in English and bold, even in Russian text.
+  - ✅ Нажмите кнопку **Login**
+  - ❌ Нажмите кнопку «Войти» (если в интерфейсе "Login")
+- **Cross-references:** Use "см." (lowercase) in parentheses.
+  - ✅ (см. [Подписки](...))
+  - ❌ (Смотрите Подписки)
+  
 ---
 
 ## 10. Review Checklist

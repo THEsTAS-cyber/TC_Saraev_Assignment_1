@@ -5,8 +5,27 @@ theme = "book"
 enableRobotsTXT = true
 enableGitInfo = true
 
+# Мультиязычность
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
 [params]
   description = "User Manuals Innopolis VM"
   author = "Stanislav Saraev"
   BookSection = "docs"
   BookSearch = true
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    contentDir = "content/en"
+    weight = 1
+    [languages.en.params]
+      description = "User Manuals Innopolis VM"
+
+  [languages.ru]
+    languageName = "Русский"
+    contentDir = "content/ru"
+    weight = 2
+    [languages.ru.params]
+      description = "Руководство пользователя Innopolis VM"

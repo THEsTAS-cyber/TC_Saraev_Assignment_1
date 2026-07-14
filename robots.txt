@@ -1,5 +1,6 @@
 Innopolis VM User Guide
 
+- Innopolis VM User Guide: https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/docs/
 - System requirements: https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/docs/00-requirements/
 - Setup: https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/docs/01-setup/
 - How to visit Innopolis VM: https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/docs/01-setup/01-access/

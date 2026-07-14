@@ -1,6 +1,6 @@
 ---
 title: "System requirements"
-weight: 10
+weight: 9
 ---
 
 Before you start using Innopolis VM, make sure your device and network meet these requirements.

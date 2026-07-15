@@ -91,7 +91,7 @@ You received an error message during VM creation.
 
 **Checks:**
 1. Click the **i** button next to the failed VM to see the error details.
-   ![Failed to create message](../../images/Failed_to_create_message.png)
+   ![Failed to create message](../../../en/images/Failed_to_create_message.png)
 2. Review the error message for specific clues.
 
 **Solutions:**

@@ -91,7 +91,7 @@ weight: 70
 
 **Проверки:**
 1. Нажмите кнопку **i** рядом с неудачно созданной ВМ, чтобы увидеть детали ошибки.
-   ![Failed to create message](../../images/Failed_to_create_message.png)
+   ![Failed to create message](../../../images/Failed_to_create_message.png)
 2. Изучите сообщение об ошибке на наличие конкретных подсказок.
 
 **Решения:**

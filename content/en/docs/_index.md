@@ -1,5 +1,5 @@
 ---
-title: "Innopolis VM User Guide"
+title: "Innopolis virtual machine (VM) user guide"
 weight: 1
 ---
 
@@ -11,6 +11,6 @@ This documentation is designed for:
 
 - **Students:** Creating VMs for coursework and projects.
 - **Instructors:** Setting up environments for classes.
-- **University Staff:** Managing administrative virtual machines.
+- **University Staff:** Managing administrative VMs.
 
 This guide focuses on user tasks.

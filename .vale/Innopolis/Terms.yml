@@ -1,3 +1,4 @@
+---
 extends: substitution
 message: "Согласно STYLEGUIDE.md, используйте '%s' вместо '%s'."
 level: error
@@ -17,7 +18,7 @@ swap:
   "account connection is available": "To connect your account, go to"
   "selection of the template": "Choose a template"
   
-  # --- Russian Specific Rules (Section 8 & General Infostyle) ---
+  # --- Russian Specific Rules (Section 9 & General Infostyle) ---
   "виртуалка": "VM"
   "осуществить": "выполнить"
   "произвести настройку": "настроить"
@@ -26,12 +27,21 @@ swap:
 
 ---
 extends: existence
-message: "Согласно STYLEGUIDE.md, при первом упоминании используйте 'virtual machine (VM)' или 'ВМ', далее — просто 'VM'."
+message: "Согласно STYLEGUIDE.md, при первом упоминании используйте 'virtual machine (VM)'. Если это не первое упоминание, используйте просто 'VM'."
 level: warning
 ignorecase: true
+# Регулярное выражение ищет "virtual machine", за которым НЕ следует " (VM)"
 tokens:
-  - virtual machine
-  - виртуальная машина
+  - 'virtual machine(?!\s*\(VM\))'
+
+---
+extends: existence
+message: "Согласно STYLEGUIDE.md, при первом упоминании используйте 'виртуальная машина (ВМ)'. Если это не первое упоминание, используйте просто 'ВМ'."
+level: warning
+ignorecase: false
+# Регулярное выражение ищет "виртуальная машина", за которой НЕ следует " (ВМ)"
+tokens:
+  - 'виртуальная машина(?!\s*\(ВМ\))'
 
 ---
 extends: existence
@@ -66,26 +76,62 @@ tokens:
   - бесшовный
 
 ---
-extends: existence
-message: "Согласно STYLEGUIDE.md (Section 3: Interface Labels), используйте точные названия кнопок и разделов интерфейса в **жирном шрифте** (например, '**Create VM Instance**'), а не общие описания."
-level: warning
+extends: substitution
+message: "Согласно STYLEGUIDE.md (Section 3: Interface Labels), не используйте кавычки для элементов интерфейса. Выделяйте их **жирным шрифтом** (например, **%s**)."
+level: error
 ignorecase: true
-tokens:
-  - click the button
-  - press the button
-  - gallery option
-  - create button
-  - нажмите кнопку
-  - опция галереи
+swap:
+  # Русские паттерны
+  'кнопку "(.*?)"': кнопку **$1**
+  'кнопку «(.*?)»': кнопку **$1**
+  'поле "(.*?)"': поле **$1**
+  'поле «(.*?)»': поле **$1**
+  'меню "(.*?)"': меню **$1**
+  'меню «(.*?)»': меню **$1**
+  # Английские паттерны
+  'button "(.*?)"': button **$1**
+  'field "(.*?)"': field **$1**
+  'menu "(.*?)"': menu **$1**
 
 ---
 extends: substitution
-message: "Согласно STYLEGUIDE.md (Section 3: Terminology), аббревиатура VM должна писаться заглавными буквами. Используйте 'VM' вместо '%s'."
+message: "Согласно STYLEGUIDE.md (Section 3: Cross-references), используйте 'see' для ссылок на другие разделы (например, 'see [Subscriptions](...)')."
+level: warning
+ignorecase: true
+swap:
+  'look at': see
+  'check out': see
+  'refer to': see
+
+---
+extends: substitution
+message: "Согласно STYLEGUIDE.md (Section 3: Cross-references), используйте 'см.' для ссылок на другие разделы (например, 'см. [Подписки](...)')."
+level: warning
+ignorecase: true
+swap:
+  'смотрите': см.
+  'смотри': см.
+  'обратитесь к': см.
+
+---
+extends: existence
+message: "Согласно STYLEGUIDE.md (Section 4: Punctuation), в русском тексте используйте типографские кавычки-«ёлочки» (« ») вместо прямых (\" \") для обычного текста (кроме блоков кода)."
+level: warning
+scope: text
+# Ловит прямые кавычки, внутри которых есть русские буквы
+tokens:
+  - '"[а-яА-ЯёЁ\s]+?"'
+
+---
+---
+extends: substitution
+message: "Согласно STYLEGUIDE.md (Section 3: Terminology), аббревиатура должна писаться строго заглавными буквами: 'VM' (для EN) или 'ВМ' (для RU)."
 level: error
 ignorecase: false
 swap:
   "\\bvm\\b": "VM"
   "\\bVm\\b": "VM"
+  "\\bвм\\b": "ВМ"
 
 ---
 extends: existence

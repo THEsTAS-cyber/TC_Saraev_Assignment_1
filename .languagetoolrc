@@ -1,0 +1,11 @@
+{
+  "language": "ru-RU",
+  "enabledRules": [
+    "RU_SPELLING",
+    "DOUBLE_PUNCTUATION",
+    "UPPERCASE_SENTENCE_START"
+  ],
+  "disabledRules": [
+    "COMMA_PARENTHESIS_WHITESPACE"
+  ]
+}

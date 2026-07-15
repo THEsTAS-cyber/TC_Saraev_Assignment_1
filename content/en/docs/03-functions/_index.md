@@ -3,4 +3,4 @@ title: "Functions"
 weight: 30
 ---
 
-Once your VM is running, you can connect to it, view details, and manage settings.
+Once your virtual machine (VM) is running, you can connect to it, view details, and manage settings.

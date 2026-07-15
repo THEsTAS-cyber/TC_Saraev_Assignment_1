@@ -11,11 +11,11 @@ On the bottom you can see a message "Your session timed out. click **OK** to log
 **Subscription is syncing too long:**
 If your subscription is syncing too long - don't worry, more likely it is active right now and you can use it. If it is not, contact IT department of Innopolis University.
 
-**Virtual machine is creating too long:**
-If your virtual machine is creating too long, try to delete and create virtual machine again. If you tried to do it several times, contact IT department of Innopolis University.
+**VM is creating too long:**
+If your virtual machine (VM) is creating too long, try to delete and create VM again. If you tried to do it several times, contact IT department of Innopolis University.
 
-**Virtual machine is failed to create:**
-If you got such a message during creating a VM you can see the details by clicking the **i** button. Try to recreate virtual machine. If you tried to do it several times, contact IT department of Innopolis University.
+**VM is failed to create:**
+If you got such a message during creating a VM you can see the details by clicking the **i** button. Try to recreate VM. If you tried to do it several times, contact IT department of Innopolis University.
 ![Failed to create message](../../../en/images/Failed_to_create_message.png)
 
 **If you have forgotten your password:**

@@ -1,34 +1,35 @@
 ---
-title: "Connect to VM"
+title: "Connect to a virtual machine (VM)"
 weight: 50
 ---
-## How to connect to your virtual machine
 
-You have several options to connect to your virtual machine:
+## How to connect to your VM
 
-- You can use the clients or applications for ssh connection. For example, PuTTY for Windows, or MobaXterm for Windows, Linux and Mac. But for this option you need to configure the **SSH KEY** during creating virtual machine.
-- You can use the connect to your virtual machine from the browser ((see below)).
-- Connect to your virtual machine using its IP by another software ((see below)).
+You have three options to connect to your VM:
 
-## How to see the IP of the virtual machine
+- **SSH client** — Use PuTTY (Windows) or MobaXterm (Windows, Linux, macOS). Requires an SSH key configured during VM creation.
+- **Browser** — Connect directly from your web browser (see [How to connect to your VM from the browser](#how-to-connect-to-your-vm-from-the-browser)).
+- **SSH by IP** — Connect using the VM's IP address with any SSH client (see [How to see the IP of the VM](#how-to-see-the-ip-of-the-vm)).
 
-1. On the page of your virtual machine dashboard on the right side you can see the IP of your virtual machine.
-   ![IP Address](../../../en/images/IP.jpg)
+## How to see the IP of the VM
+
+1. On your VM dashboard, find the IP address on the right side of the page.
+   ![IP Address](../../images/IP.jpg)
 2. The IP looks like this: `10.13.127.89`.
-   ![IP Mini](../../../en/images/IP_mini.jpg)
-3. If there is no IP - see section "How to create a virtual machine with an explicit IP" (will be updated soon).
+   ![IP Mini](../../images/IP_mini.jpg)
+3. If there is no IP, see the section "How to create a VM with an explicit IP" (will be updated soon).
 
-## How to connect to your virtual machine from the browser
+## How to connect to your VM from the browser
 
-1. From the page of your virtual machine dashboard, click on the **CONNECT** button on the bottom.
-   ![Connect Button](../../../en/images/Vm_connect_button.png)
-2. Then you can choose two options to connect to your virtual machine, to connect from the browser, click **WebConsole**.
-   ![Connect Options](../../../en/images/Connect_choose_web.png)
-3. The new browser window will open with your virtual machine console.
-   ![Web Console](../../../en/images/Vm_web_console.png)
-4. You need to write your VM **login** (see [What is my virtual machine login](../../03-functions/02-details-login/)) and type enter.
-5. And then you need to write your VM **password** and type enter.
-6. If you see the message like **Login is incorrect**. It means that you wrote incorrect login or password. Try again with correct login and password.
-   ![Login Incorrect](../../../en/images/Login_is_incorrect.png)
-7. If you successfully connected to your virtual machine, you can see the message **Welcome to Ubuntu...** or something else depending on your virtual machine operating system.
-   ![Successful Login](../../../en/images/Succesfull_login.png)
+1. On your VM dashboard, click the **CONNECT** button at the bottom.
+   ![Connect Button](../../images/Vm_connect_button.png)
+2. Choose the connection method. To connect from the browser, click **WebConsole**.
+   ![Connect Options](../../images/Connect_choose_web.png)
+3. A new browser window will open with your VM console.
+   ![Web Console](../../images/Vm_web_console.png)
+4. Enter your VM **login** (see [What is my VM login](../02-details-login/)) and press Enter.
+5. Enter your VM **password** and press Enter.
+6. If you see the message **Login is incorrect**, you entered the wrong login or password. Try again with the correct credentials.
+   ![Login Incorrect](../../images/Login_is_incorrect.png)
+7. If you successfully connected, you will see a message like **Welcome to Ubuntu...** or similar, depending on your VM operating system.
+   ![Successful Login](../../images/Succesfull_login.png)

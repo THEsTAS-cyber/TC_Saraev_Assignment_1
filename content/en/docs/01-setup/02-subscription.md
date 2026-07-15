@@ -5,7 +5,7 @@ weight: 20
 
 ## How to create a subscription
 
-1. From the main page of the website, click on the **New** button in the left bottom corner.
+1. From the main page of the website, click on the **NEW** button in the left bottom corner.
    ![New Button](../../../en/images/New_main.png)
 2. The new menu will open - click **MY ACCOUNT**.
    ![New Page](../../../en/images/New_page.png)

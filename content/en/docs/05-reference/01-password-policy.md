@@ -25,15 +25,6 @@ When you create a virtual machine (VM), you set a password for the administrator
 | `alllowercase123!` | ❌ Rejected | No uppercase letter |
 | `NoNumbersHere!` | ❌ Rejected | No digit |
 
-## If you forget the password
-
-You cannot recover the password of an existing VM. If you lose it, you have two options:
-
-1. **Recreate the VM** with a new password.
-2. **Use the WebConsole** if you still have an active session.
-
-**Warning:** Recreating the VM deletes all data on it. Back up your files before you delete a VM.
-
 ---
 
 **Related pages:**

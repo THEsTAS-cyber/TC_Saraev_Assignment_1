@@ -20,3 +20,9 @@ If you got such a message during creating a VM you can see the details by clicki
 
 **If you have forgotten your password:**
 Contact IT department of Innopolis University.
+
+**If you forgot the VM password:**  
+You cannot recover the password of an existing VM. **Warning:** Recreating a VM permanently deletes all data on it. Back up your files before proceeding.
+If you lose the password, you have two options:
+1. **Recreate the VM** with a new password.
+2. **Use the WebConsole** if you still have an active session.

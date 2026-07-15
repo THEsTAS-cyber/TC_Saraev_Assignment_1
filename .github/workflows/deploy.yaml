@@ -28,14 +28,14 @@ jobs:
       - name: Vale Style Check
         uses: errata-ai/vale-action@reviewdog
         with:
-          files: 'content/**/*.md'
+          files: 'content/'
           reporter: github-pr-check
           fail_on_error: true
         
       - name: Spell Check
         uses: streetsidesoftware/cspell-action@v5
         with:
-          files: 'content/**/*.md'
+          files: 'content/'
           dictionaries: 'ru_ru'
           config: 'cspell.json'
           strict: true

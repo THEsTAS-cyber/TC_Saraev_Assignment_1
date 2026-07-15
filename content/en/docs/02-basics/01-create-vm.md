@@ -12,5 +12,5 @@ weight: 30
    ![New VM](../../../en/images/Virtual_machines_empty_new.png)
 4. In the opened menu, choose one of two creation methods:
    - **From Gallery**: Detailed configuration with pre-configured templates. Best for specific requirements. (see [How to create a new virtual machine from gallery](../02-gallery-vm/))
-   - **Quick Start**: Fast creation with basic settings. Best for simple VMs. (sese [How to create a new virtual machine via **QUICK CREATE**](../03-quick-vm.md))
+   - **Quick Start**: Fast creation with basic settings. Best for simple VMs. (sese [How to create a new virtual machine via **QUICK CREATE**](../03-quick-vm/))
    ![Choose Template](../../../en/images/VM_choose_template.png)

@@ -3,7 +3,7 @@ title: "Быстрое создание виртуальной машины (В�
 weight: 50
 ---
 
-## Как создать новую ВМ через Quick Start
+## Как создать новую ВМ через **QUICK CREATE**
 
 1. Откроется меню быстрого создания.
    ![Quick Start Form](../../../images/Quick_start_form.png)

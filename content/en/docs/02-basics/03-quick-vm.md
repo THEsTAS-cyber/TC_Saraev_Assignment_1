@@ -1,5 +1,5 @@
 ---
-title: "Create a virtual machine (VM) via **QUICK CREATE**"
+title: "Create a virtual machine (VM) via Quick Create"
 weight: 50
 ---
 

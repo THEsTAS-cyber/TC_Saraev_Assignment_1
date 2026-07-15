@@ -30,7 +30,7 @@
 &lt;/ol&gt;</description></item><item><title>Детали и учетные данные</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/ru/docs/03-functions/02-details-login/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/ru/docs/03-functions/02-details-login/</guid><description>&lt;h2 id="как-просмотреть-детали-созданной-вм"&gt;Как просмотреть детали созданной ВМ&lt;a class="anchor" href="#%d0%ba%d0%b0%d0%ba-%d0%bf%d1%80%d0%be%d1%81%d0%bc%d0%be%d1%82%d1%80%d0%b5%d1%82%d1%8c-%d0%b4%d0%b5%d1%82%d0%b0%d0%bb%d0%b8-%d1%81%d0%be%d0%b7%d0%b4%d0%b0%d0%bd%d0%bd%d0%be%d0%b9-%d0%b2%d0%bc"&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;На главной странице сайта нажмите кнопку &lt;strong&gt;VIRTUAL MACHINES&lt;/strong&gt; на левой панели.&lt;/li&gt;
-&lt;li&gt;Выберите ВМ, детали которой вы хотите просмотреть, и нажмите на ее &lt;strong&gt;имя&lt;/strong&gt;.
+&lt;li&gt;Выберите ВМ, детали которой вы хотите просмотреть, и нажмите на ее &lt;strong&gt;NAME&lt;/strong&gt;.
 &lt;img src="../../../images/Vm_details.png" alt="VM Details" /&gt;&lt;/li&gt;
 &lt;li&gt;Затем вы увидите страницу с вашей ВМ.
 &lt;img src="../../../images/Your_Virtual_machine_details.png" alt="VM Details Page" /&gt;&lt;/li&gt;
@@ -41,7 +41,7 @@
 &lt;/ol&gt;
 &lt;h2 id="какой-логин-у-моей-вм"&gt;Какой логин у моей ВМ&lt;a class="anchor" href="#%d0%ba%d0%b0%d0%ba%d0%be%d0%b9-%d0%bb%d0%be%d0%b3%d0%b8%d0%bd-%d1%83-%d0%bc%d0%be%d0%b5%d0%b9-%d0%b2%d0%bc"&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Сразу после создания ВМ вы не видите ее логин. Но, скорее всего, это «root», «admin» или «administrator».&lt;/li&gt;
+&lt;li&gt;После создания ВМ ее логин не отображается. По умолчанию это обычно &lt;code&gt;root&lt;/code&gt;, &lt;code&gt;admin&lt;/code&gt; или &lt;code&gt;administrator&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;Вы можете увидеть логин вашей ВМ во время ее создания.&lt;/li&gt;
 &lt;li&gt;Для опции &lt;strong&gt;QUICK START&lt;/strong&gt; вы можете увидеть логин в разделе &lt;strong&gt;ADMINISTRATOR ACCOUNT&lt;/strong&gt;. Логин, скорее всего, написан строчными буквами вместо заглавных. Или от вас потребуется заполнить его вручную.
 &lt;img src="../../../images/Quick_start_modal_login.png" alt="Quick Start Login" /&gt;&lt;/li&gt;

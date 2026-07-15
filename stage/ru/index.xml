@@ -4,7 +4,7 @@
 &lt;li&gt;Затем вы будете перенаправлены на страницу входа SSO Университета Иннополис.
 &lt;img src="../../../images/sso.png" alt="SSO Login" /&gt;
 &lt;ul&gt;
-&lt;li&gt;Если вы сразу попадаете на Innopolis VM, не волнуйтесь: скорее всего, вы уже вошли в систему.&lt;/li&gt;
+&lt;li&gt;Если сразу открывается главная страница, вы уже вошли в систему.&lt;/li&gt;
 &lt;li&gt;Если вы не вошли в систему, введите учетные данные Университета Иннополис (имя пользователя и пароль). Затем нажмите кнопку &lt;strong&gt;Sign in&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -129,7 +129,8 @@
 &lt;img src="../../../images/VM_choose_template.png" alt="Choose Template" /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>Создание ВМ из галереи</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/ru/docs/02-basics/02-gallery-vm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/ru/docs/02-basics/02-gallery-vm/</guid><description>&lt;h2 id="как-создать-новую-вм-из-галереи"&gt;Как создать новую ВМ из галереи&lt;a class="anchor" href="#%d0%ba%d0%b0%d0%ba-%d1%81%d0%be%d0%b7%d0%b4%d0%b0%d1%82%d1%8c-%d0%bd%d0%be%d0%b2%d1%83%d1%8e-%d0%b2%d0%bc-%d0%b8%d0%b7-%d0%b3%d0%b0%d0%bb%d0%b5%d1%80%d0%b5%d0%b8"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;/ol&gt;</description></item><item><title>Создание виртуальной машины (ВМ) из галереи</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/ru/docs/02-basics/02-gallery-vm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/ru/docs/02-basics/02-gallery-vm/</guid><description>&lt;p&gt;Вы выбрали способ создания &lt;strong&gt;FROM GALLERY&lt;/strong&gt;. Этот метод позволяет подробно настроить ВМ с использованием предварительно настроенных шаблонов.&lt;/p&gt;
+&lt;h2 id="как-создать-новую-вм-из-галереи"&gt;Как создать новую ВМ из галереи&lt;a class="anchor" href="#%d0%ba%d0%b0%d0%ba-%d1%81%d0%be%d0%b7%d0%b4%d0%b0%d1%82%d1%8c-%d0%bd%d0%be%d0%b2%d1%83%d1%8e-%d0%b2%d0%bc-%d0%b8%d0%b7-%d0%b3%d0%b0%d0%bb%d0%b5%d1%80%d0%b5%d0%b8"&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Откроется меню создания из галереи.
 &lt;img src="../../../images/Gallery_modal.png" alt="Gallery Modal" /&gt;&lt;/li&gt;
@@ -152,7 +153,8 @@
 &lt;img src="../../../images/VM_adapters.png" alt="Network Adapter" /&gt;&lt;/li&gt;
 &lt;li&gt;Теперь нажмите кнопку с &lt;strong&gt;галочкой&lt;/strong&gt;, чтобы сохранить настройки и создать ВМ.
 &lt;img src="../../../images/VM_adapters_finish.png" alt="Save Settings" /&gt;&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>Быстрое создание виртуальной машины (ВМ)</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/ru/docs/02-basics/03-quick-vm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/ru/docs/02-basics/03-quick-vm/</guid><description>&lt;h2 id="как-создать-новую-вм-через-quick-create"&gt;Как создать новую ВМ через &lt;strong&gt;QUICK CREATE&lt;/strong&gt;&lt;a class="anchor" href="#%d0%ba%d0%b0%d0%ba-%d1%81%d0%be%d0%b7%d0%b4%d0%b0%d1%82%d1%8c-%d0%bd%d0%be%d0%b2%d1%83%d1%8e-%d0%b2%d0%bc-%d1%87%d0%b5%d1%80%d0%b5%d0%b7-quick-create"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;/ol&gt;</description></item><item><title>Быстрое создание виртуальной машины (ВМ)</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/ru/docs/02-basics/03-quick-vm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/ru/docs/02-basics/03-quick-vm/</guid><description>&lt;p&gt;Вы выбрали способ &lt;strong&gt;QUICK CREATE&lt;/strong&gt;. Этот метод позволяет быстро создать ВМ с базовыми настройками.&lt;/p&gt;
+&lt;h2 id="как-создать-новую-вм-через-quick-create"&gt;Как создать новую ВМ через &lt;strong&gt;QUICK CREATE&lt;/strong&gt;&lt;a class="anchor" href="#%d0%ba%d0%b0%d0%ba-%d1%81%d0%be%d0%b7%d0%b4%d0%b0%d1%82%d1%8c-%d0%bd%d0%be%d0%b2%d1%83%d1%8e-%d0%b2%d0%bc-%d1%87%d0%b5%d1%80%d0%b5%d0%b7-quick-create"&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Откроется меню быстрого создания.
 &lt;img src="../../../images/Quick_start_form.png" alt="Quick Start Form" /&gt;&lt;/li&gt;
@@ -206,7 +208,7 @@
 &lt;/ol&gt;</description></item><item><title>Детали и учетные данные</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/ru/docs/03-functions/02-details-login/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/ru/docs/03-functions/02-details-login/</guid><description>&lt;h2 id="как-просмотреть-детали-созданной-вм"&gt;Как просмотреть детали созданной ВМ&lt;a class="anchor" href="#%d0%ba%d0%b0%d0%ba-%d0%bf%d1%80%d0%be%d1%81%d0%bc%d0%be%d1%82%d1%80%d0%b5%d1%82%d1%8c-%d0%b4%d0%b5%d1%82%d0%b0%d0%bb%d0%b8-%d1%81%d0%be%d0%b7%d0%b4%d0%b0%d0%bd%d0%bd%d0%be%d0%b9-%d0%b2%d0%bc"&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;На главной странице сайта нажмите кнопку &lt;strong&gt;VIRTUAL MACHINES&lt;/strong&gt; на левой панели.&lt;/li&gt;
-&lt;li&gt;Выберите ВМ, детали которой вы хотите просмотреть, и нажмите на ее &lt;strong&gt;имя&lt;/strong&gt;.
+&lt;li&gt;Выберите ВМ, детали которой вы хотите просмотреть, и нажмите на ее &lt;strong&gt;NAME&lt;/strong&gt;.
 &lt;img src="../../../images/Vm_details.png" alt="VM Details" /&gt;&lt;/li&gt;
 &lt;li&gt;Затем вы увидите страницу с вашей ВМ.
 &lt;img src="../../../images/Your_Virtual_machine_details.png" alt="VM Details Page" /&gt;&lt;/li&gt;
@@ -217,14 +219,27 @@
 &lt;/ol&gt;
 &lt;h2 id="какой-логин-у-моей-вм"&gt;Какой логин у моей ВМ&lt;a class="anchor" href="#%d0%ba%d0%b0%d0%ba%d0%be%d0%b9-%d0%bb%d0%be%d0%b3%d0%b8%d0%bd-%d1%83-%d0%bc%d0%be%d0%b5%d0%b9-%d0%b2%d0%bc"&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Сразу после создания ВМ вы не видите ее логин. Но, скорее всего, это «root», «admin» или «administrator».&lt;/li&gt;
+&lt;li&gt;После создания ВМ ее логин не отображается. По умолчанию это обычно &lt;code&gt;root&lt;/code&gt;, &lt;code&gt;admin&lt;/code&gt; или &lt;code&gt;administrator&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;Вы можете увидеть логин вашей ВМ во время ее создания.&lt;/li&gt;
 &lt;li&gt;Для опции &lt;strong&gt;QUICK START&lt;/strong&gt; вы можете увидеть логин в разделе &lt;strong&gt;ADMINISTRATOR ACCOUNT&lt;/strong&gt;. Логин, скорее всего, написан строчными буквами вместо заглавных. Или от вас потребуется заполнить его вручную.
 &lt;img src="../../../images/Quick_start_modal_login.png" alt="Quick Start Login" /&gt;&lt;/li&gt;
 &lt;li&gt;Для опции &lt;strong&gt;FROM GALLERY&lt;/strong&gt; вы можете увидеть логин в разделе &lt;strong&gt;ADMINISTRATOR ACCOUNT&lt;/strong&gt;.
 &lt;img src="../../../images/Gallery_administrator_account_marked.png" alt="Gallery Login" /&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Устранение неисправностей</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/ru/docs/04-troubleshoot/01-troubleshooting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/ru/docs/04-troubleshoot/01-troubleshooting/</guid><description>&lt;h2 id="устранение-неисправностей"&gt;Устранение неисправностей&lt;a class="anchor" href="#%d1%83%d1%81%d1%82%d1%80%d0%b0%d0%bd%d0%b5%d0%bd%d0%b8%d0%b5-%d0%bd%d0%b5%d0%b8%d1%81%d0%bf%d1%80%d0%b0%d0%b2%d0%bd%d0%be%d1%81%d1%82%d0%b5%d0%b9"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Если ваш экран стал серым и вы ничего не можете нажать:&lt;/strong&gt;
-Внизу вы можете увидеть сообщение «Your session timed out. click &lt;strong&gt;OK&lt;/strong&gt; to log in again». Не волнуйтесь, нажмите &lt;strong&gt;OK&lt;/strong&gt;. Вам либо нужно войти в систему снова, либо вы будете перенаправлены на главную страницу.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Подписка слишком долго синхронизируется:&lt;/strong&gt;
-Если ваша подписка слишком долго синхронизируется, не волнуйтесь: скорее всего, она уже активна, и вы можете ею пользоваться. Если это не так, обратитесь в IT-отдел Университета Иннополис.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;Этот раздел поможет вам диагностировать и решить распространенные проблемы с Innopolis VM. Каждая проблема описана по структуре: &lt;strong&gt;Симптом&lt;/strong&gt;, &lt;strong&gt;Возможные причины&lt;/strong&gt;, &lt;strong&gt;Проверки&lt;/strong&gt;, &lt;strong&gt;Решения&lt;/strong&gt; и &lt;strong&gt;Эскалация&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id="серый-экран--ничего-не-нажимается"&gt;Серый экран — ничего не нажимается&lt;a class="anchor" href="#%d1%81%d0%b5%d1%80%d1%8b%d0%b9-%d1%8d%d0%ba%d1%80%d0%b0%d0%bd--%d0%bd%d0%b8%d1%87%d0%b5%d0%b3%d0%be-%d0%bd%d0%b5-%d0%bd%d0%b0%d0%b6%d0%b8%d0%bc%d0%b0%d0%b5%d1%82%d1%81%d1%8f"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Симптом:&lt;/strong&gt;&lt;br&gt;
+Экран стал серым, вы не можете взаимодействовать с интерфейсом.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Возможные причины:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Время вашей сессии истекло из-за неактивности.&lt;/li&gt;
+&lt;li&gt;Браузер потерял соединение с сервером.&lt;/li&gt;
+&lt;li&gt;Вкладка браузера зависла.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Проверки:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Посмотрите вниз экрана — там должно быть сообщение «Your session timed out. Click &lt;strong&gt;OK&lt;/strong&gt; to log in again».&lt;/li&gt;
+&lt;li&gt;Проверьте подключение к интернету.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Решения:&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>

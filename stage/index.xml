@@ -4,7 +4,7 @@
 &lt;li&gt;Then you will be redirected to the SSO Innopolis University login page.
 &lt;img src="../../../en/images/sso.png" alt="SSO Login" /&gt;
 &lt;ul&gt;
-&lt;li&gt;If you are immediately redirected to Innopolis VM, don&amp;rsquo;t worry, most likely you are already logged in.&lt;/li&gt;
+&lt;li&gt;If you see the main page immediately, you are already logged in.&lt;/li&gt;
 &lt;li&gt;If you are not logged in, you will be prompted to enter your Innopolis University credentials (username and password). Then click on the &lt;strong&gt;Sign in&lt;/strong&gt; button.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -116,7 +116,7 @@
 &lt;img src="../../../en/images/Virtual_machines_empty_new.png" alt="New VM" /&gt;&lt;/li&gt;
 &lt;li&gt;In the opened menu, choose one of two creation methods:
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;From Gallery&lt;/strong&gt;: Detailed configuration with pre-configured templates. Best for specific requirements. (see &lt;a href="../02-gallery-vm/"&gt;How to create a new virtual machine from gallery&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;FROM GALLERY&lt;/strong&gt;: Detailed configuration with pre-configured templates. Best for specific requirements. (see &lt;a href="../02-gallery-vm/"&gt;How to create a new virtual machine from gallery&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Quick Start&lt;/strong&gt;: Fast creation with basic settings. Best for simple VMs. (sese &lt;a href="../03-quick-vm/"&gt;How to create a new virtual machine via &lt;strong&gt;QUICK CREATE&lt;/strong&gt;&lt;/a&gt;)
 &lt;img src="../../../en/images/VM_choose_template.png" alt="Choose Template" /&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -127,7 +127,8 @@
 The default user account on a VM. It has full control over the system. On Linux VMs, this is usually the &lt;code&gt;root&lt;/code&gt; user. On Windows VMs, it is the &lt;code&gt;Administrator&lt;/code&gt; user.&lt;/p&gt;
 &lt;h2 id="d"&gt;D&lt;a class="anchor" href="#d"&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Dashboard&lt;/strong&gt;
-The main web page where you manage your virtual machines and subscriptions. You open it after logging in to Innopolis VM.&lt;/p&gt;</description></item><item><title>Create a virtual machine (VM) from gallery</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/02-basics/02-gallery-vm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/02-basics/02-gallery-vm/</guid><description>&lt;h2 id="how-to-create-a-new-vm-from-gallery"&gt;How to create a new VM from gallery&lt;a class="anchor" href="#how-to-create-a-new-vm-from-gallery"&gt;#&lt;/a&gt;&lt;/h2&gt;
+The main web page where you manage your virtual machines and subscriptions. You open it after logging in to Innopolis VM.&lt;/p&gt;</description></item><item><title>Create a virtual machine (VM) from gallery</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/02-basics/02-gallery-vm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/02-basics/02-gallery-vm/</guid><description>&lt;p&gt;You chose the &lt;strong&gt;FROM GALLERY&lt;/strong&gt; creation method. This option allows you to configure a VM in detail using pre-configured templates.&lt;/p&gt;
+&lt;h2 id="how-to-create-a-new-vm-from-gallery"&gt;How to create a new VM from gallery&lt;a class="anchor" href="#how-to-create-a-new-vm-from-gallery"&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Menu with gallery creating will open.
 &lt;img src="../../../en/images/Gallery_modal.png" alt="Gallery Modal" /&gt;&lt;/li&gt;
@@ -179,7 +180,8 @@ The main web page where you manage your virtual machines and subscriptions. You 
 &lt;img src="../../../en/images/Login_is_incorrect.png" alt="Login Incorrect" /&gt;&lt;/li&gt;
 &lt;li&gt;If you successfully connected, you will see a message like &lt;strong&gt;Welcome to Ubuntu&amp;hellip;&lt;/strong&gt; or similar, depending on your VM operating system.
 &lt;img src="../../../en/images/Succesfull_login.png" alt="Successful Login" /&gt;&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>Create a virtual machine (VM) via Quick Create</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/02-basics/03-quick-vm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/02-basics/03-quick-vm/</guid><description>&lt;h2 id="how-to-create-a-new-vm-via-quick-create"&gt;How to create a new VM via &lt;strong&gt;QUICK CREATE&lt;/strong&gt;&lt;a class="anchor" href="#how-to-create-a-new-vm-via-quick-create"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;/ol&gt;</description></item><item><title>Create a virtual machine (VM) via Quick Create</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/02-basics/03-quick-vm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/02-basics/03-quick-vm/</guid><description>&lt;p&gt;You chose the &lt;strong&gt;QUICK CREATE&lt;/strong&gt; method. This option allows you to quickly create a VM with basic settings.&lt;/p&gt;
+&lt;h2 id="how-to-create-a-new-vm-via-quick-create"&gt;How to create a new VM via &lt;strong&gt;QUICK CREATE&lt;/strong&gt;&lt;a class="anchor" href="#how-to-create-a-new-vm-via-quick-create"&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Menu with quick start creating will open.
 &lt;img src="../../../en/images/Quick_start_form.png" alt="Quick Start Form" /&gt;&lt;/li&gt;
@@ -215,14 +217,27 @@ The main web page where you manage your virtual machines and subscriptions. You 
 &lt;/ol&gt;
 &lt;h2 id="what-is-my-vm-login"&gt;What is my VM login&lt;a class="anchor" href="#what-is-my-vm-login"&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;At first, you can&amp;rsquo;t see the login of your VM when you have already created it. But more likely it is &amp;ldquo;root&amp;rdquo;, &amp;ldquo;admin&amp;rdquo;, or &amp;ldquo;administrator&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;The VM login is not displayed after creation. The default login is usually &lt;code&gt;root&lt;/code&gt;, &lt;code&gt;admin&lt;/code&gt;, or &lt;code&gt;administrator&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;You can see the login of your VM during VM creation.&lt;/li&gt;
 &lt;li&gt;For &lt;strong&gt;QUICK START&lt;/strong&gt; option, you can see the login in the &lt;strong&gt;ADMINISTRATOR ACCOUNT&lt;/strong&gt; section. The login is most likely lower-case instead of upper-case. Or you are required to fulfill it.
 &lt;img src="../../../en/images/Quick_start_modal_login.png" alt="Quick Start Login" /&gt;&lt;/li&gt;
 &lt;li&gt;For &lt;strong&gt;FROM GALLERY&lt;/strong&gt; option, you can see the login in the &lt;strong&gt;ADMINISTRATOR ACCOUNT&lt;/strong&gt; section.
 &lt;img src="../../../en/images/Gallery_administrator_account_marked.png" alt="Gallery Login" /&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Troubleshooting</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/04-troubleshoot/01-troubleshooting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/04-troubleshoot/01-troubleshooting/</guid><description>&lt;h2 id="troubleshooting"&gt;Troubleshooting&lt;a class="anchor" href="#troubleshooting"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;If your screen became gray and you can&amp;rsquo;t click anything:&lt;/strong&gt;
-On the bottom you can see a message &amp;ldquo;Your session timed out. click &lt;strong&gt;OK&lt;/strong&gt; to log in again&amp;rdquo;. Don&amp;rsquo;t worry, click &lt;strong&gt;OK&lt;/strong&gt;. You either need to log in again or just be redirected to main page.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Subscription is syncing too long:&lt;/strong&gt;
-If your subscription is syncing too long - don&amp;rsquo;t worry, more likely it is active right now and you can use it. If it is not, contact IT department of Innopolis University.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;This section helps you diagnose and resolve common issues with Innopolis VM. Each problem follows a structured approach: &lt;strong&gt;Symptom&lt;/strong&gt;, &lt;strong&gt;Possible causes&lt;/strong&gt;, &lt;strong&gt;Checks&lt;/strong&gt;, &lt;strong&gt;Solutions&lt;/strong&gt;, and &lt;strong&gt;Escalation&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id="gray-screen--cannot-click-anything"&gt;Gray screen — cannot click anything&lt;a class="anchor" href="#gray-screen--cannot-click-anything"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Symptom:&lt;/strong&gt;&lt;br&gt;
+The screen turned gray and you cannot interact with the interface.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Possible causes:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Your session has timed out due to inactivity.&lt;/li&gt;
+&lt;li&gt;The browser lost connection to the server.&lt;/li&gt;
+&lt;li&gt;The browser tab is unresponsive.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Checks:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Look at the bottom of the screen for a message like «Your session timed out. Click &lt;strong&gt;OK&lt;/strong&gt; to log in again».&lt;/li&gt;
+&lt;li&gt;Check your internet connection.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Solutions:&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>

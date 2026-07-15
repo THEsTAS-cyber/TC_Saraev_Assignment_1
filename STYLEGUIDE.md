@@ -1,5 +1,3 @@
-# STYLEGUIDE.md — Innopolis VM Documentation
-
 # Innopolis VM Documentation Style Guide
 
 **Version:** 0.1 (Draft)
@@ -51,7 +49,7 @@ We write from the reader's task, not the system's architecture. This means:
 
 | Situation    | Tone                  | Example                                                            |
 | ------------ | --------------------- | ------------------------------------------------------------------ |
-| Instructions | Neutral, step-by-step | "Click**Create VM**."                                        |
+| Instructions | Neutral, step-by-step | "Click **Create VM**."                                        |
 | Warnings     | Serious, specific     | "This will delete all files. You cannot undo this."                |
 | Errors       | Honest, actionable    | "We couldn't connect to the VM. Check your network and try again." |
 | Introduction | Welcoming, factual    | "Innopolis VM lets you create virtual machines for your projects." |
@@ -72,22 +70,27 @@ We write from the reader's task, not the system's architecture. This means:
 
 ## 3. Terminology
 
-### Approved Terms
+| Term                   | Definition                    | First use (EN)         | First use (RU)           | After first use (EN) | After first use (RU) |
+| ---------------------- | ----------------------------- | ---------------------- | ------------------------ | -------------------- | -------------------- |
+| **VM / ВМ**            | Virtual machine               | virtual machine (VM)   | виртуальная машина (ВМ)  | VM                   | ВМ                   |
+| **Innopolis VM**       | The service/platform          | Always "Innopolis VM"  | Всегда "Innopolis VM"    | Innopolis VM         | Innopolis VM         |
+| **SSH key**            | Public key for authentication | SSH key                | SSH-ключ                 | SSH key              | SSH-ключ             |
+| **IP address**         | Network address               | IP address             | IP-адрес                 | IP                   | IP                   |
+| **Subscription**       | Access plan for resources     | subscription           | подписка                 | subscription         | подписка             |
+| **Dashboard**          | VM management page            | dashboard              | панель управления        | dashboard            | панель управления    |
 
-| Term                   | Definition                    | First use              | After first use                 |
-| ---------------------- | ----------------------------- | ---------------------- | ------------------------------- |
-| **Innopolis VM** | The service/platform          | Always "Innopolis VM"  | "Innopolis VM" or "the service" |
-| **VM**           | Virtual machine               | "virtual machine (VM)" | "VM"                            |
-| **SSH key**      | Public key for authentication | "SSH key"              | "SSH key"                       |
-| **IP address**   | Network address               | "IP address"           | "IP"                            |
-| **Subscription** | Access plan for resources     | "subscription"         | "subscription"                  |
-| **Dashboard**    | VM management page            | "dashboard"            | "dashboard"                     |
+**Important Rule on First Use:**
+The "first use" expansion applies **per page**, not per entire documentation. 
+Every page must define the abbreviation upon its first appearance in the text, because readers may land on any page directly via search or external links.
 
 ### Forbidden Terms
 
 | Don't use                         | Use instead            | Why                |
 | --------------------------------- | ---------------------- | ------------------ |
-| virtual machine (after first use) | VM                     | Brevity            |
+| vm, Vm, вм                        | VM (EN) / ВМ (RU)      | Consistency & capitalization |
+| виртуалка                         | ВМ                     | No slang           |
+| virtual machine (after 1st use)   | VM                     | Brevity            |
+| виртуальная машина (после 1-го упоминания) | ВМ              | Краткость          |
 | platform, system, service (alone) | Innopolis VM           | Specificity        |
 | utilize                           | use                    | Plain language     |
 | perform configuration             | configure              | Action over noun   |
@@ -100,13 +103,13 @@ We write from the reader's task, not the system's architecture. This means:
 
 Always use **exact labels** from the UI, in **bold**. **Never use quotation marks** for UI elements.
 
-| Language | ✅ Correct |  Wrong |
-|----------|------------|----------|
-| English | Click **Create VM Instance** | Click the "Create VM Instance" button |
-| English | Select **FROM GALLERY** | Select "FROM GALLERY" |
-| English | Enter your name in the **NAME** field | Enter your name in the "NAME" field |
-| Russian | Нажмите кнопку **Login** | Нажмите кнопку «Login» или "Login" |
-| Russian | Введите имя в поле **NAME** | Введите имя в поле «NAME» или "NAME" |
+| Language | ✅ Correct                                      | Wrong                                                    |
+| -------- | ----------------------------------------------- | -------------------------------------------------------- |
+| English  | Click **Create VM Instance**               | Click the "Create VM Instance" button                    |
+| English  | Select **FROM GALLERY**                    | Select "FROM GALLERY"                                    |
+| English  | Enter your name in the **NAME** field      | Enter your name in the "NAME" field                      |
+| Russian  | Нажмите кнопку **Sign in**      | Нажмите кнопку «Login» или "Login"     |
+| Russian  | Введите имя в поле **NAME** | Введите имя в поле «NAME» или "NAME" |
 
 **Important:** Keep UI labels in English even in Russian text, as they appear in the interface.
 
@@ -114,14 +117,15 @@ Always use **exact labels** from the UI, in **bold**. **Never use quotation mark
 
 When referring to other sections or pages:
 
-| Language | ✅ Correct |  Wrong |
-|----------|------------|----------|
-| English | (see [Subscriptions](...)) | (look at Subscriptions) |
-| English | For more information, see [Password requirements](...). | For more info, check out... |
-| Russian | (см. [Подписки](...)) | (смотрите Подписки) |
-| Russian | Подробнее см. [Требования к паролю](...). | Для большей информации смотрите... |
+| Language | ✅ Correct                                                          | Wrong                                                          |
+| -------- | ------------------------------------------------------------------- | -------------------------------------------------------------- |
+| English  | (see [Subscriptions](...))                                            | (look at Subscriptions)                                        |
+| English  | For more information, see [Password requirements](...).               | For more info, check out...                                    |
+| Russian  | (см. [Подписки](...))                                       | (смотрите Подписки)                            |
+| Russian  | Подробнее см. [Требования к паролю](...). | Для большей информации смотрите... |
 
 **Rules:**
+
 - Use lowercase "see" / "см." in parentheses
 - Use lowercase "see" at the beginning of a sentence only if it follows a comma
 - Always include a link
@@ -149,32 +153,29 @@ Always use **exact labels** from the UI, in **bold**:
 - **Oxford comma:** "create, filter, and export" (not "create, filter and export")
 - **Em dash** for parentheticals: "The VM — if running — shows an IP address."
 - **Period** at the end of complete sentences in lists
-
 - **Quotation Marks (Кавычки):**
+
   - **Never for UI elements:** Use **bold** instead of quotes for buttons, fields, and menu items.
+
     - ✅ Click **Login**
     - ❌ Click "Login" or Click «Login»
-  
   - **In regular text:**
-    - **Russian text:** Use typographic guillemets («ёлочки»).  
-      *Example:* Появится сообщение «Ошибка входа».
-    - **English text:** Use standard double quotes (`" "`).  
+
+    - **Russian text:** Use typographic guillemets («ёлочки»).*Example:* Появится сообщение «Ошибка входа».
+    - **English text:** Use standard double quotes (`" "`).
       *Example:* You will see the "Login failed" message.
-  
-  - **In code & commands:** Always use straight quotes (`" "` or `' '`) inside inline code or code blocks, as required by syntax.  
-    *Example:* `git commit -m "fix: typo"`
-  
+  - **In code & commands:** Always use straight quotes (`" "` or `' '`) inside inline code or code blocks, as required by syntax.*Example:* `git commit -m "fix: typo"`
   - **Nested quotes:**
-    - **Russian:** Use „лапки" inside «ёлочек».  
-      *Example:* Появится сообщение «Нажмите „Login" для продолжения».
-    - **English:** Use 'single quotes' inside "double quotes".  
+
+    - **Russian:** Use „лапки" inside «ёлочек».*Example:* Появится сообщение «Нажмите „Login" для продолжения».
+    - **English:** Use 'single quotes' inside "double quotes".
       *Example:* You will see the "Click 'Login' to continue" message.
 
 ### Dates & Numbers
 
 - **Dates:** "July 13, 2026" (not "13.07.2026" or "07/13/26")
 - **Numbers:** Spell out 1–9, use digits for 10+ (except in technical contexts: "port 22", "IP 10.13.127.89")
-- **Units of measurement:** Always use a space between the number and the unit. Use standard capitalization (e.g., `5 Mbps`, `4 GB`, `220 V`).  
+- **Units of measurement:** Always use a space between the number and the unit. Use standard capitalization (e.g., `5 Mbps`, `4 GB`, `220 V`).
 - *Critical:* Use `Mbps` (Megabits per second) for network speed. Do not use `mbps` or confuse it with `MB/s` (Megabytes per second).
 
 ### Code & Commands
@@ -296,7 +297,7 @@ Especially for errors, warnings, and confirmations.
 ## 7. Navigation & Next Steps
 
 - **Do not** add a formal "Next steps" heading at the end of every page. The theme provides "Next/Prev" buttons.
-- **Do** add a brief concluding sentence at the end of a major logical block (e.g., at the end of the "Setup" section) to bridge the context. 
+- **Do** add a brief concluding sentence at the end of a major logical block (e.g., at the end of the "Setup" section) to bridge the context.
   - *Example:* "Now that your subscription is active, you can create your first virtual machine."
 - **Do** use explicit text links if the reader has **multiple choices** for the next step (e.g., "If you want to use a pre-configured template instead, go to [Gallery VM](...)").
 
@@ -358,7 +359,7 @@ When translating to Russian:
 - **Cross-references:** Use "см." (lowercase) in parentheses.
   - ✅ (см. [Подписки](...))
   - ❌ (Смотрите Подписки)
-  
+
 ---
 
 ## 10. Review Checklist

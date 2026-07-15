@@ -3,7 +3,7 @@ title: "Password requirements"
 weight: 20
 ---
 
-When you create a virtual machine, you set a password for the administrator account. Follow these rules to avoid creation errors.
+When you create a virtual machine (VM), you set a password for the administrator account. Follow these rules to avoid creation errors.
 
 ## Rules
 
@@ -38,5 +38,5 @@ You cannot recover the password of an existing VM. If you lose it, you have two 
 
 **Related pages:**
 
-- [Create a virtual machine](../../02-basics/01-create-vm/)
+- [Create a VM](../../02-basics/01-create-vm/)
 - [Troubleshooting login issues](../../04-troubleshoot/)

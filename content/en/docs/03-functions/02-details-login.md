@@ -1,25 +1,25 @@
 ---
-title: "Details & Credentials"
+title: "Details & credentials"
 weight: 60
 ---
 
-## How to see details of the created virtual machine
+## How to see details of the created virtual machine (VM)
 
 1. From the main page of the website, click on the **VIRTUAL MACHINES** button in the left bar.
-2. Choose the virtual machine you want to see the details of and click on its **name**.
+2. Choose the VM you want to see the details of and click on its **NAME**.
    ![VM Details](../../../en/images/Vm_details.png)
-3. Then you can see the page with your virtual machine.
+3. Then you can see the page with your VM.
    ![VM Details Page](../../../en/images/Your_Virtual_machine_details.png)
 4. If you want to see details, click **DASHBOARD** button.
    ![Dashboard Button](../../../en/images/Your_Virtual_machine_dashboard_button.png)
-5. Then you can see the page with your virtual machine dashboard.
+5. Then you can see the page with your VM dashboard.
    ![Dashboard](../../../en/images/Dashboard_1.png)
 
-## What is my virtual machine login
+## What is my VM login
 
-- At first, you can't see the login of your virtual machine when you have already created it. But more likely it is "root", "admin", or "administrator".
-- You can see the login of your virtual machine during VM creation.
-- For "**QUICK START**" option, you can see the login in the "**ADMINISTRATOR ACCOUNT**" section. The login is most likely lower-case instead of upper-case. Or you are required to fulfill it.
+- At first, you can't see the login of your VM when you have already created it. But more likely it is "root", "admin", or "administrator".
+- You can see the login of your VM during VM creation.
+- For **QUICK START** option, you can see the login in the **ADMINISTRATOR ACCOUNT** section. The login is most likely lower-case instead of upper-case. Or you are required to fulfill it.
   ![Quick Start Login](../../../en/images/Quick_start_modal_login.png)
-- For "**FROM GALLERY**" option, you can see the login in the "**ADMINISTRATOR ACCOUNT**" section.
+- For **FROM GALLERY** option, you can see the login in the **ADMINISTRATOR ACCOUNT** section.
   ![Gallery Login](../../../en/images/Gallery_administrator_account_marked.png)

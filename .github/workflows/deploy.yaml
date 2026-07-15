@@ -28,7 +28,7 @@ jobs:
       - name: Vale Style Check
         uses: errata-ai/vale-action@reviewdog
         with:
-          files: 'content/'
+          files: 'content/en/'
           reporter: github-pr-check
           fail_on_error: true
         
@@ -41,6 +41,15 @@ jobs:
           strict: true
           languages: 'en,ru'
           verbose: true
+
+      - name: Spell Check Russian (LanguageTool)
+        uses: reviewdog/action-languagetool@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          reporter: github-pr-check
+          level: warning
+          language: ru-RU
+          patterns: 'content/ru/**/*.md'
 
       - name: Check Commit Message Format
         run: |

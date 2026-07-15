@@ -1,0 +1,45 @@
+{{ if eq .Site.Language.Lang "ru" }}
+<hr style="margin: 3rem 0; border: none; border-top: 1px solid #eaeaea;">
+<div style="text-align: center; padding: 2rem 0; color: #666; font-size: 0.9rem;">
+  <p style="margin-bottom: 1rem;"><strong>Была ли эта страница полезной?</strong></p>
+  
+  <div style="display: flex; justify-content: center; gap: 1rem;">
+    <!-- Кнопка ПОЛЕЗНО -->
+    <a href="https://github.com/THEsTAS-cyber/TC_Saraev_Assignment_1/issues/new?title=✅%20Полезно:%20{{ .Title | urlquery }}&body=Страница:%20{{ .Permalink | urlquery }}%0A%0A(Необязательно)%20Что%20именно%20помогло?" 
+       target="_blank" 
+       style="display: inline-block; padding: 0.5rem 1rem; background-color: #28a745; color: white; text-decoration: none; border-radius: 4px;">
+      👍 Да, полезно
+    </a>
+
+    <!-- Кнопка НЕ ПОЛЕЗНО -->
+    <a href="https://github.com/THEsTAS-cyber/TC_Saraev_Assignment_1/issues/new?title=❌%20Нужно%20улучшить:%20{{ .Title | urlquery }}&body=Страница:%20{{ .Permalink | urlquery }}%0A%0AОпишите,%20чего%20не%20хватает%20или%20что%20непонятно:" 
+       target="_blank" 
+       style="display: inline-block; padding: 0.5rem 1rem; background-color: #dc3545; color: white; text-decoration: none; border-radius: 4px;">
+      👎 Нет, есть проблемы
+    </a>
+  </div>
+</div>
+
+{{ else }}
+<hr style="margin: 3rem 0; border: none; border-top: 1px solid #eaeaea;">
+<div style="text-align: center; padding: 2rem 0; color: #666; font-size: 0.9rem;">
+  <p style="margin-bottom: 1rem;"><strong>Was this page helpful?</strong></p>
+  
+  <div style="display: flex; justify-content: center; gap: 1rem;">
+    <!-- Helpful Button -->
+    <a href="https://github.com/THEsTAS-cyber/TC_Saraev_Assignment_1/issues/new?title=✅%20Helpful:%20{{ .Title | urlquery }}&body=Page:%20{{ .Permalink | urlquery }}%0A%0A(Optional)%20What%20was%20particularly%20helpful?" 
+       target="_blank" 
+       style="display: inline-block; padding: 0.5rem 1rem; background-color: #28a745; color: white; text-decoration: none; border-radius: 4px;">
+      👍 Yes, helpful
+    </a>
+
+    <!-- Not Helpful Button -->
+    <a href="https://github.com/THEsTAS-cyber/TC_Saraev_Assignment_1/issues/new?title=❌%20Needs%20Improvement:%20{{ .Title | urlquery }}&body=Page:%20{{ .Permalink | urlquery }}%0A%0APlease%20describe%20what%20is%20missing%20or%20unclear:" 
+       target="_blank" 
+       style="display: inline-block; padding: 0.5rem 1rem; background-color: #dc3545; color: white; text-decoration: none; border-radius: 4px;">
+      👎 No, needs improvement
+    </a>
+  </div>
+  
+</div>
+{{ end }}

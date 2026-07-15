@@ -8,7 +8,7 @@ Innopolis VM User Guide
 - Basics: https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/02-basics/
 - Create a virtual machine (VM): https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/02-basics/01-create-vm/
 - Create a virtual machine (VM) from gallery: https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/02-basics/02-gallery-vm/
-- Create a virtual machine (VM) via **QUICK CREATE**: https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/02-basics/03-quick-vm/
+- Create a virtual machine (VM) via Quick Create: https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/02-basics/03-quick-vm/
 - Functions: https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/03-functions/
 - Connect to a virtual machine (VM): https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/03-functions/01-connect/
 - Details & credentials: https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/03-functions/02-details-login/

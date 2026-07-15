@@ -66,8 +66,8 @@
  &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id="if-you-forget-the-password"&gt;If you forget the password&lt;a class="anchor" href="#if-you-forget-the-password"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;You cannot recover the password of an existing VM. If you lose it, you have two options:&lt;/p&gt;</description></item><item><title>Glossary</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/05-reference/02-glossary/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/05-reference/02-glossary/</guid><description>&lt;p&gt;This glossary defines the key terms used in the Innopolis virtual machine (VM) documentation.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Related pages:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Glossary</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/05-reference/02-glossary/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/stage/docs/05-reference/02-glossary/</guid><description>&lt;p&gt;This glossary defines the key terms used in the Innopolis virtual machine (VM) documentation.&lt;/p&gt;
 &lt;h2 id="a"&gt;A&lt;a class="anchor" href="#a"&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Administrator account&lt;/strong&gt;
 The default user account on a VM. It has full control over the system. On Linux VMs, this is usually the &lt;code&gt;root&lt;/code&gt; user. On Windows VMs, it is the &lt;code&gt;Administrator&lt;/code&gt; user.&lt;/p&gt;

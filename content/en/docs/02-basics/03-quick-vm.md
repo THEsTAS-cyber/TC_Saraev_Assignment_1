@@ -3,6 +3,8 @@ title: "Create a virtual machine (VM) via Quick Create"
 weight: 50
 ---
 
+You chose the **QUICK CREATE** method. This option allows you to quickly create a VM with basic settings.
+
 ## How to create a new VM via **QUICK CREATE**
 
 1. Menu with quick start creating will open.

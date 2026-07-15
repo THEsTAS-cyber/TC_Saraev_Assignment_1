@@ -3,6 +3,8 @@ title: "Create a virtual machine (VM) from gallery"
 weight: 40
 ---
 
+You chose the **FROM GALLERY** creation method. This option allows you to configure a VM in detail using pre-configured templates.
+
 ## How to create a new VM from gallery
 
 1. Menu with gallery creating will open.

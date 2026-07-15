@@ -49,7 +49,7 @@ jobs:
           reporter: github-pr-check
           level: warning
           language: ru-RU
-          patterns: 'content/ru/**/*.md' # <-- Исправлено: используем patterns и только русскую папку
+          patterns: 'content/ru/**/*.md'
 
       - name: Check Commit Message Format
         run: |

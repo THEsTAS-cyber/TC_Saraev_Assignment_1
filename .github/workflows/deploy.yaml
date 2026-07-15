@@ -42,7 +42,7 @@ jobs:
           languages: 'en,ru'
           verbose: true
 
-            - name: Spell Check Russian (LanguageTool)
+      - name: Spell Check Russian (LanguageTool)
         uses: reviewdog/action-languagetool@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}

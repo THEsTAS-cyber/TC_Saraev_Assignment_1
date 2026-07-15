@@ -1,56 +1,62 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Основы on Innopolis VM User Guide</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/02-basics/</link><description>Recent content in Основы on Innopolis VM User Guide</description><generator>Hugo</generator><language>ru</language><atom:link href="https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/02-basics/index.xml" rel="self" type="application/rss+xml"/><item><title>Создание виртуальной машины</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/02-basics/01-create-vm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/02-basics/01-create-vm/</guid><description>&lt;h2 id="как-создать-новую-виртуальную-машину"&gt;Как создать новую виртуальную машину&lt;a class="anchor" href="#%d0%ba%d0%b0%d0%ba-%d1%81%d0%be%d0%b7%d0%b4%d0%b0%d1%82%d1%8c-%d0%bd%d0%be%d0%b2%d1%83%d1%8e-%d0%b2%d0%b8%d1%80%d1%82%d1%83%d0%b0%d0%bb%d1%8c%d0%bd%d1%83%d1%8e-%d0%bc%d0%b0%d1%88%d0%b8%d0%bd%d1%83"&gt;#&lt;/a&gt;&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Основы on Innopolis VM User Guide</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/02-basics/</link><description>Recent content in Основы on Innopolis VM User Guide</description><generator>Hugo</generator><language>ru</language><atom:link href="https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/02-basics/index.xml" rel="self" type="application/rss+xml"/><item><title>Создание виртуальной машины (ВМ)</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/02-basics/01-create-vm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/02-basics/01-create-vm/</guid><description>&lt;h2 id="как-создать-новую-вм"&gt;Как создать новую ВМ&lt;a class="anchor" href="#%d0%ba%d0%b0%d0%ba-%d1%81%d0%be%d0%b7%d0%b4%d0%b0%d1%82%d1%8c-%d0%bd%d0%be%d0%b2%d1%83%d1%8e-%d0%b2%d0%bc"&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;Сначала у вас должна быть подписка на сервис (см. &lt;a href="../../01-setup/02-subscription/"&gt;Подписки&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;На главной странице сайта нажмите кнопку «VIRTUAL MACHINES» в левой панели.
+&lt;li&gt;Сначала у вас должна быть активная подписка на сервис (см. &lt;a href="../../01-setup/02-subscription/"&gt;Подписки&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;На главной странице сайта нажмите кнопку &lt;strong&gt;VIRTUAL MACHINES&lt;/strong&gt; на левой панели.
 &lt;img src="../../../images/Main_virtual_machines.png" alt="Main Virtual Machines" /&gt;&lt;/li&gt;
-&lt;li&gt;На странице Virtual Machines нажмите кнопку со стрелкой вправо ИЛИ, если вы уже создали какие-либо виртуальные машины, нажмите кнопку «New» в левом нижнем углу и затем «STANDALONE VIRTUAL MACHINE».
+&lt;li&gt;На странице виртуальных машин нажмите кнопку со &lt;strong&gt;стрелкой вправо&lt;/strong&gt; ИЛИ, если вы уже создали ВМ, нажмите кнопку &lt;strong&gt;NEW&lt;/strong&gt; в левом нижнем углу, а затем &lt;strong&gt;STANDALONE VIRTUAL MACHINE&lt;/strong&gt;.
 &lt;img src="../../../images/Virtual_machines_empty_new.png" alt="New VM" /&gt;&lt;/li&gt;
-&lt;li&gt;В открытом меню вы можете выбрать шаблон для создания виртуальной машины: быстрый запуск или из галереи.
+&lt;li&gt;В открывшемся меню выберите один из двух способов создания:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;From Gallery&lt;/strong&gt;: Подробная настройка с использованием предварительно настроенных шаблонов. Лучше подходит для специфических требований. (см. &lt;a href="../02-gallery-vm/"&gt;Создание ВМ из галереи&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Quick Start&lt;/strong&gt;: Быстрое создание с базовыми настройками. Лучше подходит для простых ВМ. (см. &lt;a href="../03-quick-vm/"&gt;Быстрое создание ВМ&lt;/a&gt;)
 &lt;img src="../../../images/VM_choose_template.png" alt="Choose Template" /&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id="как-создать-новую-виртуальную-машину-через-быстрый-запуск"&gt;Как создать новую виртуальную машину через быстрый запуск&lt;a class="anchor" href="#%d0%ba%d0%b0%d0%ba-%d1%81%d0%be%d0%b7%d0%b4%d0%b0%d1%82%d1%8c-%d0%bd%d0%be%d0%b2%d1%83%d1%8e-%d0%b2%d0%b8%d1%80%d1%82%d1%83%d0%b0%d0%bb%d1%8c%d0%bd%d1%83%d1%8e-%d0%bc%d0%b0%d1%88%d0%b8%d0%bd%d1%83-%d1%87%d0%b5%d1%80%d0%b5%d0%b7-%d0%b1%d1%8b%d1%81%d1%82%d1%80%d1%8b%d0%b9-%d0%b7%d0%b0%d0%bf%d1%83%d1%81%d0%ba"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Откроется меню быстрого создания.
-&lt;img src="../../../images/Quick_start_form.png" alt="Quick Start Form" /&gt;&lt;/li&gt;
-&lt;li&gt;Здесь вам нужно ввести имя вашей виртуальной машины в поле «NAME». Имя обязательно.&lt;/li&gt;
-&lt;li&gt;Также выберите тип подписки — в зависимости от него вы можете выбрать разные шаблоны (операционные системы) для виртуальной машины.
-&lt;img src="../../../images/Choose_subscription_quick.png" alt="Choose Subscription" /&gt;&lt;/li&gt;
-&lt;li&gt;Затем выберите шаблон (операционную систему) для вашей виртуальной машины.
-&lt;img src="../../../images/Template_quick_start.png" alt="VM Template" /&gt;&lt;/li&gt;
-&lt;li&gt;Введите и подтвердите новый пароль для вашей виртуальной машины.&lt;/li&gt;
-&lt;li&gt;Если вы видите красный восклицательный знак в поле «PASSWORD», условие по паролю не выполнено (см. &lt;a href="../../05-reference/01-password-policy/"&gt;Требования к паролю&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;Поле «ADMINISTRATOR ACCOUNT» может быть заполнено по умолчанию и не может быть изменено. Но в некоторых случаях от вас требуется ввести своё имя в это поле.
-&lt;img src="../../../images/Quick_start_admin_account.png" alt="Admin Account" /&gt;&lt;/li&gt;
-&lt;li&gt;Сохраните свой пароль, учётную запись администратора и SSH-ключ или ключ продукта, так как вы больше не сможете их увидеть.&lt;/li&gt;
-&lt;li&gt;Если все поля заполнены правильно — нажмите кнопку «CREATE VM INSTANCE».
-&lt;img src="../../../images/Create_VM_instance.png" alt="Create VM Instance" /&gt;&lt;/li&gt;
-&lt;li&gt;Чтобы увидеть детали создания — нажмите кнопку «DETAILS».
-&lt;img src="../../../images/Started_creating_vm_details.png" alt="VM Details" /&gt;&lt;/li&gt;
-&lt;li&gt;Здесь вы можете видеть прогресс создания вашей виртуальной машины.
-&lt;img src="../../../images/Creation_details_status.png" alt="Creation Progress" /&gt;&lt;/li&gt;
-&lt;li&gt;На странице Virtual Machines вы увидите свою виртуальную машину. Некоторое время её статус будет «Creating», затем он изменится на «Running».
-&lt;img src="../../../images/Vm_running.png" alt="VM Running" /&gt;&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>Создание VM из галереи</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/02-basics/02-gallery-vm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/02-basics/02-gallery-vm/</guid><description>&lt;h2 id="как-создать-новую-виртуальную-машину-из-галереи"&gt;Как создать новую виртуальную машину из галереи&lt;a class="anchor" href="#%d0%ba%d0%b0%d0%ba-%d1%81%d0%be%d0%b7%d0%b4%d0%b0%d1%82%d1%8c-%d0%bd%d0%be%d0%b2%d1%83%d1%8e-%d0%b2%d0%b8%d1%80%d1%82%d1%83%d0%b0%d0%bb%d1%8c%d0%bd%d1%83%d1%8e-%d0%bc%d0%b0%d1%88%d0%b8%d0%bd%d1%83-%d0%b8%d0%b7-%d0%b3%d0%b0%d0%bb%d0%b5%d1%80%d0%b5%d0%b8"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>Создание виртуальной машины (ВМ) из галереи</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/02-basics/02-gallery-vm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/02-basics/02-gallery-vm/</guid><description>&lt;p&gt;Вы выбрали способ создания &lt;strong&gt;FROM GALLERY&lt;/strong&gt;. Этот метод позволяет подробно настроить ВМ с использованием предварительно настроенных шаблонов.&lt;/p&gt;
+&lt;h2 id="как-создать-новую-вм-из-галереи"&gt;Как создать новую ВМ из галереи&lt;a class="anchor" href="#%d0%ba%d0%b0%d0%ba-%d1%81%d0%be%d0%b7%d0%b4%d0%b0%d1%82%d1%8c-%d0%bd%d0%be%d0%b2%d1%83%d1%8e-%d0%b2%d0%bc-%d0%b8%d0%b7-%d0%b3%d0%b0%d0%bb%d0%b5%d1%80%d0%b5%d0%b8"&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Откроется меню создания из галереи.
 &lt;img src="../../../images/Gallery_modal.png" alt="Gallery Modal" /&gt;&lt;/li&gt;
-&lt;li&gt;Вы можете выбрать различную операционную систему для вашей виртуальной машины и увидеть детали.&lt;/li&gt;
-&lt;li&gt;Когда выберете, нажмите кнопку со стрелкой вправо.
+&lt;li&gt;Вы можете выбрать различную операционную систему для вашей ВМ и просмотреть детали.&lt;/li&gt;
+&lt;li&gt;Когда вы сделаете выбор, нажмите кнопку со &lt;strong&gt;стрелкой вправо&lt;/strong&gt;.
 &lt;img src="../../../images/Gallery_modal_next.png" alt="Gallery Next" /&gt;&lt;/li&gt;
-&lt;li&gt;Откроется меню настроек вашей виртуальной машины.
+&lt;li&gt;Откроется меню настроек вашей ВМ.
 &lt;img src="../../../images/Gallery_VM_settings.png" alt="Gallery Settings" /&gt;&lt;/li&gt;
-&lt;li&gt;Теперь вам нужно ввести имя вашей виртуальной машины в поле «NAME». Имя обязательно.&lt;/li&gt;
-&lt;li&gt;Введите и подтвердите новый пароль для вашей виртуальной машины.&lt;/li&gt;
-&lt;li&gt;Если вы видите красный восклицательный знак в поле «PASSWORD», условие по паролю не выполнено (см. &lt;a href="../../05-reference/01-password-policy/"&gt;Требования к паролю&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;Если вы видите красный восклицательный знак в поле «CONFIRM», пароль и подтверждение пароля не совпадают.&lt;/li&gt;
-&lt;li&gt;Поле «ADMINISTRATOR ACCOUNT» может быть заполнено по умолчанию и не может быть изменено. Но в некоторых случаях от вас требуется ввести своё имя в это поле.
+&lt;li&gt;Теперь введите имя вашей ВМ в поле &lt;strong&gt;NAME&lt;/strong&gt;. Это поле обязательно для заполнения.&lt;/li&gt;
+&lt;li&gt;Введите и подтвердите новый пароль для вашей ВМ.&lt;/li&gt;
+&lt;li&gt;Если вы видите красный восклицательный знак в поле &lt;strong&gt;PASSWORD&lt;/strong&gt;, условие для пароля не выполнено (см. &lt;a href="../../05-reference/01-password-policy/"&gt;Требования к паролю&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Если вы видите красный восклицательный знак в поле &lt;strong&gt;CONFIRM&lt;/strong&gt;, пароль и его подтверждение не совпадают.&lt;/li&gt;
+&lt;li&gt;Поле &lt;strong&gt;ADMINISTRATOR ACCOUNT&lt;/strong&gt; может быть заполнено по умолчанию и не может быть изменено. Но в некоторых случаях от вас потребуется ввести свое имя в это поле.
 &lt;img src="../../../images/Gallery_administrator_account_marked.png" alt="Administrator Account" /&gt;&lt;/li&gt;
-&lt;li&gt;Также вы можете ввести свой SSH-ключ в поле «SSH KEY» или ключ продукта в поле «PRODUCT KEY». Это необязательно.&lt;/li&gt;
-&lt;li&gt;Сохраните свой пароль, учётную запись администратора и SSH-ключ или ключ продукта, так как вы больше не сможете их увидеть.&lt;/li&gt;
-&lt;li&gt;Когда заполните все поля, нажмите кнопку со стрелкой вправо.
+&lt;li&gt;Также вы можете ввести свой SSH-ключ в поле &lt;strong&gt;SSH KEY&lt;/strong&gt; или ключ продукта в поле &lt;strong&gt;PRODUCT KEY&lt;/strong&gt;. Это не обязательно.&lt;/li&gt;
+&lt;li&gt;Сохраните свой пароль, учетную запись администратора и SSH-ключ или ключ продукта, так как вы больше не сможете их увидеть.&lt;/li&gt;
+&lt;li&gt;Когда все поля заполнены, нажмите кнопку со &lt;strong&gt;стрелкой вправо&lt;/strong&gt;.
 &lt;img src="../../../images/Vm_settings_set.png" alt="VM Settings Set" /&gt;&lt;/li&gt;
-&lt;li&gt;Затем вы можете настроить сетевой адаптер вашей виртуальной машины — где будет доступна ваша VM.
+&lt;li&gt;Затем вы можете настроить сетевой адаптер вашей ВМ, чтобы определить, где она будет доступна.
 &lt;img src="../../../images/VM_adapters.png" alt="Network Adapter" /&gt;&lt;/li&gt;
-&lt;li&gt;Теперь вы можете нажать кнопку с галочкой, чтобы сохранить настройки и создать виртуальную машину.
+&lt;li&gt;Теперь нажмите кнопку с &lt;strong&gt;галочкой&lt;/strong&gt;, чтобы сохранить настройки и создать ВМ.
 &lt;img src="../../../images/VM_adapters_finish.png" alt="Save Settings" /&gt;&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>Быстрое создание виртуальной машины (ВМ)</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/02-basics/03-quick-vm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/02-basics/03-quick-vm/</guid><description>&lt;p&gt;Вы выбрали способ &lt;strong&gt;QUICK CREATE&lt;/strong&gt;. Этот метод позволяет быстро создать ВМ с базовыми настройками.&lt;/p&gt;
+&lt;h2 id="как-создать-новую-вм-через-quick-create"&gt;Как создать новую ВМ через &lt;strong&gt;QUICK CREATE&lt;/strong&gt;&lt;a class="anchor" href="#%d0%ba%d0%b0%d0%ba-%d1%81%d0%be%d0%b7%d0%b4%d0%b0%d1%82%d1%8c-%d0%bd%d0%be%d0%b2%d1%83%d1%8e-%d0%b2%d0%bc-%d1%87%d0%b5%d1%80%d0%b5%d0%b7-quick-create"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Откроется меню быстрого создания.
+&lt;img src="../../../images/Quick_start_form.png" alt="Quick Start Form" /&gt;&lt;/li&gt;
+&lt;li&gt;Здесь необходимо ввести имя вашей ВМ в поле &lt;strong&gt;NAME&lt;/strong&gt;. Это поле обязательно для заполнения.&lt;/li&gt;
+&lt;li&gt;Также выберите тип подписки — в зависимости от него вы сможете выбрать разные шаблоны (операционные системы) для ВМ.
+&lt;img src="../../../images/Choose_subscription_quick.png" alt="Choose Subscription" /&gt;&lt;/li&gt;
+&lt;li&gt;Затем выберите шаблон (операционную систему) для вашей ВМ.
+&lt;img src="../../../images/Template_quick_start.png" alt="VM Template" /&gt;&lt;/li&gt;
+&lt;li&gt;Введите и подтвердите новый пароль для вашей ВМ.&lt;/li&gt;
+&lt;li&gt;Если вы видите красный восклицательный знак в поле &lt;strong&gt;PASSWORD&lt;/strong&gt;, условие для пароля не выполнено (см. &lt;a href="../../05-reference/01-password-policy/"&gt;Требования к паролю&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Поле &lt;strong&gt;ADMINISTRATOR ACCOUNT&lt;/strong&gt; может быть заполнено по умолчанию и не может быть изменено. Но в некоторых случаях от вас потребуется ввести свое имя в это поле.
+&lt;img src="../../../images/Quick_start_admin_account.png" alt="Admin Account" /&gt;&lt;/li&gt;
+&lt;li&gt;Сохраните свой пароль, учетную запись администратора и SSH-ключ или ключ продукта, так как вы больше не сможете их увидеть.&lt;/li&gt;
+&lt;li&gt;Если все поля заполнены правильно, нажмите кнопку &lt;strong&gt;CREATE VM INSTANCE&lt;/strong&gt;.
+&lt;img src="../../../images/Create_VM_instance.png" alt="Create VM Instance" /&gt;&lt;/li&gt;
+&lt;li&gt;Чтобы увидеть детали создания, нажмите кнопку &lt;strong&gt;DETAILS&lt;/strong&gt;.
+&lt;img src="../../../images/Started_creating_vm_details.png" alt="VM Details" /&gt;&lt;/li&gt;
+&lt;li&gt;Здесь вы можете отслеживать прогресс создания вашей ВМ.
+&lt;img src="../../../images/Creation_details_status.png" alt="Creation Progress" /&gt;&lt;/li&gt;
+&lt;li&gt;На странице ВМ вы увидите вашу ВМ. Некоторое время ее статус будет «Creating», затем он изменится на «Running».
+&lt;img src="../../../images/Vm_running.png" alt="VM Running" /&gt;&lt;/li&gt;
 &lt;/ol&gt;</description></item></channel></rss>

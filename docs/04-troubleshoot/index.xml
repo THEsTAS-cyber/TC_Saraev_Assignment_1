@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Troubleshooting on Innopolis VM User Guide</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/docs/04-troubleshoot/</link><description>Recent content in Troubleshooting on Innopolis VM User Guide</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/docs/04-troubleshoot/index.xml" rel="self" type="application/rss+xml"/><item><title>Troubleshooting</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/docs/04-troubleshoot/01-troubleshooting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/docs/04-troubleshoot/01-troubleshooting/</guid><description>&lt;h2 id="troubleshooting"&gt;Troubleshooting&lt;a class="anchor" href="#troubleshooting"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;If your screen became gray and you can&amp;rsquo;t click anything:&lt;/strong&gt;
-On the bottom you can see a message &amp;ldquo;Your session timed out. Click OK to log again&amp;rdquo;. Don&amp;rsquo;t worry, click &amp;ldquo;OK&amp;rdquo;. You either need to log in again or just be redirected to main page.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Subscription is syncing too long:&lt;/strong&gt;
-If your subscription is syncing too long - don&amp;rsquo;t worry, more likely it is active right now and you can use it. If it is not, contact IT department of Innopolis University.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;This section helps you diagnose and resolve common issues with Innopolis VM. Each problem follows a structured approach: &lt;strong&gt;Symptom&lt;/strong&gt;, &lt;strong&gt;Possible causes&lt;/strong&gt;, &lt;strong&gt;Checks&lt;/strong&gt;, &lt;strong&gt;Solutions&lt;/strong&gt;, and &lt;strong&gt;Escalation&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id="gray-screen--cannot-click-anything"&gt;Gray screen — cannot click anything&lt;a class="anchor" href="#gray-screen--cannot-click-anything"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Symptom:&lt;/strong&gt;&lt;br&gt;
+The screen turned gray and you cannot interact with the interface.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Possible causes:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Your session has timed out due to inactivity.&lt;/li&gt;
+&lt;li&gt;The browser lost connection to the server.&lt;/li&gt;
+&lt;li&gt;The browser tab is unresponsive.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Checks:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Look at the bottom of the screen for a message like «Your session timed out. Click &lt;strong&gt;OK&lt;/strong&gt; to log in again».&lt;/li&gt;
+&lt;li&gt;Check your internet connection.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Solutions:&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>

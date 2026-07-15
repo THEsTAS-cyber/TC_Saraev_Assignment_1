@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Справочник on Innopolis VM User Guide</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/05-reference/</link><description>Recent content in Справочник on Innopolis VM User Guide</description><generator>Hugo</generator><language>ru</language><atom:link href="https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/05-reference/index.xml" rel="self" type="application/rss+xml"/><item><title>Требования к паролю</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/05-reference/01-password-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/05-reference/01-password-policy/</guid><description>&lt;p&gt;Когда вы создаёте виртуальную машину, вы устанавливаете пароль для учётной записи администратора. Следуйте этим правилам, чтобы избежать ошибок создания.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Справочник on Innopolis VM User Guide</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/05-reference/</link><description>Recent content in Справочник on Innopolis VM User Guide</description><generator>Hugo</generator><language>ru</language><atom:link href="https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/05-reference/index.xml" rel="self" type="application/rss+xml"/><item><title>Требования к паролю</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/05-reference/01-password-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/05-reference/01-password-policy/</guid><description>&lt;p&gt;Когда вы создаете виртуальную машину (ВМ), вы устанавливаете пароль для учетной записи администратора. Следуйте этим правилам, чтобы избежать ошибок при создании.&lt;/p&gt;
 &lt;h2 id="правила"&gt;Правила&lt;a class="anchor" href="#%d0%bf%d1%80%d0%b0%d0%b2%d0%b8%d0%bb%d0%b0"&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;table&gt;
  &lt;thead&gt;
@@ -66,14 +66,13 @@
  &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id="если-вы-забыли-пароль"&gt;Если вы забыли пароль&lt;a class="anchor" href="#%d0%b5%d1%81%d0%bb%d0%b8-%d0%b2%d1%8b-%d0%b7%d0%b0%d0%b1%d1%8b%d0%bb%d0%b8-%d0%bf%d0%b0%d1%80%d0%be%d0%bb%d1%8c"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Вы не можете восстановить пароль существующей VM. Если вы его потеряли, у вас есть два варианта:&lt;/p&gt;</description></item><item><title>Глоссарий</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/05-reference/02-glossary/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/05-reference/02-glossary/</guid><description>&lt;p&gt;Этот глоссарий определяет ключевые термины, используемые в документации Innopolis VM.&lt;/p&gt;
-&lt;h2 id="a"&gt;A&lt;a class="anchor" href="#a"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Аккаунт администратора&lt;/strong&gt;
-Стандартная учётная запись пользователя на виртуальной машине. Она имеет полный контроль над системой. На Linux VM это обычно пользователь &lt;code&gt;root&lt;/code&gt;. На Windows VM это пользователь &lt;code&gt;Administrator&lt;/code&gt;.&lt;/p&gt;
-&lt;h2 id="d"&gt;D&lt;a class="anchor" href="#d"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Панель управления&lt;/strong&gt;
-Основная веб-страница, где вы управляете своими виртуальными машинами и подписками. Вы открываете её после входа в Innopolis VM.&lt;/p&gt;
-&lt;h2 id="g"&gt;G&lt;a class="anchor" href="#g"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Галерея&lt;/strong&gt;
-Каталог предварительно настроенных шаблонов виртуальных машин. Каждый шаблон включает операционную систему и, в некоторых случаях, предустановленное программное обеспечение.&lt;/p&gt;</description></item></channel></rss>
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Связанные страницы:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Глоссарий</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/05-reference/02-glossary/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/05-reference/02-glossary/</guid><description>&lt;p&gt;Этот глоссарий определяет ключевые термины, используемые в документации по виртуальным машинам (ВМ) Innopolis.&lt;/p&gt;
+&lt;h2 id="в"&gt;В&lt;a class="anchor" href="#%d0%b2"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;ВМ (VM)&lt;/strong&gt;&lt;br&gt;
+Виртуальная машина. Программная эмуляция физического компьютера. После первого упоминания на странице мы используем аббревиатуру «ВМ».&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Веб-консоль (WebConsole)&lt;/strong&gt;&lt;br&gt;
+Веб-интерфейс на основе браузера, который позволяет подключаться к вашей ВМ без установки отдельного SSH-клиента. Вы открываете его с панели управления ВМ, нажав &lt;strong&gt;CONNECT&lt;/strong&gt;, а затем &lt;strong&gt;WebConsole&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id="г"&gt;Г&lt;a class="anchor" href="#%d0%b3"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Галерея (Gallery)&lt;/strong&gt;&lt;br&gt;
+Каталог предварительно настроенных шаблонов ВМ. Каждый шаблон включает операционную систему и, в некоторых случаях, предустановленное программное обеспечение.&lt;/p&gt;</description></item></channel></rss>

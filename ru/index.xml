@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Innopolis VM User Guide</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/</link><description>Recent content on Innopolis VM User Guide</description><generator>Hugo</generator><language>ru</language><atom:link href="https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/index.xml" rel="self" type="application/rss+xml"/><item><title>Как посетить Innopolis VM</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/01-setup/01-access/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/01-setup/01-access/</guid><description>&lt;h2 id="как-посетить-innopolis-vm"&gt;Как посетить Innopolis VM&lt;a class="anchor" href="#%d0%ba%d0%b0%d0%ba-%d0%bf%d0%be%d1%81%d0%b5%d1%82%d0%b8%d1%82%d1%8c-innopolis-vm"&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;Откройте веб-браузер и введите &lt;a href="https://vm.innopolis.university"&gt;Innopolis VM&lt;/a&gt; в адресной строке.&lt;/li&gt;
-&lt;li&gt;Затем вы будете перенаправлены на страницу входа SSO Innopolis University.
+&lt;li&gt;Откройте веб-браузер и перейдите по ссылке &lt;a href="https://vm.innopolis.university"&gt;Innopolis VM&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Затем вы будете перенаправлены на страницу входа SSO Университета Иннополис.
 &lt;img src="../../../images/sso.png" alt="SSO Login" /&gt;
 &lt;ul&gt;
-&lt;li&gt;Если вы сразу попадаете на Innopolis VM, не волнуйтесь, скорее всего, вы уже вошли в систему.&lt;/li&gt;
-&lt;li&gt;Если вы не вошли в систему, вам будет предложено ввести учётные данные Innopolis University (имя пользователя и пароль). Затем нажмите кнопку «Login».&lt;/li&gt;
+&lt;li&gt;Если сразу открывается главная страница, вы уже вошли в систему.&lt;/li&gt;
+&lt;li&gt;Если вы не вошли в систему, введите учетные данные Университета Иннополис (имя пользователя и пароль). Затем нажмите кнопку &lt;strong&gt;Sign in&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Вы будете перенаправлены на главную страницу сайта.
 &lt;img src="../../../images/main_page.png" alt="Main Page" /&gt;&lt;/li&gt;
 &lt;/ol&gt;</description></item><item><title>Подписки</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/01-setup/02-subscription/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/01-setup/02-subscription/</guid><description>&lt;h2 id="как-создать-подписку"&gt;Как создать подписку&lt;a class="anchor" href="#%d0%ba%d0%b0%d0%ba-%d1%81%d0%be%d0%b7%d0%b4%d0%b0%d1%82%d1%8c-%d0%bf%d0%be%d0%b4%d0%bf%d0%b8%d1%81%d0%ba%d1%83"&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;На главной странице сайта нажмите кнопку «New» в левом нижнем углу.
+&lt;li&gt;На главной странице сайта нажмите кнопку &lt;strong&gt;NEW&lt;/strong&gt; в левом нижнем углу.
 &lt;img src="../../../images/New_main.png" alt="New Button" /&gt;&lt;/li&gt;
-&lt;li&gt;Откроется новое меню — нажмите «MY ACCOUNT».
+&lt;li&gt;Откроется новое меню — нажмите &lt;strong&gt;MY ACCOUNT&lt;/strong&gt;.
 &lt;img src="../../../images/New_page.png" alt="New Page" /&gt;&lt;/li&gt;
-&lt;li&gt;Нажмите кнопку «ADD SUBSCRIPTION».
+&lt;li&gt;Нажмите кнопку &lt;strong&gt;ADD SUBSCRIPTION&lt;/strong&gt;.
 &lt;img src="../../../images/My_account_subscr.png" alt="Add Subscription" /&gt;&lt;/li&gt;
 &lt;li&gt;Откроется модальное окно с формой создания подписки.
 &lt;img src="../../../images/Subscription_creation_form.png" alt="Subscription Form" /&gt;&lt;/li&gt;
-&lt;li&gt;В зависимости от того, кем вы являетесь (студент, преподаватель, сотрудник), у вас будут разные варианты создания подписки. Например, для студентов можно создать подписку для конкретного курса или общий StudentPublic. Если вам нужна конкретная подписка, обратитесь в отдел IT Innopolis University.&lt;/li&gt;
-&lt;li&gt;Детали выбранного типа подписки появятся справа от формы, когда вы на неё нажмёте.&lt;/li&gt;
-&lt;li&gt;Когда выберете тип подписки — нажмите на неё и затем на кнопку с галочкой в правом нижнем углу.
+&lt;li&gt;В зависимости от того, кто вы (студент, преподаватель, сотрудник), у вас будут разные варианты создания подписки. Например, студенты могут создать подписку для конкретного курса или общую подписку StudentPublic. Если вам нужна специфичесная подписка, обратитесь в IT-отдел Университета Иннополис.&lt;/li&gt;
+&lt;li&gt;Детали выбранного типа подписки появятся в правой части формы при нажатии на нее.&lt;/li&gt;
+&lt;li&gt;Когда вы выберете тип подписки, нажмите на него, а затем нажмите кнопку с &lt;strong&gt;галочкой&lt;/strong&gt; в правом нижнем углу.
 &lt;img src="../../../images/Subscription_creation_form_chosen.png" alt="Subscription Chosen" /&gt;&lt;/li&gt;
-&lt;li&gt;Затем вам нужно подождать, пока подписка создаётся.
+&lt;li&gt;Затем нужно подождать, пока создается подписка.
 &lt;img src="../../../images/Subscription_loading.png" alt="Subscription Loading" /&gt;&lt;/li&gt;
-&lt;li&gt;Через некоторое время ваша подписка будет иметь статус «Syncing». Не волнуйтесь, подождите, пока статус изменится на «Active».
+&lt;li&gt;Некоторое время ваша подписка будет иметь статус «Syncing». Не волнуйтесь, просто дождитесь статуса «Active».
 &lt;img src="../../../images/My_sub_syncing.png" alt="Subscription Syncing" /&gt;&lt;/li&gt;
-&lt;li&gt;Спустя некоторое время статус вашей подписки изменится на «Active».
+&lt;li&gt;Через некоторое время статус вашей подписки изменится на «Active».
 &lt;img src="../../../images/My_sub_active.png" alt="Subscription Active" /&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id="где-найти-ваши-подписки"&gt;Где найти ваши подписки&lt;a class="anchor" href="#%d0%b3%d0%b4%d0%b5-%d0%bd%d0%b0%d0%b9%d1%82%d0%b8-%d0%b2%d0%b0%d1%88%d0%b8-%d0%bf%d0%be%d0%b4%d0%bf%d0%b8%d1%81%d0%ba%d0%b8"&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;На главной странице сайта нажмите кнопку «My Account» в левой панели.&lt;/li&gt;
-&lt;li&gt;Нажмите на раздел «SUBSCRIPTIONS».
+&lt;li&gt;На главной странице сайта нажмите кнопку &lt;strong&gt;MY ACCOUNT&lt;/strong&gt; на левой панели.&lt;/li&gt;
+&lt;li&gt;Нажмите на раздел &lt;strong&gt;SUBSCRIPTIONS&lt;/strong&gt;.
 &lt;img src="../../../images/My_account_sub_sec.png" alt="Subscriptions Section" /&gt;&lt;/li&gt;
 &lt;li&gt;Вы увидите все ваши подписки.
 &lt;img src="../../../images/My_subs.png" alt="My Subscriptions" /&gt;&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>Требования к паролю</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/05-reference/01-password-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/05-reference/01-password-policy/</guid><description>&lt;p&gt;Когда вы создаёте виртуальную машину, вы устанавливаете пароль для учётной записи администратора. Следуйте этим правилам, чтобы избежать ошибок создания.&lt;/p&gt;
+&lt;/ol&gt;</description></item><item><title>Требования к паролю</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/05-reference/01-password-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/05-reference/01-password-policy/</guid><description>&lt;p&gt;Когда вы создаете виртуальную машину (ВМ), вы устанавливаете пароль для учетной записи администратора. Следуйте этим правилам, чтобы избежать ошибок при создании.&lt;/p&gt;
 &lt;h2 id="правила"&gt;Правила&lt;a class="anchor" href="#%d0%bf%d1%80%d0%b0%d0%b2%d0%b8%d0%bb%d0%b0"&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;table&gt;
  &lt;thead&gt;
@@ -106,122 +106,140 @@
  &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id="если-вы-забыли-пароль"&gt;Если вы забыли пароль&lt;a class="anchor" href="#%d0%b5%d1%81%d0%bb%d0%b8-%d0%b2%d1%8b-%d0%b7%d0%b0%d0%b1%d1%8b%d0%bb%d0%b8-%d0%bf%d0%b0%d1%80%d0%be%d0%bb%d1%8c"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Вы не можете восстановить пароль существующей VM. Если вы его потеряли, у вас есть два варианта:&lt;/p&gt;</description></item><item><title>Глоссарий</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/05-reference/02-glossary/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/05-reference/02-glossary/</guid><description>&lt;p&gt;Этот глоссарий определяет ключевые термины, используемые в документации Innopolis VM.&lt;/p&gt;
-&lt;h2 id="a"&gt;A&lt;a class="anchor" href="#a"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Аккаунт администратора&lt;/strong&gt;
-Стандартная учётная запись пользователя на виртуальной машине. Она имеет полный контроль над системой. На Linux VM это обычно пользователь &lt;code&gt;root&lt;/code&gt;. На Windows VM это пользователь &lt;code&gt;Administrator&lt;/code&gt;.&lt;/p&gt;
-&lt;h2 id="d"&gt;D&lt;a class="anchor" href="#d"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Панель управления&lt;/strong&gt;
-Основная веб-страница, где вы управляете своими виртуальными машинами и подписками. Вы открываете её после входа в Innopolis VM.&lt;/p&gt;
-&lt;h2 id="g"&gt;G&lt;a class="anchor" href="#g"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Галерея&lt;/strong&gt;
-Каталог предварительно настроенных шаблонов виртуальных машин. Каждый шаблон включает операционную систему и, в некоторых случаях, предустановленное программное обеспечение.&lt;/p&gt;</description></item><item><title>Создание виртуальной машины</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/02-basics/01-create-vm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/02-basics/01-create-vm/</guid><description>&lt;h2 id="как-создать-новую-виртуальную-машину"&gt;Как создать новую виртуальную машину&lt;a class="anchor" href="#%d0%ba%d0%b0%d0%ba-%d1%81%d0%be%d0%b7%d0%b4%d0%b0%d1%82%d1%8c-%d0%bd%d0%be%d0%b2%d1%83%d1%8e-%d0%b2%d0%b8%d1%80%d1%82%d1%83%d0%b0%d0%bb%d1%8c%d0%bd%d1%83%d1%8e-%d0%bc%d0%b0%d1%88%d0%b8%d0%bd%d1%83"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Связанные страницы:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Глоссарий</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/05-reference/02-glossary/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/05-reference/02-glossary/</guid><description>&lt;p&gt;Этот глоссарий определяет ключевые термины, используемые в документации по виртуальным машинам (ВМ) Innopolis.&lt;/p&gt;
+&lt;h2 id="в"&gt;В&lt;a class="anchor" href="#%d0%b2"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;ВМ (VM)&lt;/strong&gt;&lt;br&gt;
+Виртуальная машина. Программная эмуляция физического компьютера. После первого упоминания на странице мы используем аббревиатуру «ВМ».&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Веб-консоль (WebConsole)&lt;/strong&gt;&lt;br&gt;
+Веб-интерфейс на основе браузера, который позволяет подключаться к вашей ВМ без установки отдельного SSH-клиента. Вы открываете его с панели управления ВМ, нажав &lt;strong&gt;CONNECT&lt;/strong&gt;, а затем &lt;strong&gt;WebConsole&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id="г"&gt;Г&lt;a class="anchor" href="#%d0%b3"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Галерея (Gallery)&lt;/strong&gt;&lt;br&gt;
+Каталог предварительно настроенных шаблонов ВМ. Каждый шаблон включает операционную систему и, в некоторых случаях, предустановленное программное обеспечение.&lt;/p&gt;</description></item><item><title>Создание виртуальной машины (ВМ)</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/02-basics/01-create-vm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/02-basics/01-create-vm/</guid><description>&lt;h2 id="как-создать-новую-вм"&gt;Как создать новую ВМ&lt;a class="anchor" href="#%d0%ba%d0%b0%d0%ba-%d1%81%d0%be%d0%b7%d0%b4%d0%b0%d1%82%d1%8c-%d0%bd%d0%be%d0%b2%d1%83%d1%8e-%d0%b2%d0%bc"&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;Сначала у вас должна быть подписка на сервис (см. &lt;a href="../../01-setup/02-subscription/"&gt;Подписки&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;На главной странице сайта нажмите кнопку «VIRTUAL MACHINES» в левой панели.
+&lt;li&gt;Сначала у вас должна быть активная подписка на сервис (см. &lt;a href="../../01-setup/02-subscription/"&gt;Подписки&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;На главной странице сайта нажмите кнопку &lt;strong&gt;VIRTUAL MACHINES&lt;/strong&gt; на левой панели.
 &lt;img src="../../../images/Main_virtual_machines.png" alt="Main Virtual Machines" /&gt;&lt;/li&gt;
-&lt;li&gt;На странице Virtual Machines нажмите кнопку со стрелкой вправо ИЛИ, если вы уже создали какие-либо виртуальные машины, нажмите кнопку «New» в левом нижнем углу и затем «STANDALONE VIRTUAL MACHINE».
+&lt;li&gt;На странице виртуальных машин нажмите кнопку со &lt;strong&gt;стрелкой вправо&lt;/strong&gt; ИЛИ, если вы уже создали ВМ, нажмите кнопку &lt;strong&gt;NEW&lt;/strong&gt; в левом нижнем углу, а затем &lt;strong&gt;STANDALONE VIRTUAL MACHINE&lt;/strong&gt;.
 &lt;img src="../../../images/Virtual_machines_empty_new.png" alt="New VM" /&gt;&lt;/li&gt;
-&lt;li&gt;В открытом меню вы можете выбрать шаблон для создания виртуальной машины: быстрый запуск или из галереи.
+&lt;li&gt;В открывшемся меню выберите один из двух способов создания:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;From Gallery&lt;/strong&gt;: Подробная настройка с использованием предварительно настроенных шаблонов. Лучше подходит для специфических требований. (см. &lt;a href="../02-gallery-vm/"&gt;Создание ВМ из галереи&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Quick Start&lt;/strong&gt;: Быстрое создание с базовыми настройками. Лучше подходит для простых ВМ. (см. &lt;a href="../03-quick-vm/"&gt;Быстрое создание ВМ&lt;/a&gt;)
 &lt;img src="../../../images/VM_choose_template.png" alt="Choose Template" /&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id="как-создать-новую-виртуальную-машину-через-быстрый-запуск"&gt;Как создать новую виртуальную машину через быстрый запуск&lt;a class="anchor" href="#%d0%ba%d0%b0%d0%ba-%d1%81%d0%be%d0%b7%d0%b4%d0%b0%d1%82%d1%8c-%d0%bd%d0%be%d0%b2%d1%83%d1%8e-%d0%b2%d0%b8%d1%80%d1%82%d1%83%d0%b0%d0%bb%d1%8c%d0%bd%d1%83%d1%8e-%d0%bc%d0%b0%d1%88%d0%b8%d0%bd%d1%83-%d1%87%d0%b5%d1%80%d0%b5%d0%b7-%d0%b1%d1%8b%d1%81%d1%82%d1%80%d1%8b%d0%b9-%d0%b7%d0%b0%d0%bf%d1%83%d1%81%d0%ba"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Откроется меню быстрого создания.
-&lt;img src="../../../images/Quick_start_form.png" alt="Quick Start Form" /&gt;&lt;/li&gt;
-&lt;li&gt;Здесь вам нужно ввести имя вашей виртуальной машины в поле «NAME». Имя обязательно.&lt;/li&gt;
-&lt;li&gt;Также выберите тип подписки — в зависимости от него вы можете выбрать разные шаблоны (операционные системы) для виртуальной машины.
-&lt;img src="../../../images/Choose_subscription_quick.png" alt="Choose Subscription" /&gt;&lt;/li&gt;
-&lt;li&gt;Затем выберите шаблон (операционную систему) для вашей виртуальной машины.
-&lt;img src="../../../images/Template_quick_start.png" alt="VM Template" /&gt;&lt;/li&gt;
-&lt;li&gt;Введите и подтвердите новый пароль для вашей виртуальной машины.&lt;/li&gt;
-&lt;li&gt;Если вы видите красный восклицательный знак в поле «PASSWORD», условие по паролю не выполнено (см. &lt;a href="../../05-reference/01-password-policy/"&gt;Требования к паролю&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;Поле «ADMINISTRATOR ACCOUNT» может быть заполнено по умолчанию и не может быть изменено. Но в некоторых случаях от вас требуется ввести своё имя в это поле.
-&lt;img src="../../../images/Quick_start_admin_account.png" alt="Admin Account" /&gt;&lt;/li&gt;
-&lt;li&gt;Сохраните свой пароль, учётную запись администратора и SSH-ключ или ключ продукта, так как вы больше не сможете их увидеть.&lt;/li&gt;
-&lt;li&gt;Если все поля заполнены правильно — нажмите кнопку «CREATE VM INSTANCE».
-&lt;img src="../../../images/Create_VM_instance.png" alt="Create VM Instance" /&gt;&lt;/li&gt;
-&lt;li&gt;Чтобы увидеть детали создания — нажмите кнопку «DETAILS».
-&lt;img src="../../../images/Started_creating_vm_details.png" alt="VM Details" /&gt;&lt;/li&gt;
-&lt;li&gt;Здесь вы можете видеть прогресс создания вашей виртуальной машины.
-&lt;img src="../../../images/Creation_details_status.png" alt="Creation Progress" /&gt;&lt;/li&gt;
-&lt;li&gt;На странице Virtual Machines вы увидите свою виртуальную машину. Некоторое время её статус будет «Creating», затем он изменится на «Running».
-&lt;img src="../../../images/Vm_running.png" alt="VM Running" /&gt;&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>Создание VM из галереи</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/02-basics/02-gallery-vm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/02-basics/02-gallery-vm/</guid><description>&lt;h2 id="как-создать-новую-виртуальную-машину-из-галереи"&gt;Как создать новую виртуальную машину из галереи&lt;a class="anchor" href="#%d0%ba%d0%b0%d0%ba-%d1%81%d0%be%d0%b7%d0%b4%d0%b0%d1%82%d1%8c-%d0%bd%d0%be%d0%b2%d1%83%d1%8e-%d0%b2%d0%b8%d1%80%d1%82%d1%83%d0%b0%d0%bb%d1%8c%d0%bd%d1%83%d1%8e-%d0%bc%d0%b0%d1%88%d0%b8%d0%bd%d1%83-%d0%b8%d0%b7-%d0%b3%d0%b0%d0%bb%d0%b5%d1%80%d0%b5%d0%b8"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>Создание виртуальной машины (ВМ) из галереи</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/02-basics/02-gallery-vm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/02-basics/02-gallery-vm/</guid><description>&lt;p&gt;Вы выбрали способ создания &lt;strong&gt;FROM GALLERY&lt;/strong&gt;. Этот метод позволяет подробно настроить ВМ с использованием предварительно настроенных шаблонов.&lt;/p&gt;
+&lt;h2 id="как-создать-новую-вм-из-галереи"&gt;Как создать новую ВМ из галереи&lt;a class="anchor" href="#%d0%ba%d0%b0%d0%ba-%d1%81%d0%be%d0%b7%d0%b4%d0%b0%d1%82%d1%8c-%d0%bd%d0%be%d0%b2%d1%83%d1%8e-%d0%b2%d0%bc-%d0%b8%d0%b7-%d0%b3%d0%b0%d0%bb%d0%b5%d1%80%d0%b5%d0%b8"&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Откроется меню создания из галереи.
 &lt;img src="../../../images/Gallery_modal.png" alt="Gallery Modal" /&gt;&lt;/li&gt;
-&lt;li&gt;Вы можете выбрать различную операционную систему для вашей виртуальной машины и увидеть детали.&lt;/li&gt;
-&lt;li&gt;Когда выберете, нажмите кнопку со стрелкой вправо.
+&lt;li&gt;Вы можете выбрать различную операционную систему для вашей ВМ и просмотреть детали.&lt;/li&gt;
+&lt;li&gt;Когда вы сделаете выбор, нажмите кнопку со &lt;strong&gt;стрелкой вправо&lt;/strong&gt;.
 &lt;img src="../../../images/Gallery_modal_next.png" alt="Gallery Next" /&gt;&lt;/li&gt;
-&lt;li&gt;Откроется меню настроек вашей виртуальной машины.
+&lt;li&gt;Откроется меню настроек вашей ВМ.
 &lt;img src="../../../images/Gallery_VM_settings.png" alt="Gallery Settings" /&gt;&lt;/li&gt;
-&lt;li&gt;Теперь вам нужно ввести имя вашей виртуальной машины в поле «NAME». Имя обязательно.&lt;/li&gt;
-&lt;li&gt;Введите и подтвердите новый пароль для вашей виртуальной машины.&lt;/li&gt;
-&lt;li&gt;Если вы видите красный восклицательный знак в поле «PASSWORD», условие по паролю не выполнено (см. &lt;a href="../../05-reference/01-password-policy/"&gt;Требования к паролю&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;Если вы видите красный восклицательный знак в поле «CONFIRM», пароль и подтверждение пароля не совпадают.&lt;/li&gt;
-&lt;li&gt;Поле «ADMINISTRATOR ACCOUNT» может быть заполнено по умолчанию и не может быть изменено. Но в некоторых случаях от вас требуется ввести своё имя в это поле.
+&lt;li&gt;Теперь введите имя вашей ВМ в поле &lt;strong&gt;NAME&lt;/strong&gt;. Это поле обязательно для заполнения.&lt;/li&gt;
+&lt;li&gt;Введите и подтвердите новый пароль для вашей ВМ.&lt;/li&gt;
+&lt;li&gt;Если вы видите красный восклицательный знак в поле &lt;strong&gt;PASSWORD&lt;/strong&gt;, условие для пароля не выполнено (см. &lt;a href="../../05-reference/01-password-policy/"&gt;Требования к паролю&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Если вы видите красный восклицательный знак в поле &lt;strong&gt;CONFIRM&lt;/strong&gt;, пароль и его подтверждение не совпадают.&lt;/li&gt;
+&lt;li&gt;Поле &lt;strong&gt;ADMINISTRATOR ACCOUNT&lt;/strong&gt; может быть заполнено по умолчанию и не может быть изменено. Но в некоторых случаях от вас потребуется ввести свое имя в это поле.
 &lt;img src="../../../images/Gallery_administrator_account_marked.png" alt="Administrator Account" /&gt;&lt;/li&gt;
-&lt;li&gt;Также вы можете ввести свой SSH-ключ в поле «SSH KEY» или ключ продукта в поле «PRODUCT KEY». Это необязательно.&lt;/li&gt;
-&lt;li&gt;Сохраните свой пароль, учётную запись администратора и SSH-ключ или ключ продукта, так как вы больше не сможете их увидеть.&lt;/li&gt;
-&lt;li&gt;Когда заполните все поля, нажмите кнопку со стрелкой вправо.
+&lt;li&gt;Также вы можете ввести свой SSH-ключ в поле &lt;strong&gt;SSH KEY&lt;/strong&gt; или ключ продукта в поле &lt;strong&gt;PRODUCT KEY&lt;/strong&gt;. Это не обязательно.&lt;/li&gt;
+&lt;li&gt;Сохраните свой пароль, учетную запись администратора и SSH-ключ или ключ продукта, так как вы больше не сможете их увидеть.&lt;/li&gt;
+&lt;li&gt;Когда все поля заполнены, нажмите кнопку со &lt;strong&gt;стрелкой вправо&lt;/strong&gt;.
 &lt;img src="../../../images/Vm_settings_set.png" alt="VM Settings Set" /&gt;&lt;/li&gt;
-&lt;li&gt;Затем вы можете настроить сетевой адаптер вашей виртуальной машины — где будет доступна ваша VM.
+&lt;li&gt;Затем вы можете настроить сетевой адаптер вашей ВМ, чтобы определить, где она будет доступна.
 &lt;img src="../../../images/VM_adapters.png" alt="Network Adapter" /&gt;&lt;/li&gt;
-&lt;li&gt;Теперь вы можете нажать кнопку с галочкой, чтобы сохранить настройки и создать виртуальную машину.
+&lt;li&gt;Теперь нажмите кнопку с &lt;strong&gt;галочкой&lt;/strong&gt;, чтобы сохранить настройки и создать ВМ.
 &lt;img src="../../../images/VM_adapters_finish.png" alt="Save Settings" /&gt;&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>Подключение к VM</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/03-functions/01-connect/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/03-functions/01-connect/</guid><description>&lt;h2 id="как-подключиться-к-вашей-виртуальной-машине"&gt;Как подключиться к вашей виртуальной машине&lt;a class="anchor" href="#%d0%ba%d0%b0%d0%ba-%d0%bf%d0%be%d0%b4%d0%ba%d0%bb%d1%8e%d1%87%d0%b8%d1%82%d1%8c%d1%81%d1%8f-%d0%ba-%d0%b2%d0%b0%d1%88%d0%b5%d0%b9-%d0%b2%d0%b8%d1%80%d1%82%d1%83%d0%b0%d0%bb%d1%8c%d0%bd%d0%be%d0%b9-%d0%bc%d0%b0%d1%88%d0%b8%d0%bd%d0%b5"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;У вас есть несколько способов подключиться к вашей виртуальной машине:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Вы можете использовать клиенты или приложения для SSH-подключения. Например, PuTTY для Windows или MobaXterm для Windows, Linux и Mac. Но для этого варианта вам нужно настроить «SSH KEY» во время создания виртуальной машины.&lt;/li&gt;
-&lt;li&gt;Вы можете подключиться к вашей виртуальной машине из браузера (см. ниже).&lt;/li&gt;
-&lt;li&gt;Подключитесь к вашей виртуальной машине через её IP с помощью другого программного обеспечения (см. ниже).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="как-увидеть-ip-виртуальной-машины"&gt;Как увидеть IP виртуальной машины&lt;a class="anchor" href="#%d0%ba%d0%b0%d0%ba-%d1%83%d0%b2%d0%b8%d0%b4%d0%b5%d1%82%d1%8c-ip-%d0%b2%d0%b8%d1%80%d1%82%d1%83%d0%b0%d0%bb%d1%8c%d0%bd%d0%be%d0%b9-%d0%bc%d0%b0%d1%88%d0%b8%d0%bd%d1%8b"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;/ol&gt;</description></item><item><title>Быстрое создание виртуальной машины (ВМ)</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/02-basics/03-quick-vm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/02-basics/03-quick-vm/</guid><description>&lt;p&gt;Вы выбрали способ &lt;strong&gt;QUICK CREATE&lt;/strong&gt;. Этот метод позволяет быстро создать ВМ с базовыми настройками.&lt;/p&gt;
+&lt;h2 id="как-создать-новую-вм-через-quick-create"&gt;Как создать новую ВМ через &lt;strong&gt;QUICK CREATE&lt;/strong&gt;&lt;a class="anchor" href="#%d0%ba%d0%b0%d0%ba-%d1%81%d0%be%d0%b7%d0%b4%d0%b0%d1%82%d1%8c-%d0%bd%d0%be%d0%b2%d1%83%d1%8e-%d0%b2%d0%bc-%d1%87%d0%b5%d1%80%d0%b5%d0%b7-quick-create"&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;На странице вашей виртуальной машины справа вы можете увидеть IP вашей виртуальной машины.
+&lt;li&gt;Откроется меню быстрого создания.
+&lt;img src="../../../images/Quick_start_form.png" alt="Quick Start Form" /&gt;&lt;/li&gt;
+&lt;li&gt;Здесь необходимо ввести имя вашей ВМ в поле &lt;strong&gt;NAME&lt;/strong&gt;. Это поле обязательно для заполнения.&lt;/li&gt;
+&lt;li&gt;Также выберите тип подписки — в зависимости от него вы сможете выбрать разные шаблоны (операционные системы) для ВМ.
+&lt;img src="../../../images/Choose_subscription_quick.png" alt="Choose Subscription" /&gt;&lt;/li&gt;
+&lt;li&gt;Затем выберите шаблон (операционную систему) для вашей ВМ.
+&lt;img src="../../../images/Template_quick_start.png" alt="VM Template" /&gt;&lt;/li&gt;
+&lt;li&gt;Введите и подтвердите новый пароль для вашей ВМ.&lt;/li&gt;
+&lt;li&gt;Если вы видите красный восклицательный знак в поле &lt;strong&gt;PASSWORD&lt;/strong&gt;, условие для пароля не выполнено (см. &lt;a href="../../05-reference/01-password-policy/"&gt;Требования к паролю&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Поле &lt;strong&gt;ADMINISTRATOR ACCOUNT&lt;/strong&gt; может быть заполнено по умолчанию и не может быть изменено. Но в некоторых случаях от вас потребуется ввести свое имя в это поле.
+&lt;img src="../../../images/Quick_start_admin_account.png" alt="Admin Account" /&gt;&lt;/li&gt;
+&lt;li&gt;Сохраните свой пароль, учетную запись администратора и SSH-ключ или ключ продукта, так как вы больше не сможете их увидеть.&lt;/li&gt;
+&lt;li&gt;Если все поля заполнены правильно, нажмите кнопку &lt;strong&gt;CREATE VM INSTANCE&lt;/strong&gt;.
+&lt;img src="../../../images/Create_VM_instance.png" alt="Create VM Instance" /&gt;&lt;/li&gt;
+&lt;li&gt;Чтобы увидеть детали создания, нажмите кнопку &lt;strong&gt;DETAILS&lt;/strong&gt;.
+&lt;img src="../../../images/Started_creating_vm_details.png" alt="VM Details" /&gt;&lt;/li&gt;
+&lt;li&gt;Здесь вы можете отслеживать прогресс создания вашей ВМ.
+&lt;img src="../../../images/Creation_details_status.png" alt="Creation Progress" /&gt;&lt;/li&gt;
+&lt;li&gt;На странице ВМ вы увидите вашу ВМ. Некоторое время ее статус будет «Creating», затем он изменится на «Running».
+&lt;img src="../../../images/Vm_running.png" alt="VM Running" /&gt;&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>Подключение к виртуальной машине (ВМ)</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/03-functions/01-connect/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/03-functions/01-connect/</guid><description>&lt;h2 id="как-подключиться-к-вм"&gt;Как подключиться к ВМ&lt;a class="anchor" href="#%d0%ba%d0%b0%d0%ba-%d0%bf%d0%be%d0%b4%d0%ba%d0%bb%d1%8e%d1%87%d0%b8%d1%82%d1%8c%d1%81%d1%8f-%d0%ba-%d0%b2%d0%bc"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;У вас есть три способа подключения к ВМ:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;SSH-клиент&lt;/strong&gt; — Используйте PuTTY (Windows) или MobaXterm (Windows, Linux, macOS). Требует SSH-ключ, настроенный при создании ВМ.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Браузер&lt;/strong&gt; — Подключитесь напрямую из веб-браузера (см. &lt;a href="#%d0%ba%d0%b0%d0%ba-%d0%bf%d0%be%d0%b4%d0%ba%d0%bb%d1%8e%d1%87%d0%b8%d1%82%d1%8c%d1%81%d1%8f-%d0%ba-%d0%b2%d0%bc-%d1%87%d0%b5%d1%80%d0%b5%d0%b7-%d0%b1%d1%80%d0%b0%d1%83%d0%b7%d0%b5%d1%80"&gt;Как подключиться к ВМ через браузер&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SSH по IP&lt;/strong&gt; — Подключитесь по IP-адресу ВМ с помощью любого SSH-клиента (см. &lt;a href="#%d0%ba%d0%b0%d0%ba-%d1%83%d0%b7%d0%bd%d0%b0%d1%82%d1%8c-ip-%d0%b2%d0%bc"&gt;Как узнать IP ВМ&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="как-узнать-ip-вм"&gt;Как узнать IP ВМ&lt;a class="anchor" href="#%d0%ba%d0%b0%d0%ba-%d1%83%d0%b7%d0%bd%d0%b0%d1%82%d1%8c-ip-%d0%b2%d0%bc"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;На панели управления ВМ найдите IP-адрес в правой части страницы.
 &lt;img src="../../../images/IP.jpg" alt="IP Address" /&gt;&lt;/li&gt;
 &lt;li&gt;IP выглядит так: &lt;code&gt;10.13.127.89&lt;/code&gt;.
 &lt;img src="../../../images/IP_mini.jpg" alt="IP Mini" /&gt;&lt;/li&gt;
-&lt;li&gt;Если нет IP — см. раздел «Как создать виртуальную машину с явным IP» (будет обновлено скоро).&lt;/li&gt;
+&lt;li&gt;Если IP отсутствует, см. раздел &amp;ldquo;Как создать ВМ с явным IP&amp;rdquo; (будет обновлен позже).&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id="как-подключиться-к-вашей-виртуальной-машине-из-браузера"&gt;Как подключиться к вашей виртуальной машине из браузера&lt;a class="anchor" href="#%d0%ba%d0%b0%d0%ba-%d0%bf%d0%be%d0%b4%d0%ba%d0%bb%d1%8e%d1%87%d0%b8%d1%82%d1%8c%d1%81%d1%8f-%d0%ba-%d0%b2%d0%b0%d1%88%d0%b5%d0%b9-%d0%b2%d0%b8%d1%80%d1%82%d1%83%d0%b0%d0%bb%d1%8c%d0%bd%d0%be%d0%b9-%d0%bc%d0%b0%d1%88%d0%b8%d0%bd%d0%b5-%d0%b8%d0%b7-%d0%b1%d1%80%d0%b0%d1%83%d0%b7%d0%b5%d1%80%d0%b0"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id="как-подключиться-к-вм-через-браузер"&gt;Как подключиться к ВМ через браузер&lt;a class="anchor" href="#%d0%ba%d0%b0%d0%ba-%d0%bf%d0%be%d0%b4%d0%ba%d0%bb%d1%8e%d1%87%d0%b8%d1%82%d1%8c%d1%81%d1%8f-%d0%ba-%d0%b2%d0%bc-%d1%87%d0%b5%d1%80%d0%b5%d0%b7-%d0%b1%d1%80%d0%b0%d1%83%d0%b7%d0%b5%d1%80"&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;На странице панели управления вашей виртуальной машины нажмите кнопку «CONNECT» внизу.
+&lt;li&gt;На панели управления ВМ нажмите кнопку &lt;strong&gt;CONNECT&lt;/strong&gt; внизу.
 &lt;img src="../../../images/Vm_connect_button.png" alt="Connect Button" /&gt;&lt;/li&gt;
-&lt;li&gt;Затем вы можете выбрать два варианта подключения к вашей виртуальной машине, для подключения из браузера нажмите «WebConsole».
+&lt;li&gt;Выберите способ подключения. Чтобы подключиться через браузер, нажмите &lt;strong&gt;WebConsole&lt;/strong&gt;.
 &lt;img src="../../../images/Connect_choose_web.png" alt="Connect Options" /&gt;&lt;/li&gt;
-&lt;li&gt;Откроется новое окно браузера с консолью вашей виртуальной машины.
+&lt;li&gt;Откроется новое окно браузера с консолью вашей ВМ.
 &lt;img src="../../../images/Vm_web_console.png" alt="Web Console" /&gt;&lt;/li&gt;
-&lt;li&gt;Вам нужно ввести логин вашей VM (см. &lt;a href="../../03-functions/02-details-login/"&gt;Какой логин моей виртуальной машины&lt;/a&gt;) и нажать Enter.&lt;/li&gt;
-&lt;li&gt;Затем вам нужно ввести пароль вашей VM и нажать Enter.&lt;/li&gt;
-&lt;li&gt;Если вы видите сообщение «Login is incorrect». Это означает, что вы ввели неправильный логин или пароль. Попробуйте снова с правильным логином и паролем.
+&lt;li&gt;Введите &lt;strong&gt;login&lt;/strong&gt; вашей ВМ (см. &lt;a href="../02-details-login/"&gt;Какой логин у моей ВМ&lt;/a&gt;) и нажмите Enter.&lt;/li&gt;
+&lt;li&gt;Введите &lt;strong&gt;password&lt;/strong&gt; вашей ВМ и нажмите Enter.&lt;/li&gt;
+&lt;li&gt;Если вы видите сообщение &lt;strong&gt;Login is incorrect&lt;/strong&gt;, вы ввели неправильный логин или пароль. Попробуйте снова с правильными данными.
 &lt;img src="../../../images/Login_is_incorrect.png" alt="Login Incorrect" /&gt;&lt;/li&gt;
-&lt;li&gt;Если вы успешно подключились к вашей виртуальной машине, вы увидите сообщение «Welcome to Ubuntu&amp;hellip;» или что-то подобное, в зависимости от операционной системы вашей виртуальной машины.
+&lt;li&gt;Если подключение успешно, вы увидите сообщение &lt;strong&gt;Welcome to Ubuntu&amp;hellip;&lt;/strong&gt; или подобное, в зависимости от операционной системы вашей ВМ.
 &lt;img src="../../../images/Succesfull_login.png" alt="Successful Login" /&gt;&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>Детали и учётные данные</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/03-functions/02-details-login/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/03-functions/02-details-login/</guid><description>&lt;h2 id="как-увидеть-детали-созданной-виртуальной-машины"&gt;Как увидеть детали созданной виртуальной машины&lt;a class="anchor" href="#%d0%ba%d0%b0%d0%ba-%d1%83%d0%b2%d0%b8%d0%b4%d0%b5%d1%82%d1%8c-%d0%b4%d0%b5%d1%82%d0%b0%d0%bb%d0%b8-%d1%81%d0%be%d0%b7%d0%b4%d0%b0%d0%bd%d0%bd%d0%be%d0%b9-%d0%b2%d0%b8%d1%80%d1%82%d1%83%d0%b0%d0%bb%d1%8c%d0%bd%d0%be%d0%b9-%d0%bc%d0%b0%d1%88%d0%b8%d0%bd%d1%8b"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;/ol&gt;</description></item><item><title>Детали и учетные данные</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/03-functions/02-details-login/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/03-functions/02-details-login/</guid><description>&lt;h2 id="как-просмотреть-детали-созданной-вм"&gt;Как просмотреть детали созданной ВМ&lt;a class="anchor" href="#%d0%ba%d0%b0%d0%ba-%d0%bf%d1%80%d0%be%d1%81%d0%bc%d0%be%d1%82%d1%80%d0%b5%d1%82%d1%8c-%d0%b4%d0%b5%d1%82%d0%b0%d0%bb%d0%b8-%d1%81%d0%be%d0%b7%d0%b4%d0%b0%d0%bd%d0%bd%d0%be%d0%b9-%d0%b2%d0%bc"&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;На главной странице сайта нажмите кнопку «VIRTUAL MACHINES» в левой панели.&lt;/li&gt;
-&lt;li&gt;Выберите виртуальную машину, которую вы хотите просмотреть, и нажмите на её имя.
+&lt;li&gt;На главной странице сайта нажмите кнопку &lt;strong&gt;VIRTUAL MACHINES&lt;/strong&gt; на левой панели.&lt;/li&gt;
+&lt;li&gt;Выберите ВМ, детали которой вы хотите просмотреть, и нажмите на ее &lt;strong&gt;NAME&lt;/strong&gt;.
 &lt;img src="../../../images/Vm_details.png" alt="VM Details" /&gt;&lt;/li&gt;
-&lt;li&gt;Затем вы увидите страницу с вашей виртуальной машиной.
+&lt;li&gt;Затем вы увидите страницу с вашей ВМ.
 &lt;img src="../../../images/Your_Virtual_machine_details.png" alt="VM Details Page" /&gt;&lt;/li&gt;
-&lt;li&gt;Если хотите увидеть детали, нажмите кнопку «DASHBOARD».
+&lt;li&gt;Если вы хотите увидеть детали, нажмите кнопку &lt;strong&gt;DASHBOARD&lt;/strong&gt;.
 &lt;img src="../../../images/Your_Virtual_machine_dashboard_button.png" alt="Dashboard Button" /&gt;&lt;/li&gt;
-&lt;li&gt;Затем вы увидите страницу панели управления вашей виртуальной машины.
+&lt;li&gt;Затем вы увидите страницу панели управления вашей ВМ.
 &lt;img src="../../../images/Dashboard_1.png" alt="Dashboard" /&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id="какой-логин-моей-виртуальной-машины"&gt;Какой логин моей виртуальной машины&lt;a class="anchor" href="#%d0%ba%d0%b0%d0%ba%d0%be%d0%b9-%d0%bb%d0%be%d0%b3%d0%b8%d0%bd-%d0%bc%d0%be%d0%b5%d0%b9-%d0%b2%d0%b8%d1%80%d1%82%d1%83%d0%b0%d0%bb%d1%8c%d0%bd%d0%be%d0%b9-%d0%bc%d0%b0%d1%88%d0%b8%d0%bd%d1%8b"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id="какой-логин-у-моей-вм"&gt;Какой логин у моей ВМ&lt;a class="anchor" href="#%d0%ba%d0%b0%d0%ba%d0%be%d0%b9-%d0%bb%d0%be%d0%b3%d0%b8%d0%bd-%d1%83-%d0%bc%d0%be%d0%b5%d0%b9-%d0%b2%d0%bc"&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Во-первых, вы не можете увидеть логин вашей виртуальной машины после её создания. Скорее всего, это «root», «admin» или «administrator».&lt;/li&gt;
-&lt;li&gt;Вы можете увидеть логин вашей виртуальной машины во время её создания.&lt;/li&gt;
-&lt;li&gt;Для опции «QUICK START» вы можете увидеть логин в разделе «ADMINISTRATOR ACCOUNT». Логин, скорее всего, строчный, а не заглавный. Или от вас требуется его заполнить.
+&lt;li&gt;После создания ВМ ее логин не отображается. По умолчанию это обычно &lt;code&gt;root&lt;/code&gt;, &lt;code&gt;admin&lt;/code&gt; или &lt;code&gt;administrator&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Вы можете увидеть логин вашей ВМ во время ее создания.&lt;/li&gt;
+&lt;li&gt;Для опции &lt;strong&gt;QUICK START&lt;/strong&gt; вы можете увидеть логин в разделе &lt;strong&gt;ADMINISTRATOR ACCOUNT&lt;/strong&gt;. Логин, скорее всего, написан строчными буквами вместо заглавных. Или от вас потребуется заполнить его вручную.
 &lt;img src="../../../images/Quick_start_modal_login.png" alt="Quick Start Login" /&gt;&lt;/li&gt;
-&lt;li&gt;Для опции «FROM GALLERY» вы можете увидеть логин в разделе «ADMINISTRATOR ACCOUNT».
+&lt;li&gt;Для опции &lt;strong&gt;FROM GALLERY&lt;/strong&gt; вы можете увидеть логин в разделе &lt;strong&gt;ADMINISTRATOR ACCOUNT&lt;/strong&gt;.
 &lt;img src="../../../images/Gallery_administrator_account_marked.png" alt="Gallery Login" /&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Устранение неисправностей</title><link>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/04-troubleshoot/01-troubleshooting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://THEsTAS-cyber.github.io/TC_Saraev_Assignment_1/ru/docs/04-troubleshoot/01-troubleshooting/</guid><description>&lt;h2 id="устранение-неисправностей"&gt;Устранение неисправностей&lt;a class="anchor" href="#%d1%83%d1%81%d1%82%d1%80%d0%b0%d0%bd%d0%b5%d0%bd%d0%b8%d0%b5-%d0%bd%d0%b5%d0%b8%d1%81%d0%bf%d1%80%d0%b0%d0%b2%d0%bd%d0%be%d1%81%d1%82%d0%b5%d0%b9"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Если ваш экран стал серым и вы не можете ничего нажать:&lt;/strong&gt;
-Внизу вы можете увидеть сообщение «Your session timed out. Click OK to log again». Не волнуйтесь, нажмите «OK». Вам либо нужно войти снова, либо вы будете перенаправлены на главную страницу.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Подписка долго синхронизируется:&lt;/strong&gt;
-Если ваша подписка долго синхронизируется, не волнуйтесь, скорее всего, она уже активна и вы можете её использовать. Если нет, обратитесь в отдел IT Innopolis University.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;Этот раздел поможет вам диагностировать и решить распространенные проблемы с Innopolis VM. Каждая проблема описана по структуре: &lt;strong&gt;Симптом&lt;/strong&gt;, &lt;strong&gt;Возможные причины&lt;/strong&gt;, &lt;strong&gt;Проверки&lt;/strong&gt;, &lt;strong&gt;Решения&lt;/strong&gt; и &lt;strong&gt;Эскалация&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id="серый-экран--ничего-не-нажимается"&gt;Серый экран — ничего не нажимается&lt;a class="anchor" href="#%d1%81%d0%b5%d1%80%d1%8b%d0%b9-%d1%8d%d0%ba%d1%80%d0%b0%d0%bd--%d0%bd%d0%b8%d1%87%d0%b5%d0%b3%d0%be-%d0%bd%d0%b5-%d0%bd%d0%b0%d0%b6%d0%b8%d0%bc%d0%b0%d0%b5%d1%82%d1%81%d1%8f"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Симптом:&lt;/strong&gt;&lt;br&gt;
+Экран стал серым, вы не можете взаимодействовать с интерфейсом.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Возможные причины:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Время вашей сессии истекло из-за неактивности.&lt;/li&gt;
+&lt;li&gt;Браузер потерял соединение с сервером.&lt;/li&gt;
+&lt;li&gt;Вкладка браузера зависла.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Проверки:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Посмотрите вниз экрана — там должно быть сообщение «Your session timed out. Click &lt;strong&gt;OK&lt;/strong&gt; to log in again».&lt;/li&gt;
+&lt;li&gt;Проверьте подключение к интернету.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Решения:&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>

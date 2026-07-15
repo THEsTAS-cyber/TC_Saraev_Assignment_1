@@ -38,5 +38,5 @@ You cannot recover the password of an existing VM. If you lose it, you have two 
 
 **Related pages:**
 
-- [Create a VM](../02-basics/01-create-vm/)
-- [Troubleshooting login issues](../04-troubleshoot/)
+- [Create a VM](../../02-basics/01-create-vm/)
+- [Troubleshooting login issues](../../04-troubleshoot/)

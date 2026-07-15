@@ -42,14 +42,14 @@ jobs:
           languages: 'en,ru'
           verbose: true
 
-      - name: Spell Check Russian (LanguageTool)
+            - name: Spell Check Russian (LanguageTool)
         uses: reviewdog/action-languagetool@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           reporter: github-pr-check
           level: warning
           language: ru-RU
-          files: 'content/ru/*.md'
+          patterns: 'content/ru/**/*.md' # <-- Исправлено: используем patterns и только русскую папку
 
       - name: Check Commit Message Format
         run: |

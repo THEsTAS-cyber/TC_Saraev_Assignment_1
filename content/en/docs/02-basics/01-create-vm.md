@@ -11,6 +11,6 @@ weight: 30
 3. On the Virtual Machines page, click on the **right arrow** button OR if you have already created some VMs, click on the **NEW** button in the left bottom corner and then **STANDALONE VIRTUAL MACHINE**.
    ![New VM](../../../en/images/Virtual_machines_empty_new.png)
 4. In the opened menu, choose one of two creation methods:
-   - **From Gallery**: Detailed configuration with pre-configured templates. Best for specific requirements. (see [How to create a new virtual machine from gallery](../../02-gallery-vm/))
-   - **Quick Start**: Fast creation with basic settings. Best for simple VMs. (sese [How to create a new virtual machine via **QUICK CREATE**](../../03-quick-vm.md))
+   - **From Gallery**: Detailed configuration with pre-configured templates. Best for specific requirements. (see [How to create a new virtual machine from gallery](../02-gallery-vm/))
+   - **Quick Start**: Fast creation with basic settings. Best for simple VMs. (sese [How to create a new virtual machine via **QUICK CREATE**](../03-quick-vm.md))
    ![Choose Template](../../../en/images/VM_choose_template.png)

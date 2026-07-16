@@ -56,7 +56,7 @@ jobs:
           echo "Проверяем сообщения коммитов..."
           
           # Получаем список заголовков последних коммитов
-          COMMITS=$(git log --format="%s" -n 5 2>/dev/null)
+          COMMITS=$(git log --format="%s" -n 10 2>/dev/null)
           
           echo "Найдены коммиты:"
           echo "$COMMITS"
@@ -67,15 +67,15 @@ jobs:
               continue
             fi
             
-            if ! echo "$MSG" | grep -qE "^(docs|fix|feat|chore|ci|style|test|refactor|perf)(\(.+\))?:\s.+" ; then
-              echo " Несоответствующий коммит: $MSG"
-              FAILED=1
-            else
-              echo "✅ Корректный коммит: $MSG"
+            # Пропускаем ВСЕ автоматические системные коммиты GitHub
+            if echo "$MSG" | grep -qE "^(Merge |Revert )"; then
+              echo "⏭️  Пропущен системный коммит: $MSG"
+              continue
             fi
-
-            # Проверяем формат Conventional Commits
-            if ! echo "$MSG" | grep -qE "^(docs|fix|feat|chore|ci|style|test|refactor|perf):\s.+" ; then
+            
+            # Проверяем формат Conventional Commits (с опциональным scope)
+            # Формат: type(scope): description  ИЛИ  type: description
+            if ! echo "$MSG" | grep -qE "^(docs|fix|feat|chore|ci|style|test|refactor|perf)(\(.+\))?:\s.+" ; then
               echo "❌ Несоответствующий коммит: $MSG"
               FAILED=1
             else
@@ -85,8 +85,9 @@ jobs:
           
           if [ $FAILED -eq 1 ]; then
             echo ""
-            echo "❌ Ошибка: Некоторые коммиты не соответствуют формату Conventional Commits."
+            echo " Ошибка: Некоторые коммиты не соответствуют формату Conventional Commits."
             echo "Разрешенные префиксы: docs, fix, feat, chore, ci, style, test, refactor, perf"
+            echo "Формат: type(scope): description  или  type: description"
             exit 1
           fi
           

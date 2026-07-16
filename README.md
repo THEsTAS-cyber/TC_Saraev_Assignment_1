@@ -39,7 +39,7 @@ AI was used strategically to enhance quality, not to blindly generate content, s
 
 ### 5. Monitoring and Feedback
 To track user flow and gather actionable feedback for continuous improvement:
-*   **GoatCounter Analytics:** Tracks page views and popular content in the *production* environment only, ensuring privacy and avoiding test-data pollution.
+*   **GoatCounter Analytics:** Tracks page views and popular content in the *production* environment only, ensuring privacy and avoiding test-data pollution. Available at [Goat Counter](https://thestas-cyber.goatcounter.com/)
 *   **Automated Feedback Loop:** Added bilingual "Was this page helpful? 👍 / 👎" buttons. Clicking them automatically generates a GitHub Issue with a pre-filled title and the exact page URL, turning passive readers into active contributors.
 
 ---
